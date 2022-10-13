@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SIGNUP004 - Sign Up With Name Contains Special Characters</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3d63be1-32ff-489e-a8b9-6b9a8d44fd99</testCaseGuid>
+</TestCaseEntity>

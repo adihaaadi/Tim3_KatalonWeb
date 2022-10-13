@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SIGNUP001 - Sign Up With Unregistered Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1b911a7-202d-440f-8b67-76e482657baa</testCaseGuid>
+</TestCaseEntity>
