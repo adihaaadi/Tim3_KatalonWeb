@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>image_Bulan Ramadan Banyak DiskonDiskon Hingga 60</name>
+   <tag></tag>
+   <elementGuidId>8017113a-709c-4c3b-822d-7f523254d937</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.container.section-5.text-center</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c03ed946-3c04-4573-ba38-6d3c38401b37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>container section-5 text-center</value>
+      <webElementGuid>e4c7ca55-c7e6-48a3-981b-9b09e6c568ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bulan Ramadan Banyak Diskon!Diskon Hingga 60%</value>
+      <webElementGuid>8d126e8e-0058-4c9f-9f69-af547c0f640c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;pb-5&quot;]/div[@class=&quot;container section-5 text-center&quot;]</value>
+      <webElementGuid>a98fb1d0-9faa-4873-be91-af6aeea7932c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div</value>
+      <webElementGuid>becaa40a-2482-4024-bb5a-b80e2d11a57e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log Out'])[2]/following::div[2]</value>
+      <webElementGuid>5f3b032a-9792-46cd-8d6e-f271d05dd096</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[2]/following::div[3]</value>
+      <webElementGuid>0c044c0f-13bc-49b3-abb1-0fbbb8e929c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div</value>
+      <webElementGuid>760bfbf8-c345-4686-82be-a3a4cca2a9ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Bulan Ramadan Banyak Diskon!Diskon Hingga 60%' or . = 'Bulan Ramadan Banyak Diskon!Diskon Hingga 60%')]</value>
+      <webElementGuid>54887d3a-819e-4418-a224-e93d66818dfe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
