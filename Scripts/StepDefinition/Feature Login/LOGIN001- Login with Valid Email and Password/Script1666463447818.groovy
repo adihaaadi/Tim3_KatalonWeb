@@ -25,5 +25,3 @@ WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password')
 
 WebUI.callTestCase(findTestCase('Pages/UserLogin/Click login button'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
-

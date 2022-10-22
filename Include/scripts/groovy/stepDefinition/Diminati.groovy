@@ -45,17 +45,17 @@ import cucumber.api.java.en.When
 public class Diminati {
 	@Then("User login at SecondHand Store website")
 	public void user_login_at_SecondHand_Store_website() {
-		WebUI.callTestCase(findTestCase('StepDefinition/Feature Login/LOGIN001- Login With Valid Email and Password'), [:], FailureHandling.STOP_ON_FAILURE)
-		}
-	
+		WebUI.callTestCase(findTestCase('StepDefinition/Feature Login/LOGIN002- Login With invalid Email'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
 	@Then("User click daftar jual saya menu")
 	public void user_click_daftar_jual_saya_menu() {
 		WebUI.click(findTestObject('Page_Offering/menu_Daftar Jual Saya'))
-		}
-	
+	}
+
 	@Then("User click diminati menu")
 	public void user_click_diminati_menu() {
 		WebUI.click(findTestObject('Page_Offering/menu_Diminati'))
 		WebUI.delay(3)
-		}
+	}
 }

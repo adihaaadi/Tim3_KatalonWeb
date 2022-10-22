@@ -17,11 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('StepDefinition/Feature Login/LOGIN002- Login With invalid Email'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/UserLogin/Click Link Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Offering/menu_Daftar Jual Saya'))
+WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Username'), [('email') : 'xxx@gmail.com'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Offering/menu_Diminati'))
+WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password') : '123456'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.callTestCase(findTestCase('Pages/UserLogin/Click login button'), [:], FailureHandling.STOP_ON_FAILURE)
+
+String text = WebUI.getText(findTestObject('Page_Login/class_error'))
+
+println(text)
+
+WebUI.verifyElementText(findTestObject('Page_Login/class_error'), 'Akun tidak ditemukan')
 
