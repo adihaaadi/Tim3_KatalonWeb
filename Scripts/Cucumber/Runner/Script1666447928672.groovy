@@ -19,3 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runWithCucumberRunner(Runner.class)
 
+WebUI.delay(3)
+

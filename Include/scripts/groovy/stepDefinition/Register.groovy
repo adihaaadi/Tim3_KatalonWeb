@@ -43,14 +43,25 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 public class Register {
+
+	@Then("User click masuk button")
+	public void user_click_masuk_button() {
+		WebUI.callTestCase(findTestCase('Pages/UserRegister/Click Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("User click daftar di sini link")
+	public void user_click_daftar_di_sini_link() {
+		WebUI.callTestCase(findTestCase('Pages/UserRegister/Click Link Daftar Di Sini'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
 	@Then("User input name at nama field")
 	public void user_input_name_at_nama_field() {
 		WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Nama'), [('nama') : 'Afi Sherma'], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("User input email address field")
+	@Then("User input unregistered email address field")
 	public void user_input_email_address_field() {
-		WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Email Address'), [('email') : 'pltnmchllgn02@yopmail.com'], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Email Address'), [('email') : 'pltnmchllgn05@yopmail.com'], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("User input password field")
@@ -61,5 +72,24 @@ public class Register {
 	@Then("User click daftar button")
 	public void user_click_daftar_button() {
 		WebUI.callTestCase(findTestCase('Pages/UserRegister/Click Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.delay(3)
+		WebUI.openBrowser('');
+		WebUI.maximizeWindow();
+		WebUI.navigateToUrl('https://deployed-five.vercel.app/')
 	}
+
+	@Then("User input registered email address field")
+	public void user_input_registered_email_address_field() {
+		WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Email Address'), [('email') : 'pltnmchllgn04@yopmail.com'], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("User input less than {int} characters at password field")
+	public void user_input_less_than_characters_at_password_field(Integer int1) {
+		WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password') : '123'], FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@Then("User input name contains special characters at nama field")
+	public void user_input_name_contains_special_characters_at_nama_field() {
+		WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Nama'), [('nama') : 'Afi&81*'], FailureHandling.STOP_ON_FAILURE)
+		}
 }
