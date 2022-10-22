@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LOGIN001- Login With Valid Email and Password</name>
+   <name>EDITITEM001 - Edit Item With Preview</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f6832393-51a5-418c-ac49-4d5b89c92103</testCaseGuid>
+   <testCaseGuid>896cd8e8-f96d-4010-840e-467f33f14057</testCaseGuid>
 </TestCaseEntity>
