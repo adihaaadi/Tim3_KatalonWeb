@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.uploadFile(findTestObject('Page_Edit Item/svg_Foto Produk_bi bi-plus-square-dotted mt-2'), add_photo)
+WebUI.uploadFile(findTestObject('Page_Edit_Item/svg_Foto Produk_bi bi-plus-square-dotted mt-2'), add_photo)
 

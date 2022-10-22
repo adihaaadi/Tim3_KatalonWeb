@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.selectOptionByValue(findTestObject('Page_Edit Item/select_Pilih Kategori'), select_kategori, true)
+WebUI.selectOptionByValue(findTestObject('Page_Edit_Item/select_Pilih Kategori'), select_kategori, true)
 

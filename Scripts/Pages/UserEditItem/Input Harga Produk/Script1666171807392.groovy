@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('Page_Edit Item/input_Harga Produk_harga_produk'), harga_produk)
+WebUI.setText(findTestObject('Page_Edit_Item/input_Harga Produk_harga_produk'), harga_produk)
 
