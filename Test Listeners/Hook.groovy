@@ -28,7 +28,7 @@ class Hook {
 	def openBrowser() {
 		WebUI.openBrowser('');
 		WebUI.maximizeWindow();
-		WebUI.navigateToUrl('https://deployed-five.vercel.app/');
+		WebUI.navigateToUrl('https://deployed-five.vercel.app');
 	}
 		
 	def closeBrowser() {
@@ -47,16 +47,16 @@ class Hook {
 		this.closeBrowser()
 	}
 		
-	@BeforeTestSuite
-	def beforeTestSuite(TestSuiteContext testSuiteContext) {
-		KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
-		this.openBrowser()
-	}
+	//@BeforeTestSuite
+	//def beforeTestSuite(TestSuiteContext testSuiteContext) {
+		//KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
+		//this.openBrowser()
+	//}
 	
-	@AfterTestSuite
-	def afterTestSuite(TestSuiteContext testSuiteContext) {
-		KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
-		this.closeBrowser()
-	}
+	//@AfterTestSuite
+	//def afterTestSuite(TestSuiteContext testSuiteContext) {
+		//KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
+		//this.closeBrowser()
+	//}
 }
 	

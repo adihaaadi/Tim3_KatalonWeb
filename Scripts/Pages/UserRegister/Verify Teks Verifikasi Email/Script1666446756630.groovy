@@ -17,11 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('StepDefinition/LOGIN001- Login With Valid Email and Password'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/UserLogout/Click Profile Menu'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/UserLogout/Click Logout'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3)
+WebUI.verifyElementVisible(findTestObject('Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami'))
 
