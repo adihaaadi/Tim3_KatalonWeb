@@ -17,11 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('StepDefinition/LOGIN001- Login With Valid Email and Password'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Page_Offering/menu_Daftar Jual Saya'))
-
-WebUI.click(findTestObject('Page_Offering/menu_Diminati'))
-
-WebUI.delay(5)
+Mobile.tap(findTestObject('Page_Home/button_Semua'), 0)
 

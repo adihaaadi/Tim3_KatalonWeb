@@ -17,24 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('StepDefinition/LOGIN001- Login With Valid Email and Password'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Page_Home/svg_Profile_svg-inline--fa fa-list fa-lg'))
-
-WebUI.click(findTestObject('Page_Secondhand Store/btn_Paracetamol 500mgboxKesehatanRp1.000.000,00'))
-
-WebUI.click(findTestObject('Page_Secondhand Store/button_Edit'))
-
-WebUI.callTestCase(findTestCase('Pages/UserEditItem/Input Nama Produk'), [('nama_produk') : 'Paracetamol'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/UserEditItem/Input Harga Produk'), [('harga_produk') : '10000'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/UserEditItem/Select Kategori'), [('select_kategori') : '1'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/UserEditItem/Input Deskripsi'), [('deskripsi') : 'ini deskripsi paracetamol'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/UserEditItem/Add Photo'), [('add_photo') : 'C:\\Users\\ASUS\\Downloads\\desain1.png'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/UserEditItem/Click Preview'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Page_Home/button_Baju'), 0)
 

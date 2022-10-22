@@ -46,11 +46,9 @@ public class Logout {
 	public void user_click_profile_menu() {
 		WebUI.callTestCase(findTestCase('Pages/UserLogout/Click Profile Menu'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Then("User click logout")
 	public void user_click_logout() {
 		WebUI.callTestCase(findTestCase('Pages/UserLogout/Click Logout'), [:], FailureHandling.STOP_ON_FAILURE)
-		
 	}
-	
 }
