@@ -25,9 +25,5 @@ WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password')
 
 WebUI.callTestCase(findTestCase('Pages/UserLogin/Click login button'), [:], FailureHandling.STOP_ON_FAILURE)
 
-String text = WebUI.getText(findTestObject('Page_Login/class_error'))
-
-println(text)
-
-WebUI.verifyElementText(findTestObject('Page_Login/class_error'), 'Password anda salah!')
+WebUI.callTestCase(findTestCase('Pages/UserLogin/Verify Error Message'), [('message') : 'Password anda salah!'], FailureHandling.STOP_ON_FAILURE)
 
