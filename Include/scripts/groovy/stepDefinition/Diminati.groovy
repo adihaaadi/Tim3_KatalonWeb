@@ -42,7 +42,7 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
-public class Offering {
+public class Diminati {
 	@Then("User login at SecondHand Store website")
 	public void user_login_at_SecondHand_Store_website() {
 		WebUI.callTestCase(findTestCase('StepDefinition/LOGIN001- Login With Valid Email and Password'), [:], FailureHandling.STOP_ON_FAILURE)
