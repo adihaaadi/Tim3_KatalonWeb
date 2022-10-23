@@ -1,22 +1,22 @@
 package stepDefinition
-
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.checkpoint.CheckpointFactory
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testcase.TestCase
+import com.kms.katalon.core.testcase.TestCaseFactory
 import com.kms.katalon.core.testdata.TestData
+import com.kms.katalon.core.testdata.TestDataFactory
+import com.kms.katalon.core.testobject.ObjectRepository
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
@@ -42,20 +42,16 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
-public class Diminati {
-	@Then("User login at SecondHand Store website")
-	public void user_login_at_SecondHand_Store_website() {
-		WebUI.callTestCase(findTestCase('StepDefinition/Feature Login/LOGIN002 - Login With invalid Email'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
 
-	@Then("User click daftar jual saya menu")
-	public void user_click_daftar_jual_saya_menu() {
-		WebUI.click(findTestObject('Page_Offering/menu_Daftar Jual Saya'))
-	}
 
-	@Then("User click diminati menu")
-	public void user_click_diminati_menu() {
-		WebUI.click(findTestObject('Page_Offering/menu_Diminati'))
-		WebUI.delay(3)
-	}
+class ViewProductDetail {
+@Then("User click product")
+public void user_click_product() {
+WebUI.callTestCase(findTestCase('Pages/Homepage/Click Product Detail'), [:], FailureHandling.STOP_ON_FAILURE)
+}
+
+@Then("User view product detail from other sellers in homepage")
+public void user_view_product_detail_from_other_sellers_in_homepage() {
+WebUI.callTestCase(findTestCase('Pages/Product Detail/Verify Content Product from Other Seller'), [:], FailureHandling.STOP_ON_FAILURE)
+}
 }

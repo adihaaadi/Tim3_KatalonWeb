@@ -87,9 +87,9 @@ public class Register {
 	public void user_input_less_than_characters_at_password_field(Integer int1) {
 		WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password') : '123'], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Then("User input name contains special characters at nama field")
 	public void user_input_name_contains_special_characters_at_nama_field() {
 		WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Nama'), [('nama') : 'Afi&81*'], FailureHandling.STOP_ON_FAILURE)
-		}
+	}
 }
