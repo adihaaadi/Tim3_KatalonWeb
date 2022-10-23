@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>text_product3_category</name>
+   <name>Category Product</name>
    <tag></tag>
-   <elementGuidId>1d7dcd9e-cadb-474e-950f-d34ea209bd18</elementGuidId>
+   <elementGuidId>1b999ddb-a389-4400-8bc2-f7c45f47099b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'card-text']</value>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div[2]/div/div/p[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div[2]/div[2]/div[3]/div/p[2]</value>
+         <value>p.card-text</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -25,23 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>4a2d2d6c-075d-426d-a27e-54ee8d0c39c7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>card-text</value>
-      <webElementGuid>3730089b-5f20-46e2-a325-5bf4571d92a2</webElementGuid>
+      <webElementGuid>b4d21a50-d5ee-450b-b182-2bffaa2fd44f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-text</value>
+      <webElementGuid>9076137b-6d8b-42fe-ba2c-6e39bba01e0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Kendaraan</value>
-      <webElementGuid>1f7d29b6-7023-4102-abef-91479bb24930</webElementGuid>
+      <value>Baju</value>
+      <webElementGuid>0962f00e-edb4-46b7-90dc-342eba0d539b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,46 +46,46 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;pb-5&quot;]/div[@class=&quot;container pb-5&quot;]/div[@class=&quot;products&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/p[@class=&quot;card-text&quot;]</value>
-      <webElementGuid>24e519fe-fac3-4dda-a155-1f90ee5b88c6</webElementGuid>
+      <webElementGuid>1509758b-c243-48a4-b104-c587b4b1462f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div[2]/div[2]/div[3]/div/p[2]</value>
-      <webElementGuid>f6796dfa-0ca7-466f-98cc-9bb24f8b1783</webElementGuid>
+      <value>//div[@id='root']/div/div/div[2]/div[2]/div/div/p[2]</value>
+      <webElementGuid>321727c0-9e24-4e16-ba79-955a21d2a35e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jual'])[1]/preceding::p[284]</value>
-      <webElementGuid>005e87ee-5b7a-45b8-b37b-e43f0145bfcd</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jual'])[1]/preceding::p[38]</value>
+      <webElementGuid>3ef24aa9-7de7-4449-99ed-726604b36fe7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::p[284]</value>
-      <webElementGuid>2d8c629b-6550-4b2f-8140-601207e6048d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::p[38]</value>
+      <webElementGuid>6ab10022-015f-4701-9c7a-2f6ec4cb5e6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/p[2]</value>
-      <webElementGuid>b1f7d0b1-d6b6-4e4d-b848-318bb9e937df</webElementGuid>
+      <value>//p[2]</value>
+      <webElementGuid>6d4dc8f9-ebc5-4289-9976-dc94226308aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//p[(text() = 'Kendaraan' or . = 'Kendaraan')]</value>
-      <webElementGuid>31668d4b-3b72-4a4b-a2c5-db4ff73f9c5b</webElementGuid>
+      <value>//p[(text() = 'Baju' or . = 'Baju')]</value>
+      <webElementGuid>9ea0e4d0-84d6-4bc3-bc35-1e8d2f214799</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

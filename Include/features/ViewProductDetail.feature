@@ -1,3 +1,5 @@
+#Author: Tommy Abdullah
+
 @ViewProductDetail @SMOKE
 Feature: View Product Detail
   As a user, I want to View Product Detail

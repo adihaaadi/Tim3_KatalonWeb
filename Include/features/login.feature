@@ -1,3 +1,5 @@
+#Author: Tommy Abdullah
+
 @LOGIN @SMOKE
 Feature: Login
   As a user, I want to login in Secondhand Store.

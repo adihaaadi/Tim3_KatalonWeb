@@ -17,5 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Page_Category/button_Elektronik'))
+WebUI.callTestCase(findTestCase('Pages/Homepage/Click kategori hobi'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.verifyElementText(findTestObject('Homepage/text_product3_category'), 'Hoby')
 
