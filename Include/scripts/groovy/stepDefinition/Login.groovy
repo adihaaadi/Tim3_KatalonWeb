@@ -45,47 +45,47 @@ import cucumber.api.java.en.When
 
 
 class Login {
-@Given("User click button masuk")
-public void user_click_button_masuk() {
-	WebUI.callTestCase(findTestCase('Pages/UserRegister/Click Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
-}
-@Given("User clear text on email field")
-public void user_clear_text_on_email_field() {
-	WebUI.clearText(findTestObject('Page_Login/input_Email'))
-}
+	@Given("User click button masuk")
+	public void user_click_button_masuk() {
+		WebUI.callTestCase(findTestCase('Pages/UserRegister/Click Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+	@Given("User clear text on email field")
+	public void user_clear_text_on_email_field() {
+		WebUI.clearText(findTestObject('Page_Login/input_Email'))
+	}
 
-@Then("User input registered email {string}")
-public void user_input_registered_email(String email) {
-	WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Username'), [('email') : email], FailureHandling.STOP_ON_FAILURE)
-}
+	@Then("User input registered email {string}")
+	public void user_input_registered_email(String email) {
+		WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Username'), [('email') : email], FailureHandling.STOP_ON_FAILURE)
+	}
 
-@Then("User clear text on password field")
-public void user_clear_text_on_password_field() {
-	WebUI.clearText(findTestObject('Page_Login/input_Password'))
-}
+	@Then("User clear text on password field")
+	public void user_clear_text_on_password_field() {
+		WebUI.clearText(findTestObject('Page_Login/input_Password'))
+	}
 
-@Then("User input registered password {string}")
-public void user_input_registered_password(String password) {
-	WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password') : password], FailureHandling.STOP_ON_FAILURE)
-}
+	@Then("User input registered password {string}")
+	public void user_input_registered_password(String password) {
+		WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password') : password], FailureHandling.STOP_ON_FAILURE)
+	}
 
-@Then("User click on LOGIN button")
-public void user_click_on_LOGIN_button() {
-	WebUI.callTestCase(findTestCase('Pages/UserLogin/Click login button'), [:], FailureHandling.STOP_ON_FAILURE)
-}
+	@Then("User click on LOGIN button")
+	public void user_click_on_LOGIN_button() {
+		WebUI.callTestCase(findTestCase('Pages/UserLogin/Click login button'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
 
-@Then("Web show message error on email {string}")
-public void web_show_message_error_on_email(String message1) {
-	WebUI.callTestCase(findTestCase('Pages/UserLogin/Verify Error Message'), [('message') : message1], FailureHandling.STOP_ON_FAILURE)
-}
+	@Then("Web show message error on email {string}")
+	public void web_show_message_error_on_email(String message1) {
+		WebUI.callTestCase(findTestCase('Pages/UserLogin/Verify Error Message'), [('message') : message1], FailureHandling.STOP_ON_FAILURE)
+	}
 
-@Then("Web show message error on password {string}")
-public void web_show_message_error_on_password(String message2) {
-	WebUI.callTestCase(findTestCase('Pages/UserLogin/Verify Error Message'), [('message') : message2], FailureHandling.STOP_ON_FAILURE)
-}
+	@Then("Web show message error on password {string}")
+	public void web_show_message_error_on_password(String message2) {
+		WebUI.callTestCase(findTestCase('Pages/UserLogin/Verify Error Message'), [('message') : message2], FailureHandling.STOP_ON_FAILURE)
+	}
 
-@Then("User redirected to homepage")
-public void user_redirected_to_homepage() {
-	WebUI.callTestCase(findTestCase('Pages/UserLogin/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
-}
+	@Then("User redirected to homepage")
+	public void user_redirected_to_homepage() {
+		WebUI.callTestCase(findTestCase('Pages/UserLogin/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
 }

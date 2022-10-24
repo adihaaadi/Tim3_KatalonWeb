@@ -17,13 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('StepDefinition/Feature Login/LOGIN002 - Login With invalid Email'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_Home/svg_Profile_svg-inline--fa fa-list fa-lg'))
 
-WebUI.click(findTestObject('Page_Secondhand Store/btn_Paracetamol 500mgboxKesehatanRp1.000.000,00'))
+WebUI.click(findTestObject('Page_Daftar_Jual/button_Diminati'))
 
-WebUI.click(findTestObject('Page_Secondhand Store/button_Edit'))
+WebUI.click(findTestObject('Page_Diminati/div_opticalHobyRp250.000,00'))
+
+WebUI.click(findTestObject('Page_Daftar_Jual/button_Edit'))
 
 WebUI.callTestCase(findTestCase('Pages/UserEditItem/Input Nama Produk'), [('nama_produk') : 'Paracetamol'], FailureHandling.STOP_ON_FAILURE)
 
@@ -36,5 +38,5 @@ WebUI.callTestCase(findTestCase('Pages/UserEditItem/Input Deskripsi'), [('deskri
 WebUI.callTestCase(findTestCase('Pages/UserEditItem/Add Photo'), [('add_photo') : 'C:\\Users\\ASUS\\Downloads\\desain1.png'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/UserEditItem/Click Preview'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/UserEditItem/Click Terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
 

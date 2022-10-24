@@ -45,53 +45,53 @@ import cucumber.api.java.en.When
 
 
 class SortCategory {
-@Given("User click baju category")
-public void user_click_baju_category() {
-	WebUI.callTestCase(findTestCase('Pages/Homepage/Click kategori baju'), [:], FailureHandling.STOP_ON_FAILURE)
-}
+	@Given("User click baju category")
+	public void user_click_baju_category() {
+		WebUI.callTestCase(findTestCase('Pages/Homepage/Click kategori baju'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
 
-@Then("the website will sort the products by baju category")
-public void the_website_will_sort_the_products_by_baju_category() {
-	WebUI.verifyElementText(findTestObject('Homepage/text_product3_category'), 'Baju')
-}
+	@Then("the website will sort the products by baju category")
+	public void the_website_will_sort_the_products_by_baju_category() {
+		WebUI.verifyElementText(findTestObject('Homepage/text_product3_category'), 'Baju')
+	}
 
-@Given("User click elektronik category")
-public void user_click_elektronik_category() {
-	WebUI.callTestCase(findTestCase('Pages/Homepage/Click kategori elektronik'), [:], FailureHandling.STOP_ON_FAILURE)
-}
+	@Given("User click elektronik category")
+	public void user_click_elektronik_category() {
+		WebUI.callTestCase(findTestCase('Pages/Homepage/Click kategori elektronik'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
 
-@Then("the website will sort the products by elektronik category")
-public void the_website_will_sort_the_products_by_elektronik_category() {
-	WebUI.verifyElementText(findTestObject('Homepage/text_product3_category'), 'Elektronik')
-}
+	@Then("the website will sort the products by elektronik category")
+	public void the_website_will_sort_the_products_by_elektronik_category() {
+		WebUI.verifyElementText(findTestObject('Homepage/text_product3_category'), 'Elektronik')
+	}
 
-@Given("User click kesehatan category")
-public void user_click_kesehatan_category() {
-	WebUI.callTestCase(findTestCase('Pages/Homepage/Click kategori kesehatan'), [:], FailureHandling.STOP_ON_FAILURE)
-}
+	@Given("User click kesehatan category")
+	public void user_click_kesehatan_category() {
+		WebUI.callTestCase(findTestCase('Pages/Homepage/Click kategori kesehatan'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
 
-@Then("the website will sort the products by kesehatan category")
-public void the_website_will_sort_the_products_by_kesehatan_category() {
-	WebUI.verifyElementText(findTestObject('Homepage/text_product3_category'), 'Kesehatan')
-}
+	@Then("the website will sort the products by kesehatan category")
+	public void the_website_will_sort_the_products_by_kesehatan_category() {
+		WebUI.verifyElementText(findTestObject('Homepage/text_product3_category'), 'Kesehatan')
+	}
 
-@Given("User click kendaraan category")
-public void user_click_kendaraan_category() {
-	WebUI.callTestCase(findTestCase('Pages/Homepage/Click kategori kendaraan'), [:], FailureHandling.STOP_ON_FAILURE)
-}
+	@Given("User click kendaraan category")
+	public void user_click_kendaraan_category() {
+		WebUI.callTestCase(findTestCase('Pages/Homepage/Click kategori kendaraan'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
 
-@Then("the website will sort the products by kendaraan category")
-public void the_website_will_sort_the_products_by_kendaraan_category() {
-	WebUI.verifyElementText(findTestObject('Homepage/text_product3_category'), 'Kendaraan')
-}
+	@Then("the website will sort the products by kendaraan category")
+	public void the_website_will_sort_the_products_by_kendaraan_category() {
+		WebUI.verifyElementText(findTestObject('Homepage/text_product3_category'), 'Kendaraan')
+	}
 
-@Given("User click hoby category")
-public void user_click_hoby_category() {
-	WebUI.callTestCase(findTestCase('Pages/Homepage/Click kategori hobi'), [:], FailureHandling.STOP_ON_FAILURE)
-}
+	@Given("User click hoby category")
+	public void user_click_hoby_category() {
+		WebUI.callTestCase(findTestCase('Pages/Homepage/Click kategori hobi'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
 
-@Then("the website will sort the products by hoby category")
-public void the_website_will_sort_the_products_by_hoby_category() {
-	WebUI.verifyElementText(findTestObject('Homepage/text_product3_category'), 'Hoby')
-}
+	@Then("the website will sort the products by hoby category")
+	public void the_website_will_sort_the_products_by_hoby_category() {
+		WebUI.verifyElementText(findTestObject('Homepage/text_product3_category'), 'Hoby')
+	}
 }

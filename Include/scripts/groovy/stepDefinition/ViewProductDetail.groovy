@@ -45,13 +45,13 @@ import cucumber.api.java.en.When
 
 
 class ViewProductDetail {
-@Then("User click product")
-public void user_click_product() {
-WebUI.callTestCase(findTestCase('Pages/Homepage/Click Product Detail'), [:], FailureHandling.STOP_ON_FAILURE)
-}
+	@Then("User click product")
+	public void user_click_product() {
+		WebUI.callTestCase(findTestCase('Pages/Homepage/Click Product Detail'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
 
-@Then("User view product detail from other sellers in homepage")
-public void user_view_product_detail_from_other_sellers_in_homepage() {
-WebUI.callTestCase(findTestCase('Pages/Product Detail/Verify Content Product from Other Seller'), [:], FailureHandling.STOP_ON_FAILURE)
-}
+	@Then("User view product detail from other sellers in homepage")
+	public void user_view_product_detail_from_other_sellers_in_homepage() {
+		WebUI.callTestCase(findTestCase('Pages/Product Detail/Verify Content Product from Other Seller'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
 }
