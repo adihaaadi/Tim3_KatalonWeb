@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature View Product Detail,Chrome 106.0.0.0,,,2022-10-25 20:04:54,2022-10-25 20:06:10,1m - 15.784s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature View Product Detail/PRODUCT001 - View product details from other sellers in homepage,Chrome 106.0.0.0,,,2022-10-25 20:04:57,2022-10-25 20:06:10,1m - 12.525s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-25 20:04:57,2022-10-25 20:05:00,2.799s,PASSED
+"callTestCase(findTestCase(""Pages/Homepage/Click Product Detail""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 20:05:00,2022-10-25 20:06:05,1m - 4.421s,PASSED
+"callTestCase(findTestCase(""Pages/Product Detail/Verify Content Product from Other Seller""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 20:06:05,2022-10-25 20:06:09,4.504s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-25 20:06:09,2022-10-25 20:06:10,0.597s,PASSED

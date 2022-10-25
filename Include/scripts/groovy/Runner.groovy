@@ -24,10 +24,11 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-features = "Include/features",
+features = "Include/features/",
 glue = "stepDefinition",
-tags = "@EDITITEM",
-monochrome = true
+tags = "",
+monochrome = true,
+plugin = "html:Reports/Cucumber"
 )
 
 public class Runner {

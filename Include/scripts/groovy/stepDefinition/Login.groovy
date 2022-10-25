@@ -87,5 +87,9 @@ class Login {
 	@Then("User redirected to homepage")
 	public void user_redirected_to_homepage() {
 		WebUI.callTestCase(findTestCase('Pages/UserLogin/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.delay(3)
+		WebUI.openBrowser('');
+		WebUI.maximizeWindow();
+		WebUI.navigateToUrl('https://deployed-five.vercel.app/')
 	}
 }

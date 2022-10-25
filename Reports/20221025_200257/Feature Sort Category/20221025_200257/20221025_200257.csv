@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Sort Category,Chrome 106.0.0.0,,,2022-10-25 20:03:04,2022-10-25 20:03:52,48.143s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Sort Category/SORT001 - category Baju,Chrome 106.0.0.0,,,2022-10-25 20:03:07,2022-10-25 20:03:17,10.410s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-25 20:03:07,2022-10-25 20:03:09,2.665s,PASSED
+"callTestCase(findTestCase(""Pages/Homepage/Click kategori baju""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 20:03:10,2022-10-25 20:03:13,3.595s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-25 20:03:13,2022-10-25 20:03:16,3.022s,PASSED
+"verifyElementText(findTestObject(""Homepage/text_product3_category""), ""Baju"")",Chrome 106.0.0.0,,,2022-10-25 20:03:16,2022-10-25 20:03:16,0.320s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-25 20:03:16,2022-10-25 20:03:17,0.598s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Sort Category/SORT002 - category elektronik,Chrome 106.0.0.0,,,2022-10-25 20:03:17,2022-10-25 20:03:26,8.535s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-25 20:03:17,2022-10-25 20:03:19,2.040s,PASSED
+"callTestCase(findTestCase(""Pages/Homepage/Click kategori elektronik""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 20:03:19,2022-10-25 20:03:22,2.387s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-25 20:03:22,2022-10-25 20:03:25,3.002s,PASSED
+"verifyElementText(findTestObject(""Homepage/text_product3_category""), ""Elektronik"")",Chrome 106.0.0.0,,,2022-10-25 20:03:25,2022-10-25 20:03:25,0.316s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-25 20:03:25,2022-10-25 20:03:26,0.603s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Sort Category/SORT005 - category hobi,Chrome 106.0.0.0,,,2022-10-25 20:03:26,2022-10-25 20:03:34,8.807s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-25 20:03:26,2022-10-25 20:03:28,2.046s,PASSED
+"callTestCase(findTestCase(""Pages/Homepage/Click kategori hobi""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 20:03:28,2022-10-25 20:03:30,2.648s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-25 20:03:30,2022-10-25 20:03:33,3.005s,PASSED
+"verifyElementText(findTestObject(""Homepage/text_product3_category""), ""Hoby"")",Chrome 106.0.0.0,,,2022-10-25 20:03:33,2022-10-25 20:03:34,0.321s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-25 20:03:34,2022-10-25 20:03:34,0.605s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Sort Category/SORT004 - category kendaraan,Chrome 106.0.0.0,,,2022-10-25 20:03:34,2022-10-25 20:03:43,8.821s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-25 20:03:34,2022-10-25 20:03:36,2.035s,PASSED
+"callTestCase(findTestCase(""Pages/Homepage/Click kategori kendaraan""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 20:03:37,2022-10-25 20:03:39,2.700s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-25 20:03:39,2022-10-25 20:03:42,3.002s,PASSED
+"verifyElementText(findTestObject(""Homepage/text_product3_category""), ""Kendaraan"")",Chrome 106.0.0.0,,,2022-10-25 20:03:42,2022-10-25 20:03:43,0.319s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-25 20:03:43,2022-10-25 20:03:43,0.589s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Sort Category/SORT003 - category kesehatan,Chrome 106.0.0.0,,,2022-10-25 20:03:43,2022-10-25 20:03:52,8.544s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-25 20:03:43,2022-10-25 20:03:46,2.505s,PASSED
+"callTestCase(findTestCase(""Pages/Homepage/Click kategori kesehatan""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 20:03:46,2022-10-25 20:03:48,1.937s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-25 20:03:48,2022-10-25 20:03:51,3.017s,PASSED
+"verifyElementText(findTestObject(""Homepage/text_product3_category""), ""Kesehatan"")",Chrome 106.0.0.0,,,2022-10-25 20:03:51,2022-10-25 20:03:51,0.303s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-25 20:03:51,2022-10-25 20:03:52,0.589s,PASSED

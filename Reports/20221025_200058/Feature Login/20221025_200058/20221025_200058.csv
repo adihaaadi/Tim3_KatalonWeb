@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Login,Chrome 106.0.0.0,,,2022-10-25 20:01:05,2022-10-25 20:01:38,32.468s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password,Chrome 106.0.0.0,,,2022-10-25 20:01:08,2022-10-25 20:01:20,11.449s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-25 20:01:08,2022-10-25 20:01:11,2.795s,PASSED
+"callTestCase(findTestCase(""Pages/UserLogin/Click Link Masuk""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 20:01:11,2022-10-25 20:01:14,2.623s,PASSED
+"callTestCase(findTestCase(""Pages/UserLogin/Input Username""), [""email"":""binarqae1@gmail.com""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 20:01:14,2022-10-25 20:01:15,0.941s,PASSED
+"callTestCase(findTestCase(""Pages/UserLogin/Input Password""), [""password"":""students1234""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 20:01:15,2022-10-25 20:01:16,0.908s,PASSED
+"callTestCase(findTestCase(""Pages/UserLogin/Click login button""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 20:01:16,2022-10-25 20:01:16,0.574s,PASSED
+"callTestCase(findTestCase(""Pages/UserLogin/Verify Content""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 20:01:16,2022-10-25 20:01:19,2.787s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-25 20:01:19,2022-10-25 20:01:20,0.611s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Login/LOGIN002 - Login With invalid Email,Chrome 106.0.0.0,,,2022-10-25 20:01:20,2022-10-25 20:01:28,8.643s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-25 20:01:20,2022-10-25 20:01:22,2.008s,PASSED
+"callTestCase(findTestCase(""Pages/UserLogin/Click Link Masuk""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 20:01:22,2022-10-25 20:01:25,2.844s,PASSED
+"callTestCase(findTestCase(""Pages/UserLogin/Input Username""), [""email"":""xxx@gmail.com""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 20:01:25,2022-10-25 20:01:26,0.841s,PASSED
+"callTestCase(findTestCase(""Pages/UserLogin/Input Password""), [""password"":""123456""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 20:01:26,2022-10-25 20:01:26,0.742s,PASSED
+"callTestCase(findTestCase(""Pages/UserLogin/Click login button""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 20:01:26,2022-10-25 20:01:27,0.393s,PASSED
+"callTestCase(findTestCase(""Pages/UserLogin/Verify Error Message""), [""message"":""Akun tidak ditemukan""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 20:01:27,2022-10-25 20:01:28,1.011s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-25 20:01:28,2022-10-25 20:01:28,0.591s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Login/LOGIN003 - Login With invalid Password,Chrome 106.0.0.0,,,2022-10-25 20:01:28,2022-10-25 20:01:38,9.361s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-25 20:01:28,2022-10-25 20:01:31,2.207s,PASSED
+"callTestCase(findTestCase(""Pages/UserLogin/Click Link Masuk""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 20:01:31,2022-10-25 20:01:34,3.346s,PASSED
+"callTestCase(findTestCase(""Pages/UserLogin/Input Username""), [""email"":""binarqae1@gmail.com""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 20:01:34,2022-10-25 20:01:35,0.856s,PASSED
+"callTestCase(findTestCase(""Pages/UserLogin/Input Password""), [""password"":""123456""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 20:01:35,2022-10-25 20:01:36,0.737s,PASSED
+"callTestCase(findTestCase(""Pages/UserLogin/Click login button""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 20:01:36,2022-10-25 20:01:36,0.387s,PASSED
+"callTestCase(findTestCase(""Pages/UserLogin/Verify Error Message""), [""message"":""Password anda salah!""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 20:01:36,2022-10-25 20:01:37,1.046s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-25 20:01:37,2022-10-25 20:01:38,0.605s,PASSED

@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password","testCaseId":"Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password","iterationVariableName":""}
+{"testCaseName":"Test Cases/StepDefinition/Feature Login/LOGIN002 - Login With invalid Email","testCaseId":"Test Cases/StepDefinition/Feature Login/LOGIN002 - Login With invalid Email","iterationVariableName":""}
+{"testCaseName":"Test Cases/StepDefinition/Feature Login/LOGIN003 - Login With invalid Password","testCaseId":"Test Cases/StepDefinition/Feature Login/LOGIN003 - Login With invalid Password","iterationVariableName":""}
