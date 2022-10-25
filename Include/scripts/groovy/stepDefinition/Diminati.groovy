@@ -42,7 +42,10 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
+//Afi Sherma - QAE Wave 1 Binar
+
 public class Diminati {
+	//Open diminati menu to view offered product
 	@Then("User login at SecondHand Store website")
 	public void user_login_at_SecondHand_Store_website() {
 		WebUI.callTestCase(findTestCase('StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password'), [:], FailureHandling.STOP_ON_FAILURE)

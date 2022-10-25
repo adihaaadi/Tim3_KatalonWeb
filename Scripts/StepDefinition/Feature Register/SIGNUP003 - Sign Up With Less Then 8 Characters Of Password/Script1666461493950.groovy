@@ -23,11 +23,13 @@ WebUI.callTestCase(findTestCase('Pages/UserRegister/Click Link Daftar Di Sini'),
 
 WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Nama'), [('nama') : 'Afi Sherma Ranita'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Email Address'), [('email') : 'pltnmchllgn01@yopmail.com'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Email Address'), [('email') : 'pltnmchllgn08@yopmail.com'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password') : '123'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/UserRegister/Click Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/UserRegister/Verify Teks Verifikasi Email'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 

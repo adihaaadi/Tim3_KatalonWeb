@@ -17,21 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Pages/UserRegister/Click Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Page_Register/tittle_Daftar'))
 
-WebUI.callTestCase(findTestCase('Pages/UserRegister/Click Link Daftar Di Sini'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Page_Register/label_Nama'))
 
-WebUI.callTestCase(findTestCase('Pages/UserRegister/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Page_Register/textfield_Nama'))
 
-WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Nama'), [('nama') : 'Afi Sherma'], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Page_Register/label_Email address'))
 
-WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Email Address'), [('email') : 'pltnmchllgn07@yopmail.com'], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Page_Register/textfield_Email address'))
 
-WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password') : 'Password.123'], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Page_Register/label_Password'))
 
-WebUI.callTestCase(findTestCase('Pages/UserRegister/Click Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Page_Register/textfield_Password'))
 
-WebUI.callTestCase(findTestCase('Pages/UserRegister/Verify Teks Verifikasi Email'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Page_Register/button_Daftar'))
 
-WebUI.delay(5)
+WebUI.verifyElementVisible(findTestObject('Page_Register/text_Sudah punya akun'))
+
+WebUI.verifyElementVisible(findTestObject('Page_Register/link_Masuk di sini'))
+
+WebUI.verifyElementVisible(findTestObject('Page_Register/image_SecondHand'))
+
+WebUI.verifyElementVisible(findTestObject('Page_Register/text_SecondHand'))
 

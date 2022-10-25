@@ -29,5 +29,7 @@ WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password')
 
 WebUI.callTestCase(findTestCase('Pages/UserRegister/Click Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Pages/UserRegister/Verify Teks Verifikasi Email'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.delay(5)
 
