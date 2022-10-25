@@ -1,6 +1,8 @@
+#Author : Sofia Awiliyah 
+
 @EDITITEM
-Feature: Offering
-	As a user, I want to view diminati menu
+Feature: EDIT ITEM
+	User want to edit item
 	
 	@EDITITEM001
 	Scenario: EDITITEM001 - User want to edit item with preview in Semua Product page
@@ -18,7 +20,7 @@ Feature: Offering
 	@EDITITEM002
 	Scenario: EDITITEM002 - User want to edit item without preview in Semua Product page
 		Then User click daftar jual saya menu
-		Then User click product
+		Then User click in product
 		Then User click edit
 		Then User input nama produk "paracetamol"
 		Then User input harga produk "10000"
@@ -31,7 +33,7 @@ Feature: Offering
 	Scenario: EDITITEM003 - User want to edit item with preview in Diminati page
 		Then User click daftar jual saya menu
 		Then User click diminati menu
-		Then User click product
+		Then User click in product
 		Then User click edit
 		Then User input nama produk "optic"
 		Then User input harga produk "250000"
@@ -44,7 +46,7 @@ Feature: Offering
 	Scenario: EDITITEM004 - User want to edit item without preview in Diminati page
 		Then User click daftar jual saya menu
 		Then User click diminati menu
-		Then User click product
+		Then User click in product
 		Then User click edit
 		Then User input nama produk "optic"
 		Then User input harga produk "250000"

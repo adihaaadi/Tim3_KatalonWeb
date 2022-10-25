@@ -1,3 +1,5 @@
+//Sofia Awiliyah - QAE Wave 1 Binar
+
 package stepDefinition
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
@@ -83,7 +85,7 @@ class EditItem {
 	public void user_click_preview() {
 		WebUI.callTestCase(findTestCase('Pages/UserEditItem/Click Preview'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Then("User click terbitkan")
 	public void user_click_terbitkan() {
 		WebUI.callTestCase(findTestCase('Pages/UserEditItem/Click Terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
