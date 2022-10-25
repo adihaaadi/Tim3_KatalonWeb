@@ -42,20 +42,50 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
-public class Diminati {
-	@Then("User login at SecondHand Store website")
-	public void user_login_at_SecondHand_Store_website() {
-		WebUI.callTestCase(findTestCase('StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password'), [:], FailureHandling.STOP_ON_FAILURE)
+class EditItem {
+	@Then("User click in product")
+	public void user_click_in_product() {
+		WebUI.click(findTestObject('Page_Daftar_Jual/btn_Paracetamol 500mgboxKesehatanRp1.000.000,00'))
 	}
 
-	@Then("User click daftar jual saya menu")
-	public void user_click_daftar_jual_saya_menu() {
-		WebUI.click(findTestObject('Page_Offering/menu_Daftar Jual Saya'))
+	@Then("User click edit")
+	public void user_click_edit() {
+		WebUI.click(findTestObject('Page_Daftar_Jual/button_Edit'))
 	}
 
-	@Then("User click diminati menu")
-	public void user_click_diminati_menu() {
-		WebUI.click(findTestObject('Page_Offering/menu_Diminati'))
-		WebUI.delay(3)
+	@Then("User input nama produk {string}")
+	public void user_input_nama_produk(nama_product) {
+		WebUI.callTestCase(findTestCase('Pages/UserEditItem/Input Nama Produk'), [('nama_produk') : nama_product], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("User input harga produk {string}")
+	public void user_input_harga_produk(harga_product) {
+		WebUI.callTestCase(findTestCase('Pages/UserEditItem/Input Harga Produk'), [('harga_produk') : harga_product], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("User select kategori {string}")
+	public void user_select_kategori(select_kategori) {
+		WebUI.callTestCase(findTestCase('Pages/UserEditItem/Select Kategori'), [('select_kategori') : select_kategori], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("User input deskripsi {string}")
+	public void user_input_deskripsi(deskripsi) {
+		WebUI.callTestCase(findTestCase('Pages/UserEditItem/Input Deskripsi'), [('deskripsi') : deskripsi], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("User add photo {string}")
+	public void user_add_photo(photo_location) {
+		WebUI.callTestCase(findTestCase('Pages/UserEditItem/Add Photo'), [('add_photo') : photo_location],
+		FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("User click preview")
+	public void user_click_preview() {
+		WebUI.callTestCase(findTestCase('Pages/UserEditItem/Click Preview'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@Then("User click terbitkan")
+	public void user_click_terbitkan() {
+		WebUI.callTestCase(findTestCase('Pages/UserEditItem/Click Terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 }

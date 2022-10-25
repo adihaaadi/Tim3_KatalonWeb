@@ -47,16 +47,16 @@ class Hook {
 		this.closeBrowser()
 	}
 		
-	//@BeforeTestSuite
-	//def beforeTestSuite(TestSuiteContext testSuiteContext) {
-		//KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
-		//this.openBrowser()
-	//}
+	@BeforeTestSuite
+	def beforeTestSuite(TestSuiteContext testSuiteContext) {
+		KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
+		this.openBrowser()
+	}
 	
-	//@AfterTestSuite
-	//def afterTestSuite(TestSuiteContext testSuiteContext) {
-		//KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
-		//this.closeBrowser()
-	//}
+	@AfterTestSuite
+	def afterTestSuite(TestSuiteContext testSuiteContext) {
+		KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
+		this.closeBrowser()
+	}
 }
 	
