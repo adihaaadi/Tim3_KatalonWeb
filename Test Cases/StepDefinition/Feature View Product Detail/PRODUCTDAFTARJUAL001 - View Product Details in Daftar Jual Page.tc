@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PRODUCTDAFTARJUAL001 - View Product Details in Daftar Jual Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b90c9a7e-404f-4e22-a87c-7f14659863bd</testCaseGuid>
+</TestCaseEntity>

@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_seconhand</name>
+   <name>image_Card_Product</name>
    <tag></tag>
-   <elementGuidId>8b87cb9e-31f6-4af5-8880-812db50c6b67</elementGuidId>
-   <imagePath></imagePath>
+   <elementGuidId>72d32a86-90b0-47e3-8923-f6ec9158e2ce</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[3]/div[2]/div/div[2]/div/img</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>img</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/img</value>
+         <value>img.card-img-top</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>IMAGE</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,35 +28,42 @@
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>./static/media/Rectangle-131.a85041256c34e39a64b1.png</value>
+      <value>https://secondhand-be-kelompok2.herokuapp.com/undefined</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>width</name>
+      <name>class</name>
       <type>Main</type>
-      <value>100%</value>
+      <value>card-img-top</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>height</name>
+      <name>alt</name>
       <type>Main</type>
-      <value>100%</value>
+      <value>Product Paracetamol 500mg/box</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-6 d-none d-sm-block position-relative&quot;]/img[1]</value>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;mt-4 pb-4 container&quot;]/div[@class=&quot;mt-4 row&quot;]/div[@class=&quot;col-lg-9 col&quot;]/div[@class=&quot;row row-cols-lg-3&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;content card&quot;]/img[@class=&quot;card-img-top&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/img</value>
+      <value>//div[@id='root']/div/div/div[3]/div[2]/div/div[2]/div/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Product Paracetamol 500mg/box']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,12 +71,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//img</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//img[@src = './static/media/Rectangle-131.a85041256c34e39a64b1.png']</value>
    </webElementXpaths>
 </WebElementEntity>
