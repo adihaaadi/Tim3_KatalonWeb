@@ -17,6 +17,15 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Homepage/card_product3_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Submit_Offering/div_TeslaKendaraanRp1.500.000,00",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div[2]/div[2]/div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Submit_Offering/div_TeslaKendaraanRp1.500.000,00_XPATH.png"
     }
   ]
 }

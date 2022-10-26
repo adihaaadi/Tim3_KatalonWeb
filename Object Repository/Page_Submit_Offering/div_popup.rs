@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_popup</name>
+   <tag></tag>
+   <elementGuidId>feb0ae60-6c46-43d8-a2a3-821325adbc41</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.modal-content</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>29e06640-57a0-43c9-958c-e1cc3ffd74d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal-content</value>
+      <webElementGuid>7792b068-967d-41e1-8e1c-617ab0b77232</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Masukkan Harga TawarmuHarga tawaranmu akan diketahui penual, jika penjual cocok kamu akan segera dihubungi penjual.Tesla Rp 1.500.000,00Harga TawarKirim</value>
+      <webElementGuid>72c7dbf5-c9e3-40ef-a1be-ebcaf8d6b55d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;fade modal show&quot;]/div[@class=&quot;modal-dialog modal-sm modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]</value>
+      <webElementGuid>98b6c02f-f236-4ffb-a279-edf1c9c2d0ba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[5]</value>
+      <webElementGuid>94bd087f-983c-4ae6-9f24-f40955c82324</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::div[5]</value>
+      <webElementGuid>85012149-368d-4ab1-a625-6f522435d19e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div</value>
+      <webElementGuid>413ba94f-e56b-4a7b-bd67-6699613b425f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Masukkan Harga TawarmuHarga tawaranmu akan diketahui penual, jika penjual cocok kamu akan segera dihubungi penjual.Tesla Rp 1.500.000,00Harga TawarKirim' or . = 'Masukkan Harga TawarmuHarga tawaranmu akan diketahui penual, jika penjual cocok kamu akan segera dihubungi penjual.Tesla Rp 1.500.000,00Harga TawarKirim')]</value>
+      <webElementGuid>0b5014a5-7a98-499c-9e55-aac46b47f533</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
