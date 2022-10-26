@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Saya tertarik dan ingin nego</name>
+   <tag></tag>
+   <elementGuidId>21e61d90-5b9f-4d61-816c-7f0c38d824a5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[6]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3cef8d33-09dd-4aa0-a3f9-81b1eef3f982</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ccfb8b75-cefc-4850-bce8-64e07b516cf0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
+      <webElementGuid>9bad6cde-2e99-45c6-b202-838d2946400a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Saya tertarik dan ingin nego</value>
+      <webElementGuid>c506b88a-b267-46f7-8af1-248de7c8f43d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;container pb-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4&quot;]/div[@class=&quot;card product&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;d-flex flex-column mt-4&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
+      <webElementGuid>ba8e9777-14db-4d16-9b40-edccd0757212</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[6]</value>
+      <webElementGuid>fa340d2a-f4e2-4210-9eae-572d789a8960</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div[3]/div/div/div/button</value>
+      <webElementGuid>26ed9e10-afbf-4d37-8ed3-7bc0d00ab0b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 1.500.000,00'])[1]/following::button[1]</value>
+      <webElementGuid>c0045e8d-efdb-4d2d-823c-c6c2f8fdcd2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tesla'])[1]/following::button[1]</value>
+      <webElementGuid>48440ab5-e0df-4707-b771-6b45c06b7ce3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Milda Aditia Putra'])[1]/preceding::button[1]</value>
+      <webElementGuid>f27d4188-b4d4-4973-a43d-2c0915b9a0e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
+      <webElementGuid>ecbc1bdc-0331-4a9b-b446-4fa2e6fe87a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Saya tertarik dan ingin nego']/parent::*</value>
+      <webElementGuid>990f7a16-0600-4d25-a667-c62bc3b0fb0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/button</value>
+      <webElementGuid>c2b55128-7ce0-44a2-9982-008b50a9f45a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Saya tertarik dan ingin nego' or . = 'Saya tertarik dan ingin nego')]</value>
+      <webElementGuid>4306ea2b-4774-484f-bee8-36e70cb43ead</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
