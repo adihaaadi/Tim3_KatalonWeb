@@ -19,17 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Homepage/Click Product Detail'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Page_Secondhand Store/div_DonutHobyRp6.000,00'))
 
-WebUI.callTestCase(findTestCase('Pages/Product Detail/Verify Content Product from Other Seller'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Page_Secondhand Store/button_Saya tertarik dan ingin nego'))
 
-WebUI.click(findTestObject('Page_Product_Detail/button_offering'))
+WebUI.setText(findTestObject('Object Repository/Page_Secondhand Store/input_Harga Tawar_form-control'), '10000')
 
-WebUI.callTestCase(findTestCase('Pages/SubmitOffering/Verify Content Pop Up'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/SubmitOffering/Input Harga Tawar'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/SubmitOffering/Click Kirim'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/Page_Secondhand Store/button_Kirim'))
 
