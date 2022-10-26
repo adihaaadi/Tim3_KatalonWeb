@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Register,Chrome 106.0.0.0,,,2022-10-25 12:00:38,2022-10-25 12:03:06,2m - 28.123s,FAILED
+,,,,,,,
+Test Cases/StepDefinition/Feature Register/SIGNUP001 - Sign Up With Unregistered Email,Chrome 106.0.0.0,,,2022-10-25 12:00:46,2022-10-25 12:01:18,31.841s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-25 12:00:46,2022-10-25 12:00:52,5.990s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:00:53,2022-10-25 12:00:55,2.125s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Click Link Daftar Di Sini""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:00:55,2022-10-25 12:00:57,1.525s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Verify Content""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:00:57,2022-10-25 12:01:03,6.815s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Input Nama""), [""nama"":""Afi Sherma""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:01:03,2022-10-25 12:01:05,1.663s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Input Email Address""), [""email"":""pltnmchllgn07@yopmail.com""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:01:05,2022-10-25 12:01:07,1.555s,PASSED
+"callTestCase(findTestCase(""Pages/UserLogin/Input Password""), [""password"":""Password.123""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:01:07,2022-10-25 12:01:09,2.271s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Click Daftar""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:01:09,2022-10-25 12:01:10,1.405s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Verify Teks Verifikasi Email""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:01:10,2022-10-25 12:01:12,1.801s,PASSED
+delay(5),Chrome 106.0.0.0,,,2022-10-25 12:01:12,2022-10-25 12:01:17,5.040s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-25 12:01:17,2022-10-25 12:01:18,0.805s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Register/SIGNUP004 - Sign Up With Name Contains Special Characters,Chrome 106.0.0.0,,,2022-10-25 12:01:18,2022-10-25 12:02:01,43.502s,FAILED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-25 12:01:18,2022-10-25 12:01:22,4.369s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:01:23,2022-10-25 12:01:25,1.805s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Click Link Daftar Di Sini""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:01:25,2022-10-25 12:01:26,0.745s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Input Nama""), [""nama"":""Afi&81*""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:01:26,2022-10-25 12:01:26,0.719s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Input Email Address""), [""email"":""pltnmchllgn09@yopmail.com""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:01:26,2022-10-25 12:01:27,0.851s,PASSED
+"callTestCase(findTestCase(""Pages/UserLogin/Input Password""), [""password"":""123""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:01:27,2022-10-25 12:01:28,1.068s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Verify Teks Verifikasi Email""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:01:28,2022-10-25 12:02:01,32.396s,FAILED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-25 12:02:01,2022-10-25 12:02:01,0.826s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Register/SIGNUP003 - Sign Up With Less Then 8 Characters Of Password,Chrome 106.0.0.0,,,2022-10-25 12:02:01,2022-10-25 12:02:48,46.752s,FAILED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-25 12:02:01,2022-10-25 12:02:07,5.916s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:02:08,2022-10-25 12:02:11,2.753s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Click Link Daftar Di Sini""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:02:11,2022-10-25 12:02:12,0.657s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Input Nama""), [""nama"":""Afi Sherma Ranita""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:02:12,2022-10-25 12:02:12,0.846s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Input Email Address""), [""email"":""pltnmchllgn08@yopmail.com""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:02:12,2022-10-25 12:02:13,0.815s,PASSED
+"callTestCase(findTestCase(""Pages/UserLogin/Input Password""), [""password"":""123""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:02:13,2022-10-25 12:02:14,1.164s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Click Daftar""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:02:14,2022-10-25 12:02:15,0.633s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Verify Teks Verifikasi Email""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:02:15,2022-10-25 12:02:47,32.309s,FAILED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-25 12:02:47,2022-10-25 12:02:48,0.859s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Register/SIGNUP002 - Sign Up With Registered Email,Chrome 106.0.0.0,,,2022-10-25 12:02:48,2022-10-25 12:03:06,17.724s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-25 12:02:48,2022-10-25 12:02:53,4.261s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:02:53,2022-10-25 12:02:55,1.863s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Click Link Daftar Di Sini""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:02:55,2022-10-25 12:02:56,0.674s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Input Nama""), [""nama"":""Afi Sherma Ranita""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:02:56,2022-10-25 12:02:57,0.768s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Input Email Address""), [""email"":""pltnmchllgn01@yopmail.com""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:02:57,2022-10-25 12:02:57,0.757s,PASSED
+"callTestCase(findTestCase(""Pages/UserLogin/Input Password""), [""password"":""Password.123""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:02:57,2022-10-25 12:02:58,1.149s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Click Daftar""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:02:58,2022-10-25 12:02:59,0.602s,PASSED
+"callTestCase(findTestCase(""Pages/UserRegister/Verify Teks Verifikasi Email""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:02:59,2022-10-25 12:03:00,1.124s,PASSED
+delay(5),Chrome 106.0.0.0,,,2022-10-25 12:03:00,2022-10-25 12:03:05,5.009s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-25 12:03:05,2022-10-25 12:03:06,0.781s,PASSED

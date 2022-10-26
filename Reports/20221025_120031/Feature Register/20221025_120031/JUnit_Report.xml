@@ -1,0 +1,1471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Register" time="148.123" tests="4" failures="2" errors="0">
+   <testsuite name="Feature Register" tests="4" failures="2" errors="0" time="148.123" skipped="0" timestamp="2022-10-25 12:00:38" hostname="PC - DESKTOP-26A9125" id="Test Suites/Feature Register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PC\\git\\Tim3_KatalonWeb\\Reports\\20221025_120031\\Feature Register\\20221025_120031"/>
+         <property name="logFiles" value="C:\\Users\\PC\\git\\Tim3_KatalonWeb\\Reports\\20221025_120031\\Feature Register\\20221025_120031\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\PC\\git\\Tim3_KatalonWeb\\Reports\\20221025_120031\\Feature Register\\20221025_120031\\1666674120047.png, C:\\Users\\PC\\git\\Tim3_KatalonWeb\\Reports\\20221025_120031\\Feature Register\\20221025_120031\\1666674120626.png, C:\\Users\\PC\\git\\Tim3_KatalonWeb\\Reports\\20221025_120031\\Feature Register\\20221025_120031\\1666674166937.png, C:\\Users\\PC\\git\\Tim3_KatalonWeb\\Reports\\20221025_120031\\Feature Register\\20221025_120031\\1666674167394.png"/>
+         <property name="hostName" value="PC - DESKTOP-26A9125"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="192.168.18.21"/>
+         <property name="sessionId" value="1e5b118bb7b74db208d85450fb2ac73c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/StepDefinition/Feature Register/SIGNUP001 - Sign Up With Unregistered Email" time="31.841" classname="Test Cases/StepDefinition/Feature Register/SIGNUP001 - Sign Up With Unregistered Email" status="PASSED">
+         <system-out><![CDATA[2022-10-25 12:00:46 - [TEST_CASE][PASSED] - Test Cases/StepDefinition/Feature Register/SIGNUP001 - Sign Up With Unregistered Email: Test Cases/StepDefinition/Feature Register/SIGNUP001 - Sign Up With Unregistered Email
+
+2022-10-25 12:00:46 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 12:00:46 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Register/SIGNUP001 - Sign Up With Unregistered Email
+
+2022-10-25 12:00:46 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Register/SIGNUP001 - Sign Up With Unregistered Email
+
+2022-10-25 12:00:46 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2022-10-25 12:00:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-25 12:00:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-25 12:00:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-25 12:00:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-25 12:00:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-25 12:00:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-25 12:00:49 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-25 12:00:49 - [TEST_STEP][PASSED] - navigateToUrl("https://deployed-five.vercel.app"): Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 12:00:52 - [MESSAGE][PASSED] - Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 12:00:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserRegister/Click Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserRegister/Click Button Masuk' successfully
+
+2022-10-25 12:00:53 - [TEST_CASE][PASSED] - Test Cases/Pages/UserRegister/Click Button Masuk: Test Cases/Pages/UserRegister/Click Button Masuk
+
+2022-10-25 12:00:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_Register/button_Masuk")): Object: 'Object Repository/Page_Register/button_Masuk' is clicked on
+
+2022-10-25 12:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Register/button_Masuk' is clicked on
+
+2022-10-25 12:00:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserRegister/Click Button Masuk' successfully
+
+2022-10-25 12:00:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserRegister/Click Link Daftar Di Sini"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserRegister/Click Link Daftar Di Sini' successfully
+
+2022-10-25 12:00:55 - [TEST_CASE][PASSED] - Test Cases/Pages/UserRegister/Click Link Daftar Di Sini: Test Cases/Pages/UserRegister/Click Link Daftar Di Sini
+
+2022-10-25 12:00:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_Register/link_Daftar di sini")): Object: 'Object Repository/Page_Register/link_Daftar di sini' is clicked on
+
+2022-10-25 12:00:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Register/link_Daftar di sini' is clicked on
+
+2022-10-25 12:00:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserRegister/Click Link Daftar Di Sini' successfully
+
+2022-10-25 12:00:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserRegister/Verify Content"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserRegister/Verify Content' successfully
+
+2022-10-25 12:00:57 - [TEST_CASE][PASSED] - Test Cases/Pages/UserRegister/Verify Content: Test Cases/Pages/UserRegister/Verify Content
+
+2022-10-25 12:00:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Register/tittle_Daftar")): Object 'Object Repository/Page_Register/tittle_Daftar' is visible
+
+2022-10-25 12:00:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Register/tittle_Daftar' is visible
+
+2022-10-25 12:00:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Register/label_Nama")): Object 'Object Repository/Page_Register/label_Nama' is visible
+
+2022-10-25 12:00:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Register/label_Nama' is visible
+
+2022-10-25 12:00:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Register/textfield_Nama")): Object 'Object Repository/Page_Register/textfield_Nama' is visible
+
+2022-10-25 12:00:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Register/textfield_Nama' is visible
+
+2022-10-25 12:00:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Register/label_Email address")): Object 'Object Repository/Page_Register/label_Email address' is visible
+
+2022-10-25 12:01:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Register/label_Email address' is visible
+
+2022-10-25 12:01:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Register/textfield_Email address")): Object 'Object Repository/Page_Register/textfield_Email address' is visible
+
+2022-10-25 12:01:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Register/textfield_Email address' is visible
+
+2022-10-25 12:01:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Register/label_Password")): Object 'Object Repository/Page_Register/label_Password' is visible
+
+2022-10-25 12:01:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Register/label_Password' is visible
+
+2022-10-25 12:01:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Register/textfield_Password")): Object 'Object Repository/Page_Register/textfield_Password' is visible
+
+2022-10-25 12:01:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Register/textfield_Password' is visible
+
+2022-10-25 12:01:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Register/button_Daftar")): Object 'Object Repository/Page_Register/button_Daftar' is visible
+
+2022-10-25 12:01:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Register/button_Daftar' is visible
+
+2022-10-25 12:01:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Register/text_Sudah punya akun")): Object 'Object Repository/Page_Register/text_Sudah punya akun' is visible
+
+2022-10-25 12:01:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Register/text_Sudah punya akun' is visible
+
+2022-10-25 12:01:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Register/link_Masuk di sini")): Object 'Object Repository/Page_Register/link_Masuk di sini' is visible
+
+2022-10-25 12:01:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Register/link_Masuk di sini' is visible
+
+2022-10-25 12:01:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Register/image_SecondHand")): Object 'Object Repository/Page_Register/image_SecondHand' is visible
+
+2022-10-25 12:01:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Register/image_SecondHand' is visible
+
+2022-10-25 12:01:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Register/text_SecondHand")): Object 'Object Repository/Page_Register/text_SecondHand' is visible
+
+2022-10-25 12:01:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Register/text_SecondHand' is visible
+
+2022-10-25 12:01:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserRegister/Verify Content' successfully
+
+2022-10-25 12:01:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserRegister/Input Nama"), ["nama":"Afi Sherma"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserRegister/Input Nama' successfully
+
+2022-10-25 12:01:03 - [TEST_CASE][PASSED] - Test Cases/Pages/UserRegister/Input Nama: Test Cases/Pages/UserRegister/Input Nama
+
+2022-10-25 12:01:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Register/textfield_Nama"), nama): Keys 'Afi Sherma' sent to object: 'Object Repository/Page_Register/textfield_Nama'
+
+2022-10-25 12:01:05 - [MESSAGE][PASSED] - Keys 'Afi Sherma' sent to object: 'Object Repository/Page_Register/textfield_Nama'
+
+2022-10-25 12:01:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserRegister/Input Nama' successfully
+
+2022-10-25 12:01:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserRegister/Input Email Address"), ["email":"pltnmchllgn07@yopmail.com"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserRegister/Input Email Address' successfully
+
+2022-10-25 12:01:05 - [TEST_CASE][PASSED] - Test Cases/Pages/UserRegister/Input Email Address: Test Cases/Pages/UserRegister/Input Email Address
+
+2022-10-25 12:01:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Register/textfield_Email address"), email): Keys 'pltnmchllgn07@yopmail.com' sent to object: 'Object Repository/Page_Register/textfield_Email address'
+
+2022-10-25 12:01:07 - [MESSAGE][PASSED] - Keys 'pltnmchllgn07@yopmail.com' sent to object: 'Object Repository/Page_Register/textfield_Email address'
+
+2022-10-25 12:01:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserRegister/Input Email Address' successfully
+
+2022-10-25 12:01:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Input Password"), ["password":"Password.123"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Input Password' successfully
+
+2022-10-25 12:01:07 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Input Password: Test Cases/Pages/UserLogin/Input Password
+
+2022-10-25 12:01:07 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/input_Password")): Text of object 'Object Repository/Page_Login/input_Password' is cleared
+
+2022-10-25 12:01:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/input_Password' is cleared
+
+2022-10-25 12:01:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Password"), password): Keys 'Password.123' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-10-25 12:01:09 - [MESSAGE][PASSED] - Keys 'Password.123' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-10-25 12:01:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Input Password' successfully
+
+2022-10-25 12:01:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserRegister/Click Daftar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserRegister/Click Daftar' successfully
+
+2022-10-25 12:01:09 - [TEST_CASE][PASSED] - Test Cases/Pages/UserRegister/Click Daftar: Test Cases/Pages/UserRegister/Click Daftar
+
+2022-10-25 12:01:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_Register/button_Daftar")): Object: 'Object Repository/Page_Register/button_Daftar' is clicked on
+
+2022-10-25 12:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Register/button_Daftar' is clicked on
+
+2022-10-25 12:01:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserRegister/Click Daftar' successfully
+
+2022-10-25 12:01:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserRegister/Verify Teks Verifikasi Email"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email' successfully
+
+2022-10-25 12:01:10 - [TEST_CASE][PASSED] - Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email: Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email
+
+2022-10-25 12:01:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami")): Object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible
+
+2022-10-25 12:01:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible
+
+2022-10-25 12:01:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email' successfully
+
+2022-10-25 12:01:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-10-25 12:01:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-10-25 12:01:17 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-10-25 12:01:17 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Register/SIGNUP001 - Sign Up With Unregistered Email
+
+2022-10-25 12:01:17 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Register/SIGNUP001 - Sign Up With Unregistered Email
+
+2022-10-25 12:01:17 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2022-10-25 12:01:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-25 12:01:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StepDefinition/Feature Register/SIGNUP004 - Sign Up With Name Contains Special Characters" time="43.502" classname="Test Cases/StepDefinition/Feature Register/SIGNUP004 - Sign Up With Name Contains Special Characters" status="FAILED">
+         <failure type="FAILED" message="Test Cases/StepDefinition/Feature Register/SIGNUP004 - Sign Up With Name Contains Special Characters FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SIGNUP004 - Sign Up With Name Contains Special Characters.run(SIGNUP004 - Sign Up With Name Contains Special Characters:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666674031644.run(TempTestSuite1666674031644.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Verify Teks Verifikasi Email.run(Verify Teks Verifikasi Email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' located by '//div[@id='root']/div/div/div[2]/form/div/strong' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+"/>
+         <system-out><![CDATA[2022-10-25 12:01:18 - [TEST_CASE][FAILED] - Test Cases/StepDefinition/Feature Register/SIGNUP004 - Sign Up With Name Contains Special Characters: Test Cases/StepDefinition/Feature Register/SIGNUP004 - Sign Up With Name Contains Special Characters FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SIGNUP004 - Sign Up With Name Contains Special Characters.run(SIGNUP004 - Sign Up With Name Contains Special Characters:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666674031644.run(TempTestSuite1666674031644.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Verify Teks Verifikasi Email.run(Verify Teks Verifikasi Email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' located by '//div[@id='root']/div/div/div[2]/form/div/strong' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2022-10-25 12:01:18 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 12:01:18 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Register/SIGNUP004 - Sign Up With Name Contains Special Characters
+
+2022-10-25 12:01:18 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Register/SIGNUP004 - Sign Up With Name Contains Special Characters
+
+2022-10-25 12:01:18 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2022-10-25 12:01:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-25 12:01:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-25 12:01:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-25 12:01:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-25 12:01:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-25 12:01:20 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-25 12:01:20 - [TEST_STEP][PASSED] - navigateToUrl("https://deployed-five.vercel.app"): Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 12:01:22 - [MESSAGE][PASSED] - Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 12:01:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserRegister/Click Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserRegister/Click Button Masuk' successfully
+
+2022-10-25 12:01:23 - [TEST_CASE][PASSED] - Test Cases/Pages/UserRegister/Click Button Masuk: Test Cases/Pages/UserRegister/Click Button Masuk
+
+2022-10-25 12:01:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_Register/button_Masuk")): Object: 'Object Repository/Page_Register/button_Masuk' is clicked on
+
+2022-10-25 12:01:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Register/button_Masuk' is clicked on
+
+2022-10-25 12:01:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserRegister/Click Button Masuk' successfully
+
+2022-10-25 12:01:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserRegister/Click Link Daftar Di Sini"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserRegister/Click Link Daftar Di Sini' successfully
+
+2022-10-25 12:01:25 - [TEST_CASE][PASSED] - Test Cases/Pages/UserRegister/Click Link Daftar Di Sini: Test Cases/Pages/UserRegister/Click Link Daftar Di Sini
+
+2022-10-25 12:01:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_Register/link_Daftar di sini")): Object: 'Object Repository/Page_Register/link_Daftar di sini' is clicked on
+
+2022-10-25 12:01:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Register/link_Daftar di sini' is clicked on
+
+2022-10-25 12:01:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserRegister/Click Link Daftar Di Sini' successfully
+
+2022-10-25 12:01:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserRegister/Input Nama"), ["nama":"Afi&81*"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserRegister/Input Nama' successfully
+
+2022-10-25 12:01:26 - [TEST_CASE][PASSED] - Test Cases/Pages/UserRegister/Input Nama: Test Cases/Pages/UserRegister/Input Nama
+
+2022-10-25 12:01:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Register/textfield_Nama"), nama): Keys 'Afi&81*' sent to object: 'Object Repository/Page_Register/textfield_Nama'
+
+2022-10-25 12:01:26 - [MESSAGE][PASSED] - Keys 'Afi&81*' sent to object: 'Object Repository/Page_Register/textfield_Nama'
+
+2022-10-25 12:01:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserRegister/Input Nama' successfully
+
+2022-10-25 12:01:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserRegister/Input Email Address"), ["email":"pltnmchllgn09@yopmail.com"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserRegister/Input Email Address' successfully
+
+2022-10-25 12:01:26 - [TEST_CASE][PASSED] - Test Cases/Pages/UserRegister/Input Email Address: Test Cases/Pages/UserRegister/Input Email Address
+
+2022-10-25 12:01:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Register/textfield_Email address"), email): Keys 'pltnmchllgn09@yopmail.com' sent to object: 'Object Repository/Page_Register/textfield_Email address'
+
+2022-10-25 12:01:27 - [MESSAGE][PASSED] - Keys 'pltnmchllgn09@yopmail.com' sent to object: 'Object Repository/Page_Register/textfield_Email address'
+
+2022-10-25 12:01:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserRegister/Input Email Address' successfully
+
+2022-10-25 12:01:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Input Password"), ["password":"123"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Input Password' successfully
+
+2022-10-25 12:01:27 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Input Password: Test Cases/Pages/UserLogin/Input Password
+
+2022-10-25 12:01:27 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/input_Password")): Text of object 'Object Repository/Page_Login/input_Password' is cleared
+
+2022-10-25 12:01:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/input_Password' is cleared
+
+2022-10-25 12:01:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Password"), password): Keys '123' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-10-25 12:01:28 - [MESSAGE][PASSED] - Keys '123' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-10-25 12:01:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Input Password' successfully
+
+2022-10-25 12:01:28 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Pages/UserRegister/Verify Teks Verifikasi Email"), [:], STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SIGNUP004 - Sign Up With Name Contains Special Characters.run(SIGNUP004 - Sign Up With Name Contains Special Characters:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666674031644.run(TempTestSuite1666674031644.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Verify Teks Verifikasi Email.run(Verify Teks Verifikasi Email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' located by '//div[@id='root']/div/div/div[2]/form/div/strong' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2022-10-25 12:01:28 - [TEST_CASE][FAILED] - Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email: Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Verify Teks Verifikasi Email.run(Verify Teks Verifikasi Email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SIGNUP004 - Sign Up With Name Contains Special Characters.run(SIGNUP004 - Sign Up With Name Contains Special Characters:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666674031644.run(TempTestSuite1666674031644.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' located by '//div[@id='root']/div/div/div[2]/form/div/strong' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2022-10-25 12:01:28 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami")): Unable to verify object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Verify Teks Verifikasi Email.run(Verify Teks Verifikasi Email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SIGNUP004 - Sign Up With Name Contains Special Characters.run(SIGNUP004 - Sign Up With Name Contains Special Characters:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666674031644.run(TempTestSuite1666674031644.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' located by '//div[@id='root']/div/div/div[2]/form/div/strong' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2022-10-25 12:02:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div/div/div[2]/form/div/strong'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-10-25 12:02:00 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' located by '//div[@id='root']/div/div/div[2]/form/div/strong' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' located by '//div[@id='root']/div/div/div[2]/form/div/strong' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Verify Teks Verifikasi Email.run(Verify Teks Verifikasi Email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SIGNUP004 - Sign Up With Name Contains Special Characters.run(SIGNUP004 - Sign Up With Name Contains Special Characters:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666674031644.run(TempTestSuite1666674031644.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\PC\\git\\Tim3_KatalonWeb\\Reports\\20221025_120031\\Feature Register\\20221025_120031\\1666674120047.png]]
+
+2022-10-25 12:02:01 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Verify Teks Verifikasi Email.run(Verify Teks Verifikasi Email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SIGNUP004 - Sign Up With Name Contains Special Characters.run(SIGNUP004 - Sign Up With Name Contains Special Characters:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666674031644.run(TempTestSuite1666674031644.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' located by '//div[@id='root']/div/div/div[2]/form/div/strong' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+[[ATTACHMENT|C:\\Users\\PC\\git\\Tim3_KatalonWeb\\Reports\\20221025_120031\\Feature Register\\20221025_120031\\1666674120626.png]]
+
+2022-10-25 12:02:01 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SIGNUP004 - Sign Up With Name Contains Special Characters.run(SIGNUP004 - Sign Up With Name Contains Special Characters:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666674031644.run(TempTestSuite1666674031644.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Verify Teks Verifikasi Email.run(Verify Teks Verifikasi Email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' located by '//div[@id='root']/div/div/div[2]/form/div/strong' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2022-10-25 12:02:01 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-10-25 12:02:01 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Register/SIGNUP004 - Sign Up With Name Contains Special Characters
+
+2022-10-25 12:02:01 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Register/SIGNUP004 - Sign Up With Name Contains Special Characters
+
+2022-10-25 12:02:01 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2022-10-25 12:02:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-25 12:02:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2022-10-25 12:01:18 - [TEST_CASE][FAILED] - Test Cases/StepDefinition/Feature Register/SIGNUP004 - Sign Up With Name Contains Special Characters: Test Cases/StepDefinition/Feature Register/SIGNUP004 - Sign Up With Name Contains Special Characters FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SIGNUP004 - Sign Up With Name Contains Special Characters.run(SIGNUP004 - Sign Up With Name Contains Special Characters:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666674031644.run(TempTestSuite1666674031644.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Verify Teks Verifikasi Email.run(Verify Teks Verifikasi Email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' located by '//div[@id='root']/div/div/div[2]/form/div/strong' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StepDefinition/Feature Register/SIGNUP003 - Sign Up With Less Then 8 Characters Of Password" time="46.752" classname="Test Cases/StepDefinition/Feature Register/SIGNUP003 - Sign Up With Less Then 8 Characters Of Password" status="FAILED">
+         <failure type="FAILED" message="Test Cases/StepDefinition/Feature Register/SIGNUP003 - Sign Up With Less Then 8 Characters Of Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SIGNUP003 - Sign Up With Less Then 8 Characters Of Password.run(SIGNUP003 - Sign Up With Less Then 8 Characters Of Password:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666674031644.run(TempTestSuite1666674031644.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Verify Teks Verifikasi Email.run(Verify Teks Verifikasi Email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' located by '//div[@id='root']/div/div/div[2]/form/div/strong' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+"/>
+         <system-out><![CDATA[2022-10-25 12:02:01 - [TEST_CASE][FAILED] - Test Cases/StepDefinition/Feature Register/SIGNUP003 - Sign Up With Less Then 8 Characters Of Password: Test Cases/StepDefinition/Feature Register/SIGNUP003 - Sign Up With Less Then 8 Characters Of Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SIGNUP003 - Sign Up With Less Then 8 Characters Of Password.run(SIGNUP003 - Sign Up With Less Then 8 Characters Of Password:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666674031644.run(TempTestSuite1666674031644.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Verify Teks Verifikasi Email.run(Verify Teks Verifikasi Email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' located by '//div[@id='root']/div/div/div[2]/form/div/strong' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2022-10-25 12:02:01 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 12:02:01 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Register/SIGNUP003 - Sign Up With Less Then 8 Characters Of Password
+
+2022-10-25 12:02:01 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Register/SIGNUP003 - Sign Up With Less Then 8 Characters Of Password
+
+2022-10-25 12:02:01 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2022-10-25 12:02:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-25 12:02:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-25 12:02:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-25 12:02:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-25 12:02:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-25 12:02:03 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-25 12:02:03 - [TEST_STEP][PASSED] - navigateToUrl("https://deployed-five.vercel.app"): Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 12:02:07 - [MESSAGE][PASSED] - Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 12:02:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserRegister/Click Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserRegister/Click Button Masuk' successfully
+
+2022-10-25 12:02:08 - [TEST_CASE][PASSED] - Test Cases/Pages/UserRegister/Click Button Masuk: Test Cases/Pages/UserRegister/Click Button Masuk
+
+2022-10-25 12:02:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Register/button_Masuk")): Object: 'Object Repository/Page_Register/button_Masuk' is clicked on
+
+2022-10-25 12:02:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Register/button_Masuk' is clicked on
+
+2022-10-25 12:02:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserRegister/Click Button Masuk' successfully
+
+2022-10-25 12:02:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserRegister/Click Link Daftar Di Sini"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserRegister/Click Link Daftar Di Sini' successfully
+
+2022-10-25 12:02:11 - [TEST_CASE][PASSED] - Test Cases/Pages/UserRegister/Click Link Daftar Di Sini: Test Cases/Pages/UserRegister/Click Link Daftar Di Sini
+
+2022-10-25 12:02:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_Register/link_Daftar di sini")): Object: 'Object Repository/Page_Register/link_Daftar di sini' is clicked on
+
+2022-10-25 12:02:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Register/link_Daftar di sini' is clicked on
+
+2022-10-25 12:02:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserRegister/Click Link Daftar Di Sini' successfully
+
+2022-10-25 12:02:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserRegister/Input Nama"), ["nama":"Afi Sherma Ranita"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserRegister/Input Nama' successfully
+
+2022-10-25 12:02:12 - [TEST_CASE][PASSED] - Test Cases/Pages/UserRegister/Input Nama: Test Cases/Pages/UserRegister/Input Nama
+
+2022-10-25 12:02:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Register/textfield_Nama"), nama): Keys 'Afi Sherma Ranita' sent to object: 'Object Repository/Page_Register/textfield_Nama'
+
+2022-10-25 12:02:12 - [MESSAGE][PASSED] - Keys 'Afi Sherma Ranita' sent to object: 'Object Repository/Page_Register/textfield_Nama'
+
+2022-10-25 12:02:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserRegister/Input Nama' successfully
+
+2022-10-25 12:02:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserRegister/Input Email Address"), ["email":"pltnmchllgn08@yopmail.com"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserRegister/Input Email Address' successfully
+
+2022-10-25 12:02:12 - [TEST_CASE][PASSED] - Test Cases/Pages/UserRegister/Input Email Address: Test Cases/Pages/UserRegister/Input Email Address
+
+2022-10-25 12:02:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Register/textfield_Email address"), email): Keys 'pltnmchllgn08@yopmail.com' sent to object: 'Object Repository/Page_Register/textfield_Email address'
+
+2022-10-25 12:02:13 - [MESSAGE][PASSED] - Keys 'pltnmchllgn08@yopmail.com' sent to object: 'Object Repository/Page_Register/textfield_Email address'
+
+2022-10-25 12:02:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserRegister/Input Email Address' successfully
+
+2022-10-25 12:02:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Input Password"), ["password":"123"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Input Password' successfully
+
+2022-10-25 12:02:13 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Input Password: Test Cases/Pages/UserLogin/Input Password
+
+2022-10-25 12:02:13 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/input_Password")): Text of object 'Object Repository/Page_Login/input_Password' is cleared
+
+2022-10-25 12:02:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/input_Password' is cleared
+
+2022-10-25 12:02:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Password"), password): Keys '123' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-10-25 12:02:14 - [MESSAGE][PASSED] - Keys '123' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-10-25 12:02:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Input Password' successfully
+
+2022-10-25 12:02:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserRegister/Click Daftar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserRegister/Click Daftar' successfully
+
+2022-10-25 12:02:14 - [TEST_CASE][PASSED] - Test Cases/Pages/UserRegister/Click Daftar: Test Cases/Pages/UserRegister/Click Daftar
+
+2022-10-25 12:02:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_Register/button_Daftar")): Object: 'Object Repository/Page_Register/button_Daftar' is clicked on
+
+2022-10-25 12:02:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Register/button_Daftar' is clicked on
+
+2022-10-25 12:02:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserRegister/Click Daftar' successfully
+
+2022-10-25 12:02:15 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Pages/UserRegister/Verify Teks Verifikasi Email"), [:], STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SIGNUP003 - Sign Up With Less Then 8 Characters Of Password.run(SIGNUP003 - Sign Up With Less Then 8 Characters Of Password:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666674031644.run(TempTestSuite1666674031644.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Verify Teks Verifikasi Email.run(Verify Teks Verifikasi Email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' located by '//div[@id='root']/div/div/div[2]/form/div/strong' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2022-10-25 12:02:15 - [TEST_CASE][FAILED] - Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email: Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Verify Teks Verifikasi Email.run(Verify Teks Verifikasi Email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SIGNUP003 - Sign Up With Less Then 8 Characters Of Password.run(SIGNUP003 - Sign Up With Less Then 8 Characters Of Password:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666674031644.run(TempTestSuite1666674031644.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' located by '//div[@id='root']/div/div/div[2]/form/div/strong' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2022-10-25 12:02:15 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami")): Unable to verify object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Verify Teks Verifikasi Email.run(Verify Teks Verifikasi Email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SIGNUP003 - Sign Up With Less Then 8 Characters Of Password.run(SIGNUP003 - Sign Up With Less Then 8 Characters Of Password:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666674031644.run(TempTestSuite1666674031644.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' located by '//div[@id='root']/div/div/div[2]/form/div/strong' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2022-10-25 12:02:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div/div/div[2]/form/div/strong'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-10-25 12:02:47 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' located by '//div[@id='root']/div/div/div[2]/form/div/strong' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' located by '//div[@id='root']/div/div/div[2]/form/div/strong' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Verify Teks Verifikasi Email.run(Verify Teks Verifikasi Email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SIGNUP003 - Sign Up With Less Then 8 Characters Of Password.run(SIGNUP003 - Sign Up With Less Then 8 Characters Of Password:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666674031644.run(TempTestSuite1666674031644.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\PC\\git\\Tim3_KatalonWeb\\Reports\\20221025_120031\\Feature Register\\20221025_120031\\1666674166937.png]]
+
+2022-10-25 12:02:47 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Verify Teks Verifikasi Email.run(Verify Teks Verifikasi Email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SIGNUP003 - Sign Up With Less Then 8 Characters Of Password.run(SIGNUP003 - Sign Up With Less Then 8 Characters Of Password:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666674031644.run(TempTestSuite1666674031644.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' located by '//div[@id='root']/div/div/div[2]/form/div/strong' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+[[ATTACHMENT|C:\\Users\\PC\\git\\Tim3_KatalonWeb\\Reports\\20221025_120031\\Feature Register\\20221025_120031\\1666674167394.png]]
+
+2022-10-25 12:02:47 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SIGNUP003 - Sign Up With Less Then 8 Characters Of Password.run(SIGNUP003 - Sign Up With Less Then 8 Characters Of Password:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666674031644.run(TempTestSuite1666674031644.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Verify Teks Verifikasi Email.run(Verify Teks Verifikasi Email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' located by '//div[@id='root']/div/div/div[2]/form/div/strong' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2022-10-25 12:02:47 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-10-25 12:02:47 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Register/SIGNUP003 - Sign Up With Less Then 8 Characters Of Password
+
+2022-10-25 12:02:47 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Register/SIGNUP003 - Sign Up With Less Then 8 Characters Of Password
+
+2022-10-25 12:02:47 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2022-10-25 12:02:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-25 12:02:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2022-10-25 12:02:01 - [TEST_CASE][FAILED] - Test Cases/StepDefinition/Feature Register/SIGNUP003 - Sign Up With Less Then 8 Characters Of Password: Test Cases/StepDefinition/Feature Register/SIGNUP003 - Sign Up With Less Then 8 Characters Of Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SIGNUP003 - Sign Up With Less Then 8 Characters Of Password.run(SIGNUP003 - Sign Up With Less Then 8 Characters Of Password:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666674031644.run(TempTestSuite1666674031644.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Verify Teks Verifikasi Email.run(Verify Teks Verifikasi Email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' located by '//div[@id='root']/div/div/div[2]/form/div/strong' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StepDefinition/Feature Register/SIGNUP002 - Sign Up With Registered Email" time="17.724" classname="Test Cases/StepDefinition/Feature Register/SIGNUP002 - Sign Up With Registered Email" status="PASSED">
+         <system-out><![CDATA[2022-10-25 12:02:48 - [TEST_CASE][PASSED] - Test Cases/StepDefinition/Feature Register/SIGNUP002 - Sign Up With Registered Email: Test Cases/StepDefinition/Feature Register/SIGNUP002 - Sign Up With Registered Email
+
+2022-10-25 12:02:48 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 12:02:48 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Register/SIGNUP002 - Sign Up With Registered Email
+
+2022-10-25 12:02:48 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Register/SIGNUP002 - Sign Up With Registered Email
+
+2022-10-25 12:02:48 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2022-10-25 12:02:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-25 12:02:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-25 12:02:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-25 12:02:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-25 12:02:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-25 12:02:50 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-25 12:02:50 - [TEST_STEP][PASSED] - navigateToUrl("https://deployed-five.vercel.app"): Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 12:02:53 - [MESSAGE][PASSED] - Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 12:02:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserRegister/Click Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserRegister/Click Button Masuk' successfully
+
+2022-10-25 12:02:53 - [TEST_CASE][PASSED] - Test Cases/Pages/UserRegister/Click Button Masuk: Test Cases/Pages/UserRegister/Click Button Masuk
+
+2022-10-25 12:02:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_Register/button_Masuk")): Object: 'Object Repository/Page_Register/button_Masuk' is clicked on
+
+2022-10-25 12:02:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Register/button_Masuk' is clicked on
+
+2022-10-25 12:02:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserRegister/Click Button Masuk' successfully
+
+2022-10-25 12:02:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserRegister/Click Link Daftar Di Sini"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserRegister/Click Link Daftar Di Sini' successfully
+
+2022-10-25 12:02:55 - [TEST_CASE][PASSED] - Test Cases/Pages/UserRegister/Click Link Daftar Di Sini: Test Cases/Pages/UserRegister/Click Link Daftar Di Sini
+
+2022-10-25 12:02:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Register/link_Daftar di sini")): Object: 'Object Repository/Page_Register/link_Daftar di sini' is clicked on
+
+2022-10-25 12:02:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Register/link_Daftar di sini' is clicked on
+
+2022-10-25 12:02:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserRegister/Click Link Daftar Di Sini' successfully
+
+2022-10-25 12:02:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserRegister/Input Nama"), ["nama":"Afi Sherma Ranita"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserRegister/Input Nama' successfully
+
+2022-10-25 12:02:56 - [TEST_CASE][PASSED] - Test Cases/Pages/UserRegister/Input Nama: Test Cases/Pages/UserRegister/Input Nama
+
+2022-10-25 12:02:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Register/textfield_Nama"), nama): Keys 'Afi Sherma Ranita' sent to object: 'Object Repository/Page_Register/textfield_Nama'
+
+2022-10-25 12:02:57 - [MESSAGE][PASSED] - Keys 'Afi Sherma Ranita' sent to object: 'Object Repository/Page_Register/textfield_Nama'
+
+2022-10-25 12:02:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserRegister/Input Nama' successfully
+
+2022-10-25 12:02:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserRegister/Input Email Address"), ["email":"pltnmchllgn01@yopmail.com"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserRegister/Input Email Address' successfully
+
+2022-10-25 12:02:57 - [TEST_CASE][PASSED] - Test Cases/Pages/UserRegister/Input Email Address: Test Cases/Pages/UserRegister/Input Email Address
+
+2022-10-25 12:02:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Register/textfield_Email address"), email): Keys 'pltnmchllgn01@yopmail.com' sent to object: 'Object Repository/Page_Register/textfield_Email address'
+
+2022-10-25 12:02:57 - [MESSAGE][PASSED] - Keys 'pltnmchllgn01@yopmail.com' sent to object: 'Object Repository/Page_Register/textfield_Email address'
+
+2022-10-25 12:02:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserRegister/Input Email Address' successfully
+
+2022-10-25 12:02:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Input Password"), ["password":"Password.123"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Input Password' successfully
+
+2022-10-25 12:02:57 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Input Password: Test Cases/Pages/UserLogin/Input Password
+
+2022-10-25 12:02:57 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/input_Password")): Text of object 'Object Repository/Page_Login/input_Password' is cleared
+
+2022-10-25 12:02:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/input_Password' is cleared
+
+2022-10-25 12:02:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Password"), password): Keys 'Password.123' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-10-25 12:02:58 - [MESSAGE][PASSED] - Keys 'Password.123' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-10-25 12:02:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Input Password' successfully
+
+2022-10-25 12:02:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserRegister/Click Daftar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserRegister/Click Daftar' successfully
+
+2022-10-25 12:02:59 - [TEST_CASE][PASSED] - Test Cases/Pages/UserRegister/Click Daftar: Test Cases/Pages/UserRegister/Click Daftar
+
+2022-10-25 12:02:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Register/button_Daftar")): Object: 'Object Repository/Page_Register/button_Daftar' is clicked on
+
+2022-10-25 12:02:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Register/button_Daftar' is clicked on
+
+2022-10-25 12:02:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserRegister/Click Daftar' successfully
+
+2022-10-25 12:02:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserRegister/Verify Teks Verifikasi Email"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email' successfully
+
+2022-10-25 12:02:59 - [TEST_CASE][PASSED] - Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email: Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email
+
+2022-10-25 12:02:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami")): Object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible
+
+2022-10-25 12:03:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible
+
+2022-10-25 12:03:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email' successfully
+
+2022-10-25 12:03:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-10-25 12:03:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-10-25 12:03:05 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-10-25 12:03:05 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Register/SIGNUP002 - Sign Up With Registered Email
+
+2022-10-25 12:03:05 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Register/SIGNUP002 - Sign Up With Registered Email
+
+2022-10-25 12:03:05 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2022-10-25 12:03:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-25 12:03:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-25 12:00:38 - [TEST_SUITE][FAILED] - Feature Register: Test Cases/StepDefinition/Feature Register/SIGNUP004 - Sign Up With Name Contains Special Characters FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SIGNUP004 - Sign Up With Name Contains Special Characters.run(SIGNUP004 - Sign Up With Name Contains Special Characters:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666674031644.run(TempTestSuite1666674031644.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Verify Teks Verifikasi Email.run(Verify Teks Verifikasi Email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' located by '//div[@id='root']/div/div/div[2]/form/div/strong' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-out>
+      <system-err><![CDATA[2022-10-25 12:00:38 - [TEST_SUITE][FAILED] - Feature Register: Test Cases/StepDefinition/Feature Register/SIGNUP004 - Sign Up With Name Contains Special Characters FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/UserRegister/Verify Teks Verifikasi Email' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SIGNUP004 - Sign Up With Name Contains Special Characters.run(SIGNUP004 - Sign Up With Name Contains Special Characters:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666674031644.run(TempTestSuite1666674031644.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Verify Teks Verifikasi Email.run(Verify Teks Verifikasi Email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami' located by '//div[@id='root']/div/div/div[2]/form/div/strong' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-err>
+   </testsuite>
+</testsuites>

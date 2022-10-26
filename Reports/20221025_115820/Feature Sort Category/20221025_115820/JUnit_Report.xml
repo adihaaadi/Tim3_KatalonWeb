@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Sort Category" time="76.512" tests="5" failures="0" errors="0">
+   <testsuite name="Feature Sort Category" tests="5" failures="0" errors="0" time="76.512" skipped="0" timestamp="2022-10-25 11:58:30" hostname="PC - DESKTOP-26A9125" id="Test Suites/Feature Sort Category">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PC\\git\\Tim3_KatalonWeb\\Reports\\20221025_115820\\Feature Sort Category\\20221025_115820"/>
+         <property name="logFiles" value="C:\\Users\\PC\\git\\Tim3_KatalonWeb\\Reports\\20221025_115820\\Feature Sort Category\\20221025_115820\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PC - DESKTOP-26A9125"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="192.168.18.21"/>
+         <property name="sessionId" value="d8144fa03d30801fb6561d3308b7ac0e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/StepDefinition/Feature Sort Category/SORT001 - category Baju" time="13.818" classname="Test Cases/StepDefinition/Feature Sort Category/SORT001 - category Baju" status="PASSED">
+         <system-out><![CDATA[2022-10-25 11:58:40 - [TEST_CASE][PASSED] - Test Cases/StepDefinition/Feature Sort Category/SORT001 - category Baju: Test Cases/StepDefinition/Feature Sort Category/SORT001 - category Baju
+
+2022-10-25 11:58:40 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 11:58:40 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Sort Category/SORT001 - category Baju
+
+2022-10-25 11:58:40 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Sort Category/SORT001 - category Baju
+
+2022-10-25 11:58:40 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2022-10-25 11:58:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-25 11:58:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-25 11:58:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-25 11:58:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-25 11:58:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-25 11:58:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-25 11:58:43 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-25 11:58:43 - [TEST_STEP][PASSED] - navigateToUrl("https://deployed-five.vercel.app"): Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 11:58:47 - [MESSAGE][PASSED] - Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 11:58:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Click kategori baju"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Click kategori baju' successfully
+
+2022-10-25 11:58:48 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Click kategori baju: Test Cases/Pages/Homepage/Click kategori baju
+
+2022-10-25 11:58:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_Category/button_Baju")): Object: 'Object Repository/Page_Category/button_Baju' is clicked on
+
+2022-10-25 11:58:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Category/button_Baju' is clicked on
+
+2022-10-25 11:58:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Click kategori baju' successfully
+
+2022-10-25 11:58:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-10-25 11:58:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-10-25 11:58:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Homepage/text_product3_category"), "Baju"): Actual text and expected text of test object 'Object Repository/Homepage/text_product3_category' are matched.
+
+2022-10-25 11:58:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Homepage/text_product3_category' are matched.
+
+2022-10-25 11:58:53 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-10-25 11:58:53 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Sort Category/SORT001 - category Baju
+
+2022-10-25 11:58:53 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Sort Category/SORT001 - category Baju
+
+2022-10-25 11:58:53 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2022-10-25 11:58:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-25 11:58:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StepDefinition/Feature Sort Category/SORT002 - category elektronik" time="11.76" classname="Test Cases/StepDefinition/Feature Sort Category/SORT002 - category elektronik" status="PASSED">
+         <system-out><![CDATA[2022-10-25 11:58:54 - [TEST_CASE][PASSED] - Test Cases/StepDefinition/Feature Sort Category/SORT002 - category elektronik: Test Cases/StepDefinition/Feature Sort Category/SORT002 - category elektronik
+
+2022-10-25 11:58:54 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 11:58:54 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Sort Category/SORT002 - category elektronik
+
+2022-10-25 11:58:54 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Sort Category/SORT002 - category elektronik
+
+2022-10-25 11:58:54 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2022-10-25 11:58:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-25 11:58:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-25 11:58:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-25 11:58:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-25 11:58:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-25 11:58:56 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-25 11:58:56 - [TEST_STEP][PASSED] - navigateToUrl("https://deployed-five.vercel.app"): Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 11:58:59 - [MESSAGE][PASSED] - Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 11:59:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Click kategori elektronik"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Click kategori elektronik' successfully
+
+2022-10-25 11:59:00 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Click kategori elektronik: Test Cases/Pages/Homepage/Click kategori elektronik
+
+2022-10-25 11:59:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_Category/button_Elektronik")): Object: 'Object Repository/Page_Category/button_Elektronik' is clicked on
+
+2022-10-25 11:59:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Category/button_Elektronik' is clicked on
+
+2022-10-25 11:59:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Click kategori elektronik' successfully
+
+2022-10-25 11:59:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-10-25 11:59:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-10-25 11:59:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Homepage/text_product3_category"), "Elektronik"): Actual text and expected text of test object 'Object Repository/Homepage/text_product3_category' are matched.
+
+2022-10-25 11:59:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Homepage/text_product3_category' are matched.
+
+2022-10-25 11:59:05 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-10-25 11:59:05 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Sort Category/SORT002 - category elektronik
+
+2022-10-25 11:59:05 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Sort Category/SORT002 - category elektronik
+
+2022-10-25 11:59:05 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2022-10-25 11:59:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-25 11:59:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StepDefinition/Feature Sort Category/SORT005 - category hobi" time="15.668" classname="Test Cases/StepDefinition/Feature Sort Category/SORT005 - category hobi" status="PASSED">
+         <system-out><![CDATA[2022-10-25 11:59:06 - [TEST_CASE][PASSED] - Test Cases/StepDefinition/Feature Sort Category/SORT005 - category hobi: Test Cases/StepDefinition/Feature Sort Category/SORT005 - category hobi
+
+2022-10-25 11:59:06 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 11:59:06 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Sort Category/SORT005 - category hobi
+
+2022-10-25 11:59:06 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Sort Category/SORT005 - category hobi
+
+2022-10-25 11:59:06 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2022-10-25 11:59:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-25 11:59:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-25 11:59:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-25 11:59:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-25 11:59:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-25 11:59:08 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-25 11:59:08 - [TEST_STEP][PASSED] - navigateToUrl("https://deployed-five.vercel.app"): Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 11:59:15 - [MESSAGE][PASSED] - Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 11:59:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Click kategori hobi"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Click kategori hobi' successfully
+
+2022-10-25 11:59:15 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Click kategori hobi: Test Cases/Pages/Homepage/Click kategori hobi
+
+2022-10-25 11:59:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_Category/button_Hoby")): Object: 'Object Repository/Page_Category/button_Hoby' is clicked on
+
+2022-10-25 11:59:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Category/button_Hoby' is clicked on
+
+2022-10-25 11:59:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Click kategori hobi' successfully
+
+2022-10-25 11:59:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-10-25 11:59:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-10-25 11:59:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Homepage/text_product3_category"), "Hoby"): Actual text and expected text of test object 'Object Repository/Homepage/text_product3_category' are matched.
+
+2022-10-25 11:59:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Homepage/text_product3_category' are matched.
+
+2022-10-25 11:59:21 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-10-25 11:59:21 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Sort Category/SORT005 - category hobi
+
+2022-10-25 11:59:21 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Sort Category/SORT005 - category hobi
+
+2022-10-25 11:59:21 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2022-10-25 11:59:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-25 11:59:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StepDefinition/Feature Sort Category/SORT004 - category kendaraan" time="12.862" classname="Test Cases/StepDefinition/Feature Sort Category/SORT004 - category kendaraan" status="PASSED">
+         <system-out><![CDATA[2022-10-25 11:59:22 - [TEST_CASE][PASSED] - Test Cases/StepDefinition/Feature Sort Category/SORT004 - category kendaraan: Test Cases/StepDefinition/Feature Sort Category/SORT004 - category kendaraan
+
+2022-10-25 11:59:22 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 11:59:22 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Sort Category/SORT004 - category kendaraan
+
+2022-10-25 11:59:22 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Sort Category/SORT004 - category kendaraan
+
+2022-10-25 11:59:22 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2022-10-25 11:59:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-25 11:59:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-25 11:59:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-25 11:59:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-25 11:59:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-25 11:59:24 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-25 11:59:24 - [TEST_STEP][PASSED] - navigateToUrl("https://deployed-five.vercel.app"): Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 11:59:27 - [MESSAGE][PASSED] - Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 11:59:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Click kategori kendaraan"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Click kategori kendaraan' successfully
+
+2022-10-25 11:59:28 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Click kategori kendaraan: Test Cases/Pages/Homepage/Click kategori kendaraan
+
+2022-10-25 11:59:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_Category/button_Kendaraan")): Object: 'Object Repository/Page_Category/button_Kendaraan' is clicked on
+
+2022-10-25 11:59:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Category/button_Kendaraan' is clicked on
+
+2022-10-25 11:59:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Click kategori kendaraan' successfully
+
+2022-10-25 11:59:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-10-25 11:59:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-10-25 11:59:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Homepage/text_product3_category"), "Kendaraan"): Actual text and expected text of test object 'Object Repository/Homepage/text_product3_category' are matched.
+
+2022-10-25 11:59:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Homepage/text_product3_category' are matched.
+
+2022-10-25 11:59:34 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-10-25 11:59:34 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Sort Category/SORT004 - category kendaraan
+
+2022-10-25 11:59:34 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Sort Category/SORT004 - category kendaraan
+
+2022-10-25 11:59:34 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2022-10-25 11:59:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-25 11:59:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StepDefinition/Feature Sort Category/SORT003 - category kesehatan" time="11.788" classname="Test Cases/StepDefinition/Feature Sort Category/SORT003 - category kesehatan" status="PASSED">
+         <system-out><![CDATA[2022-10-25 11:59:34 - [TEST_CASE][PASSED] - Test Cases/StepDefinition/Feature Sort Category/SORT003 - category kesehatan: Test Cases/StepDefinition/Feature Sort Category/SORT003 - category kesehatan
+
+2022-10-25 11:59:34 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 11:59:34 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Sort Category/SORT003 - category kesehatan
+
+2022-10-25 11:59:34 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Sort Category/SORT003 - category kesehatan
+
+2022-10-25 11:59:34 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2022-10-25 11:59:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-25 11:59:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-25 11:59:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-25 11:59:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-25 11:59:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-25 11:59:36 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-25 11:59:36 - [TEST_STEP][PASSED] - navigateToUrl("https://deployed-five.vercel.app"): Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 11:59:39 - [MESSAGE][PASSED] - Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 11:59:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Click kategori kesehatan"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Click kategori kesehatan' successfully
+
+2022-10-25 11:59:40 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Click kategori kesehatan: Test Cases/Pages/Homepage/Click kategori kesehatan
+
+2022-10-25 11:59:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Category/button_Kesehatan")): Object: 'Object Repository/Page_Category/button_Kesehatan' is clicked on
+
+2022-10-25 11:59:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Category/button_Kesehatan' is clicked on
+
+2022-10-25 11:59:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Click kategori kesehatan' successfully
+
+2022-10-25 11:59:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-10-25 11:59:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-10-25 11:59:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Homepage/text_product3_category"), "Kesehatan"): Actual text and expected text of test object 'Object Repository/Homepage/text_product3_category' are matched.
+
+2022-10-25 11:59:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Homepage/text_product3_category' are matched.
+
+2022-10-25 11:59:45 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-10-25 11:59:45 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Sort Category/SORT003 - category kesehatan
+
+2022-10-25 11:59:45 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Sort Category/SORT003 - category kesehatan
+
+2022-10-25 11:59:45 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2022-10-25 11:59:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-25 11:59:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-25 11:58:30 - [TEST_SUITE][PASSED] - Feature Sort Category: Test Cases/StepDefinition/Feature Sort Category/SORT003 - category kesehatan]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

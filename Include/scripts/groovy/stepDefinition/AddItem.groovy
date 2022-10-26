@@ -63,13 +63,13 @@ class AddItem {
 	@Then("User click login button")
 	public void user_click_login_button() {
 		WebUI.callTestCase(findTestCase('Pages/UserAddItem/Click login button'), [:], FailureHandling.STOP_ON_FAILURE)
-		}
+	}
 
 	@Then("User click Jual")
 	public void user_click_Jual() {
 		WebUI.callTestCase(findTestCase('Pages/UserAddItem/Click Jual'), [:], FailureHandling.STOP_ON_FAILURE)
 		WebUI.delay(2)
-		}
+	}
 
 	@Then("User fill Nama Produk field")
 	public void user_fill_Nama_Produk_field() {
@@ -89,7 +89,7 @@ class AddItem {
 	@Then("User Deskripsi field")
 	public void user_Deskripsi_field() {
 		WebUI.callTestCase(findTestCase('Pages/UserAddItem/Input Deskripsi'), [('deskripsi') : 'Obat untuk meredakan nyeri otot pada punggung dan pinggang'],
-			FailureHandling.STOP_ON_FAILURE)
+		FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("User choose Image from device or local drive")
