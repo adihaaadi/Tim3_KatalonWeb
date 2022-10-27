@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SUBOF002 - Offering with input harga tawar</name>
+   <name>SUBOF002 - Offering with invalid input harga tawar</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>17fa523d-5403-42ab-93e7-f14b2a927647</testCaseGuid>

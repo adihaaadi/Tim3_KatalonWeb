@@ -21,7 +21,7 @@ WebUI.verifyElementVisible(findTestObject('Page_Submit_Offering/div_popup'))
 
 WebUI.verifyElementVisible(findTestObject('Page_Submit_Offering/text_header_masukkan_haga_tawarmu'))
 
-WebUI.verifyElementVisible(findTestObject('Page_Submit_Offering/button_close_popup'))
+WebUI.verifyElementVisible(findTestObject('Page_Submit_Offering/button_closepopup'))
 
 WebUI.verifyElementVisible(findTestObject('Page_Submit_Offering/text_area_harga_tawarmu_akan_diketahui_penjual'))
 
@@ -35,7 +35,7 @@ WebUI.verifyElementVisible(findTestObject('Page_Submit_Offering/text_productpric
 
 WebUI.verifyElementVisible(findTestObject('Page_Submit_Offering/text_label_Harga Tawar'))
 
-WebUI.verifyElementVisible(findTestObject('Page_Submit_Offering/text_input_numberarea_Harga Tawar_form'))
+WebUI.verifyElementVisible(findTestObject('Page_Submit_Offering/input_Harga Tawar_form-control'))
 
 WebUI.verifyElementVisible(findTestObject('Page_Submit_Offering/button_Kirim'))
 

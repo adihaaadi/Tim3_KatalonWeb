@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Kirim</name>
+   <name>div_DonutHobyRp6.000,00</name>
    <tag></tag>
-   <elementGuidId>4b759f65-a503-416a-9525-d2e3ff392b6b</elementGuidId>
+   <elementGuidId>db0796aa-e33a-45c9-ae09-62d6241322c0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga Tawar'])[1]/following::button[1]</value>
+         <value>//div[@id='root']/div/div/div[2]/div[2]/div[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.modal-footer > button.btn.btn-primary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,71 +20,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>1204305e-456f-4866-8a6b-10c909723763</webElementGuid>
+      <value>div</value>
+      <webElementGuid>16abad51-1874-42c4-88c5-5dc2dcc43883</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary</value>
-      <webElementGuid>c6d51f87-ced4-4c63-b47f-5218a426ca02</webElementGuid>
+      <value>card </value>
+      <webElementGuid>7383576d-87d0-48ff-b0ab-422db30f1ba4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Kirim</value>
-      <webElementGuid>4baad32e-6fde-40b7-9f30-ab7134adf3de</webElementGuid>
+      <value>DonutHobyRp 6.000,00</value>
+      <webElementGuid>26d084bb-1be3-4437-b848-29a53ea2391b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;fade modal show&quot;]/div[@class=&quot;modal-dialog modal-sm modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>bad6b68c-56a0-481c-b79c-320facf3a131</webElementGuid>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;pb-5&quot;]/div[@class=&quot;container pb-5&quot;]/div[@class=&quot;products&quot;]/div[@class=&quot;card&quot;]</value>
+      <webElementGuid>a6347624-b9ad-42bf-aede-c6d0052da499</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga Tawar'])[1]/following::button[1]</value>
-      <webElementGuid>edfabddf-d6aa-4d12-b8ea-d780b883526c</webElementGuid>
+      <value>//div[@id='root']/div/div/div[2]/div[2]/div[2]</value>
+      <webElementGuid>eda32405-9fd5-4c9b-a1be-9b341f4a6bad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tesla'])[2]/following::button[1]</value>
-      <webElementGuid>0d342762-3022-44f4-a923-5022b83b67a8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jual'])[1]/preceding::div[257]</value>
+      <webElementGuid>beb3da47-5493-4a6b-8069-85f43d9aec66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Kirim']/parent::*</value>
-      <webElementGuid>8c309404-2ffa-49fd-b0c3-57efca0d1476</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::div[257]</value>
+      <webElementGuid>7ec25bfb-0408-4f2e-9ce4-f8fe48b88a19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/button</value>
-      <webElementGuid>e8008f1b-8872-4f0c-9c1b-8cbd1e8cc262</webElementGuid>
+      <value>//div[2]/div[2]/div[2]</value>
+      <webElementGuid>1edf6580-f3c2-42fd-9e15-2624ec24cff8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = 'Kirim' or . = 'Kirim')]</value>
-      <webElementGuid>da93e463-9c90-4b4d-9e45-30fa967e3076</webElementGuid>
+      <value>//div[(text() = 'DonutHobyRp 6.000,00' or . = 'DonutHobyRp 6.000,00')]</value>
+      <webElementGuid>8974407b-9ab3-4062-b76c-6c5b5c46eb57</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_close_popup</name>
+   <name>button_closepopup</name>
    <tag></tag>
-   <elementGuidId>7beadddd-a5bb-4340-bb00-b160d215639b</elementGuidId>
+   <elementGuidId>a125773b-db70-4b80-bb91-51cef2fe3f06</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -14,7 +14,7 @@
          <value>button.btn.btn-light</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1351310b-80ce-480b-a89f-6eeda79053cf</webElementGuid>
+      <webElementGuid>c8b5bef1-d362-4d80-8b5f-c9a27427dc7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>70b32e8c-80fa-4ac4-8260-e409c40eff88</webElementGuid>
+      <webElementGuid>e8ece823-c4d2-4ba2-b092-26661c4dbf0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-light</value>
-      <webElementGuid>9b0a5e28-0fad-4343-b502-aac8ced37cda</webElementGuid>
+      <webElementGuid>fa762944-e244-4528-b91b-4709e395743e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;fade modal show&quot;]/div[@class=&quot;modal-dialog modal-sm modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-header&quot;]/button[@class=&quot;btn btn-light&quot;]</value>
-      <webElementGuid>6d01ac3b-c9fd-40f6-898d-40f6eef47fb0</webElementGuid>
+      <webElementGuid>1d4617da-f6db-426a-9364-8b70895b3e36</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[7]</value>
-      <webElementGuid>83a0cadc-acef-4d54-8245-3c1826cd382f</webElementGuid>
+      <webElementGuid>9d2d0086-ea3a-4f19-95d6-a46e5cb49218</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Masukkan Harga Tawarmu'])[1]/following::button[1]</value>
-      <webElementGuid>95410086-fa1b-4346-a605-9855a526e901</webElementGuid>
+      <webElementGuid>bc8380f5-8776-4432-bdab-e2278c25677e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::button[1]</value>
-      <webElementGuid>0f4c8484-0892-44d3-a200-74cfea4b7309</webElementGuid>
+      <webElementGuid>ee4e0542-bfe9-4012-93c9-154199b166c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tesla'])[2]/preceding::button[1]</value>
-      <webElementGuid>b4db07a7-1e43-4a4f-9075-38570627bc58</webElementGuid>
+      <webElementGuid>bad65efc-14e9-4a06-960a-f881ff7623ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga Tawar'])[1]/preceding::button[1]</value>
-      <webElementGuid>67a3f0a9-8d2c-483e-9f5e-06e1097fc29b</webElementGuid>
+      <webElementGuid>904ae446-b8bb-4b29-b61c-4cb3d58d2180</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div/button</value>
-      <webElementGuid>110896cf-7478-4157-a7b1-9350118408e9</webElementGuid>
+      <webElementGuid>1c7c1730-970f-4c5f-bad4-e37be205173f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button']</value>
-      <webElementGuid>636c87b0-85eb-460d-be22-5a3da5a550d4</webElementGuid>
+      <webElementGuid>7ac9893c-eebb-44d9-84a8-1b8b6a9a0575</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>text_input_numberarea_Harga Tawar_form</name>
+   <name>input_Harga Tawar_form-control</name>
    <tag></tag>
-   <elementGuidId>092c9daf-2e4e-482b-bb21-129f9e1046b7</elementGuidId>
+   <elementGuidId>de5d6a9b-5bee-4444-8d4d-8f5cb850d042</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,10 +11,9 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,15 +21,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ea4726e0-07ea-4840-a98c-0d32ab9612e0</webElementGuid>
+      <webElementGuid>3a19b4f2-a51b-41cc-89b4-96a35f653633</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>a268925a-7b40-4cad-9ad3-dccae7739f98</webElementGuid>
+      <webElementGuid>e27d45ba-227b-4b6b-8ccf-694d01dced8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +37,15 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>d10dce87-5f60-4a7b-8732-82c119373247</webElementGuid>
+      <webElementGuid>00485aeb-d2bc-403e-8add-bf776d5318c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Rp 0,00</value>
-      <webElementGuid>c01d05bf-b45c-467d-b52d-e034b0dbfe94</webElementGuid>
+      <webElementGuid>b7115f4c-34a9-4c3c-949a-2a4d881068e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;fade modal show&quot;]/div[@class=&quot;modal-dialog modal-sm modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;mt-4&quot;]/input[@class=&quot;form-control&quot;]</value>
-      <webElementGuid>99fc535f-f2fa-44fb-94de-b6341aa4934f</webElementGuid>
+      <webElementGuid>ba5aca89-e21e-48cb-8570-9e79a7fc8f71</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='']</value>
-      <webElementGuid>3ee9141d-4380-449f-bf0e-bc1a355613ac</webElementGuid>
+      <webElementGuid>8956c211-f2a7-46b0-b1fc-c12347b81c0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-      <webElementGuid>f063e6d1-64ef-4977-9b40-befbb987dc9b</webElementGuid>
+      <webElementGuid>060414d4-bc96-41b5-a8d6-922d81379719</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +77,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'Rp 0,00']</value>
-      <webElementGuid>e9fe9d15-1a85-4536-a229-e4441303933e</webElementGuid>
+      <webElementGuid>cbe79708-8c0d-4edf-b2ce-fec76bdbc62c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

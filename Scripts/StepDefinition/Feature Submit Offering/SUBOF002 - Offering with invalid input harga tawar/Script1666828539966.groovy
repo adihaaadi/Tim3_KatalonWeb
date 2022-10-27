@@ -21,15 +21,11 @@ WebUI.callTestCase(findTestCase('StepDefinition/Feature Login/LOGIN001 - Login w
 
 WebUI.click(findTestObject('Page_Submit_Offering/div_TeslaKendaraanRp1.500.000,00'))
 
-WebUI.callTestCase(findTestCase('Pages/Product Detail/Verify Content Product from Other Seller'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_Submit_Offering/button_Saya tertarik dan ingin nego'))
 
-WebUI.scrollToElement(findTestObject('Page_Product_Detail/text_product_name'), 0)
-
-WebUI.click(findTestObject('Page_Product_Detail/button_offering'))
-
-WebUI.callTestCase(findTestCase('Pages/SubmitOffering/Verify Content Pop Up'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/SubmitOffering/Input Harga Tawar'), [('harga tawar') : '1000000'], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Page_Submit_Offering/input_Harga Tawar_form-control'), '100000')
 
 WebUI.callTestCase(findTestCase('Pages/SubmitOffering/Click Kirim'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
 

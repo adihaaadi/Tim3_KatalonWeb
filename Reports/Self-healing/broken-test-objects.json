@@ -26,6 +26,78 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Submit_Offering/div_TeslaKendaraanRp1.500.000,00_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Raket Badminton/div_Raket BadmintonHobyRp30.000,00",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div[2]/div[2]/div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Raket Badminton/div_Raket BadmintonHobyRp30.000,00_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Submit_Offering/div_popup",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[(text() \u003d \u0027Masukkan Harga TawarmuHarga tawaranmu akan diketahui penual, jika penjual cocok kamu akan segera dihubungi penjual.Tesla Rp 1.500.000,00Harga TawarKirim\u0027 or . \u003d \u0027Masukkan Harga TawarmuHarga tawaranmu akan diketahui penual, jika penjual cocok kamu akan segera dihubungi penjual.Tesla Rp 1.500.000,00Harga TawarKirim\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Submit_Offering/div_popup_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Submit_Offering/text_header_masukkan_haga_tawarmu",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Tesla\u0027])[2]/preceding::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Submit_Offering/text_header_masukkan_haga_tawarmu_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Submit_Offering/text_area_harga_tawarmu_akan_diketahui_penjual",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Masukkan Harga Tawarmu\u0027])[1]/following::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Submit_Offering/text_area_harga_tawarmu_akan_diketahui_penjual_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Submit_Offering/image_product_tesla",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//img[@alt\u003d\u0027Product\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Submit_Offering/image_product_tesla_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Submit_Offering/text_productname_tesla",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Masukkan Harga Tawarmu\u0027])[1]/following::h5[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Submit_Offering/text_productname_tesla_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Submit_Offering/text_productprice_tesla",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Tesla\u0027])[2]/following::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Submit_Offering/text_productprice_tesla_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Submit_Offering/text_label_Harga Tawar",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Tesla\u0027])[2]/following::label[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Submit_Offering/text_label_Harga Tawar_XPATH.png"
     }
   ]
 }

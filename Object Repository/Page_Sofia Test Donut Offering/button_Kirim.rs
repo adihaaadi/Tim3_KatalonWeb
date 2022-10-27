@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Kirim</name>
    <tag></tag>
-   <elementGuidId>4b759f65-a503-416a-9525-d2e3ff392b6b</elementGuidId>
+   <elementGuidId>9644b51b-b61b-4b6a-8e05-b2eb8a4a895c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1204305e-456f-4866-8a6b-10c909723763</webElementGuid>
+      <webElementGuid>98ca8d63-cb37-4565-884c-9703ab49849f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>c6d51f87-ced4-4c63-b47f-5218a426ca02</webElementGuid>
+      <webElementGuid>179fa8d2-f774-4e19-87b3-c2c0954f8f1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Kirim</value>
-      <webElementGuid>4baad32e-6fde-40b7-9f30-ab7134adf3de</webElementGuid>
+      <webElementGuid>f368d1e7-3843-47c3-a644-d0357dc09207</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;fade modal show&quot;]/div[@class=&quot;modal-dialog modal-sm modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>bad6b68c-56a0-481c-b79c-320facf3a131</webElementGuid>
+      <webElementGuid>48a16201-06c1-4e0a-87d3-dad509ef3c28</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,15 +54,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga Tawar'])[1]/following::button[1]</value>
-      <webElementGuid>edfabddf-d6aa-4d12-b8ea-d780b883526c</webElementGuid>
+      <webElementGuid>365b2b06-5a69-44bb-866a-ae39048a5e84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tesla'])[2]/following::button[1]</value>
-      <webElementGuid>0d342762-3022-44f4-a923-5022b83b67a8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Donut'])[2]/following::button[1]</value>
+      <webElementGuid>0a468180-470a-4bfd-8001-ae8e84c258db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Kirim']/parent::*</value>
-      <webElementGuid>8c309404-2ffa-49fd-b0c3-57efca0d1476</webElementGuid>
+      <webElementGuid>86c0bff6-b556-44e2-973b-59effbc7c6bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button</value>
-      <webElementGuid>e8008f1b-8872-4f0c-9c1b-8cbd1e8cc262</webElementGuid>
+      <webElementGuid>31d409cb-8a48-4b55-97ef-91c043775f5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Kirim' or . = 'Kirim')]</value>
-      <webElementGuid>da93e463-9c90-4b4d-9e45-30fa967e3076</webElementGuid>
+      <webElementGuid>0830d88b-28ce-4e72-ab4a-3aea27431a4e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
