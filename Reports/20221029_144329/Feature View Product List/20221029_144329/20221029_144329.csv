@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature View Product List,Chrome 105.0.0.0,,,2022-10-29 14:43:43,2022-10-29 14:44:49,1m - 6.609s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature View Product List/VIEWPRODUCTLIST - User Want To See View Product List,Chrome 105.0.0.0,,,2022-10-29 14:43:55,2022-10-29 14:44:22,26.618s,PASSED
+Start listener action : beforeTestCase,Chrome 105.0.0.0,,,2022-10-29 14:43:55,2022-10-29 14:44:04,9.021s,PASSED
+"callTestCase(findTestCase(""Pages/UserViewProductList/Click Link Masuk""), [:], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-10-29 14:44:05,2022-10-29 14:44:09,4.615s,PASSED
+"callTestCase(findTestCase(""Pages/UserViewProductList/Input Username""), [""email"":""binarqae1@gmail.com""], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-10-29 14:44:09,2022-10-29 14:44:13,3.445s,PASSED
+"callTestCase(findTestCase(""Pages/UserViewProductList/Input Password""), [""password"":""students1234""], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-10-29 14:44:13,2022-10-29 14:44:14,1.207s,PASSED
+"callTestCase(findTestCase(""Pages/UserViewProductList/Click login button""), [:], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-10-29 14:44:14,2022-10-29 14:44:15,1.374s,PASSED
+"scrollToElement(findTestObject(""Page_Home/button_Semua""), 3)",Chrome 105.0.0.0,,,2022-10-29 14:44:15,2022-10-29 14:44:18,2.159s,PASSED
+delay(3),Chrome 105.0.0.0,,,2022-10-29 14:44:18,2022-10-29 14:44:21,3.041s,PASSED
+Start listener action : afterTestCase,Chrome 105.0.0.0,,,2022-10-29 14:44:21,2022-10-29 14:44:22,0.894s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature View Product List/VIEWPRODUCTLIST002 - View All Product List on Daftar Jual Saya,Chrome 105.0.0.0,,,2022-10-29 14:44:22,2022-10-29 14:44:49,27.711s,PASSED
+Start listener action : beforeTestCase,Chrome 105.0.0.0,,,2022-10-29 14:44:22,2022-10-29 14:44:28,6.922s,PASSED
+"callTestCase(findTestCase(""StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password""), [:], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-10-29 14:44:29,2022-10-29 14:44:42,12.753s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Click Menu Button""), [:], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-10-29 14:44:42,2022-10-29 14:44:43,1.188s,PASSED
+"callTestCase(findTestCase(""Pages/Product List Daftar Jual Saya/Verify All Product Daftar Jual Saya""), [:], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-10-29 14:44:43,2022-10-29 14:44:48,4.730s,PASSED
+Start listener action : afterTestCase,Chrome 105.0.0.0,,,2022-10-29 14:44:48,2022-10-29 14:44:49,1.309s,PASSED
