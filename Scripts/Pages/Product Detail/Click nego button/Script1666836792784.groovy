@@ -17,15 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('Page_Submit_Offering/text_header_masukkan_haga_tawarmu'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Submit_Offering/image_product_tesla'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Submit_Offering/text_productname_tesla'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Submit_Offering/text_productprice_tesla'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Submit_Offering/text_label_Harga Tawar'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Submit_Offering/button_Kirim'))
+WebUI.click(findTestObject('Page_Submit_Offering/button_Saya tertarik dan ingin nego'))
 

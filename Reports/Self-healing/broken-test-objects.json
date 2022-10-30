@@ -98,6 +98,25 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Submit_Offering/text_label_Harga Tawar_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Offering/text_Harga tawarmu berhasil dikirim ke penjual",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div[2]/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Milda Aditia Putra\u0027])[1]/following::p[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Offering/text_Harga tawarmu berhasil dikirim ke penjual_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Product_Detail/input_Harga Tawar_form-control",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@value\u003d\u0027\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Product_Detail/input_Harga Tawar_form-control_XPATH.png"
     }
   ]
 }

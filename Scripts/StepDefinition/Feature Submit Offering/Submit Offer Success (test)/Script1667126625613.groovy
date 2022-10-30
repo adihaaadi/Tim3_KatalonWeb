@@ -17,15 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('Page_Submit_Offering/text_header_masukkan_haga_tawarmu'))
+WebUI.callTestCase(findTestCase('StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Page_Submit_Offering/image_product_tesla'))
+WebUI.callTestCase(findTestCase('Pages/Homepage/Click Product Detail'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Page_Submit_Offering/text_productname_tesla'))
+WebUI.callTestCase(findTestCase('Pages/Product Detail/Verify Content Product from Other Seller'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Page_Submit_Offering/text_productprice_tesla'))
+WebUI.callTestCase(findTestCase('Pages/Product Detail/Click nego button'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Page_Submit_Offering/text_label_Harga Tawar'))
+WebUI.callTestCase(findTestCase('Pages/SubmitOffering/Verify Content Pop Up'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Page_Submit_Offering/button_Kirim'))
+WebUI.callTestCase(findTestCase('Pages/SubmitOffering/Input Harga Tawar'), [('price') : '50000'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/SubmitOffering/Click Kirim'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/SubmitOffering/Message Success'), [:], FailureHandling.STOP_ON_FAILURE)
 
