@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature View Product List" time="24.003" tests="1" failures="0" errors="0">
+   <testsuite name="Feature View Product List" tests="1" failures="0" errors="0" time="24.003" skipped="0" timestamp="2022-10-25 13:24:52" hostname="Lenovo - DESKTOP-TFJ29AG" id="Test Suites/Feature View Product List">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\Tim3_KatalonWeb\\Reports\\20221025_132446\\Feature View Product List\\20221025_132446"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\Tim3_KatalonWeb\\Reports\\20221025_132446\\Feature View Product List\\20221025_132446\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lenovo - DESKTOP-TFJ29AG"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.0.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="00295ede2b8913874e1c11746dd12228"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/StepDefinition/Feature View Product List/VIEWPRODUCTLIST - User Want To See View Product List" time="17.064" classname="Test Cases/StepDefinition/Feature View Product List/VIEWPRODUCTLIST - User Want To See View Product List" status="PASSED">
+         <system-out><![CDATA[2022-10-25 13:24:59 - [TEST_CASE][PASSED] - Test Cases/StepDefinition/Feature View Product List/VIEWPRODUCTLIST - User Want To See View Product List: Test Cases/StepDefinition/Feature View Product List/VIEWPRODUCTLIST - User Want To See View Product List
+
+2022-10-25 13:24:59 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 13:24:59 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature View Product List/VIEWPRODUCTLIST - User Want To See View Product List
+
+2022-10-25 13:24:59 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature View Product List/VIEWPRODUCTLIST - User Want To See View Product List
+
+2022-10-25 13:24:59 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2022-10-25 13:24:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-25 13:24:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-25 13:25:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-25 13:25:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-25 13:25:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-25 13:25:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-25 13:25:02 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-25 13:25:02 - [TEST_STEP][PASSED] - navigateToUrl("https://deployed-five.vercel.app"): Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 13:25:04 - [MESSAGE][PASSED] - Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 13:25:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserViewProductList/Click Link Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserViewProductList/Click Link Masuk' successfully
+
+2022-10-25 13:25:05 - [TEST_CASE][PASSED] - Test Cases/Pages/UserViewProductList/Click Link Masuk: Test Cases/Pages/UserViewProductList/Click Link Masuk
+
+2022-10-25 13:25:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/link_Masuk")): Object: 'Object Repository/Page_Login/link_Masuk' is clicked on
+
+2022-10-25 13:25:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/link_Masuk' is clicked on
+
+2022-10-25 13:25:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserViewProductList/Click Link Masuk' successfully
+
+2022-10-25 13:25:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserViewProductList/Input Username"), ["email":"binarqae1@gmail.com"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserViewProductList/Input Username' successfully
+
+2022-10-25 13:25:06 - [TEST_CASE][PASSED] - Test Cases/Pages/UserViewProductList/Input Username: Test Cases/Pages/UserViewProductList/Input Username
+
+2022-10-25 13:25:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Email"), email): Keys 'binarqae1@gmail.com' sent to object: 'Object Repository/Page_Login/input_Email'
+
+2022-10-25 13:25:08 - [MESSAGE][PASSED] - Keys 'binarqae1@gmail.com' sent to object: 'Object Repository/Page_Login/input_Email'
+
+2022-10-25 13:25:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserViewProductList/Input Username' successfully
+
+2022-10-25 13:25:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserViewProductList/Input Password"), ["password":"students1234"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserViewProductList/Input Password' successfully
+
+2022-10-25 13:25:08 - [TEST_CASE][PASSED] - Test Cases/Pages/UserViewProductList/Input Password: Test Cases/Pages/UserViewProductList/Input Password
+
+2022-10-25 13:25:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Password"), password): Keys 'students1234' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-10-25 13:25:09 - [MESSAGE][PASSED] - Keys 'students1234' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-10-25 13:25:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserViewProductList/Input Password' successfully
+
+2022-10-25 13:25:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserViewProductList/Click login button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserViewProductList/Click login button' successfully
+
+2022-10-25 13:25:09 - [TEST_CASE][PASSED] - Test Cases/Pages/UserViewProductList/Click login button: Test Cases/Pages/UserViewProductList/Click login button
+
+2022-10-25 13:25:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/button_Masuk")): Object: 'Object Repository/Page_Login/button_Masuk' is clicked on
+
+2022-10-25 13:25:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Masuk' is clicked on
+
+2022-10-25 13:25:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserViewProductList/Click login button' successfully
+
+2022-10-25 13:25:10 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Home/button_Semua"), 3): Scroll to object 'Object Repository/Page_Home/button_Semua' successfully
+
+2022-10-25 13:25:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Home/button_Semua' successfully
+
+2022-10-25 13:25:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-10-25 13:25:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-10-25 13:25:15 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-10-25 13:25:15 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature View Product List/VIEWPRODUCTLIST - User Want To See View Product List
+
+2022-10-25 13:25:15 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature View Product List/VIEWPRODUCTLIST - User Want To See View Product List
+
+2022-10-25 13:25:15 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2022-10-25 13:25:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-25 13:25:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-25 13:24:52 - [TEST_SUITE][PASSED] - Feature View Product List: Test Cases/StepDefinition/Feature View Product List/VIEWPRODUCTLIST - User Want To See View Product List]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

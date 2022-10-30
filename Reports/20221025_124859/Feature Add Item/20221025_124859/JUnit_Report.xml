@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Add Item" time="39.969" tests="1" failures="0" errors="0">
+   <testsuite name="Feature Add Item" tests="1" failures="0" errors="0" time="39.969" skipped="0" timestamp="2022-10-25 12:49:07" hostname="Lenovo - DESKTOP-TFJ29AG" id="Test Suites/Feature Add Item">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\Tim3_KatalonWeb\\Reports\\20221025_124859\\Feature Add Item\\20221025_124859"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\Tim3_KatalonWeb\\Reports\\20221025_124859\\Feature Add Item\\20221025_124859\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lenovo - DESKTOP-TFJ29AG"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.0.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="a900e5b299bfae826ca4fe391ba86bba"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/StepDefinition/Feature Add Item/ADDITEM001 - User Want To Add Item" time="32.052" classname="Test Cases/StepDefinition/Feature Add Item/ADDITEM001 - User Want To Add Item" status="PASSED">
+         <system-out><![CDATA[2022-10-25 12:49:15 - [TEST_CASE][PASSED] - Test Cases/StepDefinition/Feature Add Item/ADDITEM001 - User Want To Add Item: Test Cases/StepDefinition/Feature Add Item/ADDITEM001 - User Want To Add Item
+
+2022-10-25 12:49:15 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 12:49:15 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Add Item/ADDITEM001 - User Want To Add Item
+
+2022-10-25 12:49:15 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Add Item/ADDITEM001 - User Want To Add Item
+
+2022-10-25 12:49:15 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2022-10-25 12:49:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-25 12:49:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-25 12:49:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-25 12:49:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-25 12:49:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-25 12:49:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-25 12:49:18 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-25 12:49:18 - [TEST_STEP][PASSED] - navigateToUrl("https://deployed-five.vercel.app"): Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 12:49:19 - [MESSAGE][PASSED] - Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-10-25 12:49:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserAddItem/Click Link Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserAddItem/Click Link Masuk' successfully
+
+2022-10-25 12:49:20 - [TEST_CASE][PASSED] - Test Cases/Pages/UserAddItem/Click Link Masuk: Test Cases/Pages/UserAddItem/Click Link Masuk
+
+2022-10-25 12:49:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/link_Masuk")): Object: 'Object Repository/Page_Login/link_Masuk' is clicked on
+
+2022-10-25 12:49:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/link_Masuk' is clicked on
+
+2022-10-25 12:49:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserAddItem/Click Link Masuk' successfully
+
+2022-10-25 12:49:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserAddItem/Input Username"), ["email":"binarqae1@gmail.com"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserAddItem/Input Username' successfully
+
+2022-10-25 12:49:22 - [TEST_CASE][PASSED] - Test Cases/Pages/UserAddItem/Input Username: Test Cases/Pages/UserAddItem/Input Username
+
+2022-10-25 12:49:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Email"), email): Keys 'binarqae1@gmail.com' sent to object: 'Object Repository/Page_Login/input_Email'
+
+2022-10-25 12:49:24 - [MESSAGE][PASSED] - Keys 'binarqae1@gmail.com' sent to object: 'Object Repository/Page_Login/input_Email'
+
+2022-10-25 12:49:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserAddItem/Input Username' successfully
+
+2022-10-25 12:49:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserAddItem/Input Password"), ["password":"students1234"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserAddItem/Input Password' successfully
+
+2022-10-25 12:49:24 - [TEST_CASE][PASSED] - Test Cases/Pages/UserAddItem/Input Password: Test Cases/Pages/UserAddItem/Input Password
+
+2022-10-25 12:49:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Password"), password): Keys 'students1234' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-10-25 12:49:25 - [MESSAGE][PASSED] - Keys 'students1234' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-10-25 12:49:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserAddItem/Input Password' successfully
+
+2022-10-25 12:49:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserAddItem/Click login button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserAddItem/Click login button' successfully
+
+2022-10-25 12:49:25 - [TEST_CASE][PASSED] - Test Cases/Pages/UserAddItem/Click login button: Test Cases/Pages/UserAddItem/Click login button
+
+2022-10-25 12:49:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/button_Masuk")): Object: 'Object Repository/Page_Login/button_Masuk' is clicked on
+
+2022-10-25 12:49:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Masuk' is clicked on
+
+2022-10-25 12:49:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserAddItem/Click login button' successfully
+
+2022-10-25 12:49:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-25 12:49:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-25 12:49:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserAddItem/Click Jual"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserAddItem/Click Jual' successfully
+
+2022-10-25 12:49:29 - [TEST_CASE][PASSED] - Test Cases/Pages/UserAddItem/Click Jual: Test Cases/Pages/UserAddItem/Click Jual
+
+2022-10-25 12:49:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home/button_Jual")): Object: 'Object Repository/Page_Home/button_Jual' is clicked on
+
+2022-10-25 12:49:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/button_Jual' is clicked on
+
+2022-10-25 12:49:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserAddItem/Click Jual' successfully
+
+2022-10-25 12:49:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserAddItem/Input Nama Produk"), ["nm_produk":"Oskadon Sp 4 Tablet"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserAddItem/Input Nama Produk' successfully
+
+2022-10-25 12:49:30 - [TEST_CASE][PASSED] - Test Cases/Pages/UserAddItem/Input Nama Produk: Test Cases/Pages/UserAddItem/Input Nama Produk
+
+2022-10-25 12:49:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Add Item/input_Nama Produk"), nm_produk): Keys 'Oskadon Sp 4 Tablet' sent to object: 'Object Repository/Page_Add Item/input_Nama Produk'
+
+2022-10-25 12:49:31 - [MESSAGE][PASSED] - Keys 'Oskadon Sp 4 Tablet' sent to object: 'Object Repository/Page_Add Item/input_Nama Produk'
+
+2022-10-25 12:49:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserAddItem/Input Nama Produk' successfully
+
+2022-10-25 12:49:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserAddItem/Input Harga Produk"), ["harga_produk":"2500"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserAddItem/Input Harga Produk' successfully
+
+2022-10-25 12:49:31 - [TEST_CASE][PASSED] - Test Cases/Pages/UserAddItem/Input Harga Produk: Test Cases/Pages/UserAddItem/Input Harga Produk
+
+2022-10-25 12:49:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Add Item/input_Harga Produk"), harga_produk): Keys '2500' sent to object: 'Object Repository/Page_Add Item/input_Harga Produk'
+
+2022-10-25 12:49:33 - [MESSAGE][PASSED] - Keys '2500' sent to object: 'Object Repository/Page_Add Item/input_Harga Produk'
+
+2022-10-25 12:49:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserAddItem/Input Harga Produk' successfully
+
+2022-10-25 12:49:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserAddItem/Select Kategori"), ["kategori":"0-5"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserAddItem/Select Kategori' successfully
+
+2022-10-25 12:49:33 - [TEST_CASE][PASSED] - Test Cases/Pages/UserAddItem/Select Kategori: Test Cases/Pages/UserAddItem/Select Kategori
+
+2022-10-25 12:49:34 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_Add Item/select_Pilih Kategori"), kategori): All options with index in [0,1,2,3,4,5] are selected on object 'Object Repository/Page_Add Item/select_Pilih Kategori'
+
+2022-10-25 12:49:37 - [MESSAGE][PASSED] - All options with index in [0,1,2,3,4,5] are selected on object 'Object Repository/Page_Add Item/select_Pilih Kategori'
+
+2022-10-25 12:49:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserAddItem/Select Kategori' successfully
+
+2022-10-25 12:49:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserAddItem/Input Deskripsi"), ["deskripsi":"Obat untuk meredakan nyeri otot pada punggung dan pinggang"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserAddItem/Input Deskripsi' successfully
+
+2022-10-25 12:49:37 - [TEST_CASE][PASSED] - Test Cases/Pages/UserAddItem/Input Deskripsi: Test Cases/Pages/UserAddItem/Input Deskripsi
+
+2022-10-25 12:49:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Add Item/textarea_Deskripsi"), deskripsi): Keys 'Obat untuk meredakan nyeri otot pada punggung dan pinggang' sent to object: 'Object Repository/Page_Add Item/textarea_Deskripsi'
+
+2022-10-25 12:49:39 - [MESSAGE][PASSED] - Keys 'Obat untuk meredakan nyeri otot pada punggung dan pinggang' sent to object: 'Object Repository/Page_Add Item/textarea_Deskripsi'
+
+2022-10-25 12:49:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserAddItem/Input Deskripsi' successfully
+
+2022-10-25 12:49:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserAddItem/Add foto"), ["root":"C:\Users\Lenovo\Obat\Oskadon Sp.jpg"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserAddItem/Add foto' successfully
+
+2022-10-25 12:49:39 - [TEST_CASE][PASSED] - Test Cases/Pages/UserAddItem/Add foto: Test Cases/Pages/UserAddItem/Add foto
+
+2022-10-25 12:49:40 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Page_Add Item/button_tambah foto"), root): File 'C:\Users\Lenovo\Obat\Oskadon Sp.jpg' sent to object: 'Object Repository/Page_Add Item/button_tambah foto'
+
+2022-10-25 12:49:40 - [MESSAGE][PASSED] - File 'C:\Users\Lenovo\Obat\Oskadon Sp.jpg' sent to object: 'Object Repository/Page_Add Item/button_tambah foto'
+
+2022-10-25 12:49:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserAddItem/Add foto' successfully
+
+2022-10-25 12:49:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserAddItem/Click Terbitkan"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserAddItem/Click Terbitkan' successfully
+
+2022-10-25 12:49:40 - [TEST_CASE][PASSED] - Test Cases/Pages/UserAddItem/Click Terbitkan: Test Cases/Pages/UserAddItem/Click Terbitkan
+
+2022-10-25 12:49:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Add Item/button_Terbitkan")): Object: 'Object Repository/Page_Add Item/button_Terbitkan' is clicked on
+
+2022-10-25 12:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Add Item/button_Terbitkan' is clicked on
+
+2022-10-25 12:49:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserAddItem/Click Terbitkan' successfully
+
+2022-10-25 12:49:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-10-25 12:49:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-10-25 12:49:46 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-10-25 12:49:46 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Add Item/ADDITEM001 - User Want To Add Item
+
+2022-10-25 12:49:46 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Add Item/ADDITEM001 - User Want To Add Item
+
+2022-10-25 12:49:46 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2022-10-25 12:49:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-25 12:49:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-25 12:49:07 - [TEST_SUITE][PASSED] - Feature Add Item: Test Cases/StepDefinition/Feature Add Item/ADDITEM001 - User Want To Add Item]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

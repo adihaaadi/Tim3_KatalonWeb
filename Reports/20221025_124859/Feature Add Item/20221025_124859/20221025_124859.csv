@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Add Item,Chrome 106.0.0.0,,,2022-10-25 12:49:07,2022-10-25 12:49:47,39.969s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Add Item/ADDITEM001 - User Want To Add Item,Chrome 106.0.0.0,,,2022-10-25 12:49:15,2022-10-25 12:49:47,32.052s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-25 12:49:15,2022-10-25 12:49:19,4.635s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem/Click Link Masuk""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:49:20,2022-10-25 12:49:22,2.081s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem/Input Username""), [""email"":""binarqae1@gmail.com""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:49:22,2022-10-25 12:49:24,1.436s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem/Input Password""), [""password"":""students1234""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:49:24,2022-10-25 12:49:25,1.402s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem/Click login button""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:49:25,2022-10-25 12:49:26,1.305s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-25 12:49:26,2022-10-25 12:49:28,2.036s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem/Click Jual""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:49:28,2022-10-25 12:49:30,1.183s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem/Input Nama Produk""), [""nm_produk"":""Oskadon Sp 4 Tablet""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:49:30,2022-10-25 12:49:31,1.585s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem/Input Harga Produk""), [""harga_produk"":""2500""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:49:31,2022-10-25 12:49:33,1.713s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem/Select Kategori""), [""kategori"":""0-5""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:49:33,2022-10-25 12:49:37,3.935s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem/Input Deskripsi""), [""deskripsi"":""Obat untuk meredakan nyeri otot pada punggung dan pinggang""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:49:37,2022-10-25 12:49:39,1.670s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem/Add foto""), [""root"":""C:\Users\Lenovo\Obat\Oskadon Sp.jpg""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:49:39,2022-10-25 12:49:40,1.591s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem/Click Terbitkan""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 12:49:40,2022-10-25 12:49:44,3.573s,PASSED
+delay(2),Chrome 106.0.0.0,,,2022-10-25 12:49:44,2022-10-25 12:49:46,2.014s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-25 12:49:46,2022-10-25 12:49:47,0.915s,PASSED
