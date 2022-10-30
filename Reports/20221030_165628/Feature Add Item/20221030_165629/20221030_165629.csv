@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Add Item,,,,2022-10-30 16:56:32,2022-10-30 16:56:37,4.713s,FAILED
+,,,,,,,
+Test Cases/StepDefinition/Feature Add Item/ADDITEM001 - User Want To Add Item,,,,2022-10-30 16:56:35,2022-10-30 16:56:37,1.923s,FAILED
+Start listener action : beforeTestCase,,,,2022-10-30 16:56:35,2022-10-30 16:56:36,1.151s,ERROR
+"callTestCase(findTestCase(""Pages/UserAddItem/Click Link Masuk""), [:], STOP_ON_FAILURE)",,,,2022-10-30 16:56:36,2022-10-30 16:56:37,0.456s,FAILED
+Start listener action : afterTestCase,,,,2022-10-30 16:56:37,2022-10-30 16:56:37,0.017s,PASSED
