@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Edit Item,Chrome 107.0.0.0,,,2022-11-01 06:18:34,2022-11-01 06:20:16,1m - 41.397s,FAILED
+,,,,,,,
+Test Cases/StepDefinition/Feature Edit Item/EDITITEM001 - Edit Item With Preview in Semua Product page,Chrome 107.0.0.0,,,2022-11-01 06:18:38,2022-11-01 06:19:04,25.778s,FAILED
+Start listener action : beforeTestCase,Chrome 107.0.0.0,,,2022-11-01 06:18:38,2022-11-01 06:18:42,3.399s,PASSED
+"callTestCase(findTestCase(""StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password""), [:], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:18:42,2022-11-01 06:18:51,8.756s,PASSED
+"click(findTestObject(""Page_Home/svg_Profile_svg-inline--fa fa-list fa-lg""))",Chrome 107.0.0.0,,,2022-11-01 06:18:51,2022-11-01 06:18:51,0.630s,PASSED
+"click(findTestObject(""Page_Daftar_Jual/button_Semua Product""))",Chrome 107.0.0.0,,,2022-11-01 06:18:51,2022-11-01 06:18:55,3.241s,PASSED
+"click(findTestObject(""Page_Daftar_Jual/btn_Paracetamol 500mgboxKesehatanRp1.000.000,00""))",Chrome 107.0.0.0,,,2022-11-01 06:18:55,2022-11-01 06:18:55,0.412s,PASSED
+"click(findTestObject(""Page_Daftar_Jual/button_Edit""))",Chrome 107.0.0.0,,,2022-11-01 06:18:55,2022-11-01 06:18:57,1.792s,PASSED
+"callTestCase(findTestCase(""Pages/UserEditItem/Input Nama Produk""), [""nama_produk"":""Paracetamol""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:18:57,2022-11-01 06:18:58,1.575s,PASSED
+"callTestCase(findTestCase(""Pages/UserEditItem/Input Harga Produk""), [""harga_produk"":""10000""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:18:58,2022-11-01 06:19:00,1.187s,PASSED
+"callTestCase(findTestCase(""Pages/UserEditItem/Select Kategori""), [""select_kategori"":""1""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:19:00,2022-11-01 06:19:01,1.621s,PASSED
+"callTestCase(findTestCase(""Pages/UserEditItem/Input Deskripsi""), [""deskripsi"":""ini deskripsi paracetamol""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:19:01,2022-11-01 06:19:03,1.238s,PASSED
+"callTestCase(findTestCase(""Pages/UserEditItem/Add Photo""), [""add_photo"":""C:\Users\ASUS\Downloads\desain1.png""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:19:03,2022-11-01 06:19:04,0.981s,FAILED
+Start listener action : afterTestCase,Chrome 107.0.0.0,,,2022-11-01 06:19:04,2022-11-01 06:19:04,0.678s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Edit Item/EDITITEM002 - Edit Item Without Preview in Semua Product page,Chrome 107.0.0.0,,,2022-11-01 06:19:04,2022-11-01 06:19:27,22.482s,FAILED
+Start listener action : beforeTestCase,Chrome 107.0.0.0,,,2022-11-01 06:19:04,2022-11-01 06:19:07,2.688s,PASSED
+"callTestCase(findTestCase(""StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password""), [:], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:19:07,2022-11-01 06:19:16,8.618s,PASSED
+"click(findTestObject(""Page_Home/svg_Profile_svg-inline--fa fa-list fa-lg""))",Chrome 107.0.0.0,,,2022-11-01 06:19:16,2022-11-01 06:19:16,0.511s,PASSED
+"click(findTestObject(""Page_Daftar_Jual/button_Semua Product""))",Chrome 107.0.0.0,,,2022-11-01 06:19:16,2022-11-01 06:19:19,2.650s,PASSED
+"click(findTestObject(""Page_Daftar_Jual/btn_Paracetamol 500mgboxKesehatanRp1.000.000,00""))",Chrome 107.0.0.0,,,2022-11-01 06:19:19,2022-11-01 06:19:19,0.469s,PASSED
+"click(findTestObject(""Page_Daftar_Jual/button_Edit""))",Chrome 107.0.0.0,,,2022-11-01 06:19:19,2022-11-01 06:19:21,1.339s,PASSED
+"callTestCase(findTestCase(""Pages/UserEditItem/Input Nama Produk""), [""nama_produk"":""Paracetamol""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:19:21,2022-11-01 06:19:22,1.535s,PASSED
+"callTestCase(findTestCase(""Pages/UserEditItem/Input Harga Produk""), [""harga_produk"":""10000""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:19:22,2022-11-01 06:19:23,0.846s,PASSED
+"callTestCase(findTestCase(""Pages/UserEditItem/Select Kategori""), [""select_kategori"":""1""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:19:23,2022-11-01 06:19:25,1.354s,PASSED
+"callTestCase(findTestCase(""Pages/UserEditItem/Input Deskripsi""), [""deskripsi"":""ini deskripsi paracetamol""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:19:25,2022-11-01 06:19:25,0.918s,PASSED
+"callTestCase(findTestCase(""Pages/UserEditItem/Add Photo""), [""add_photo"":""C:\Users\ASUS\Downloads\desain1.png""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:19:25,2022-11-01 06:19:26,0.596s,FAILED
+Start listener action : afterTestCase,Chrome 107.0.0.0,,,2022-11-01 06:19:26,2022-11-01 06:19:27,0.658s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Edit Item/EDITITEM003 - Edit Item Without Preview in Diminati page,Chrome 107.0.0.0,,,2022-11-01 06:19:27,2022-11-01 06:19:51,24.449s,FAILED
+Start listener action : beforeTestCase,Chrome 107.0.0.0,,,2022-11-01 06:19:27,2022-11-01 06:19:29,2.589s,PASSED
+"callTestCase(findTestCase(""StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password""), [:], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:19:30,2022-11-01 06:19:38,8.235s,PASSED
+"click(findTestObject(""Page_Home/svg_Profile_svg-inline--fa fa-list fa-lg""))",Chrome 107.0.0.0,,,2022-11-01 06:19:38,2022-11-01 06:19:38,0.491s,PASSED
+"click(findTestObject(""Page_Daftar_Jual/button_Diminati""))",Chrome 107.0.0.0,,,2022-11-01 06:19:38,2022-11-01 06:19:42,3.228s,PASSED
+"click(findTestObject(""Page_Diminati/div_opticalHobyRp250.000,00""))",Chrome 107.0.0.0,,,2022-11-01 06:19:42,2022-11-01 06:19:42,0.471s,PASSED
+"click(findTestObject(""Page_Daftar_Jual/button_Edit""))",Chrome 107.0.0.0,,,2022-11-01 06:19:42,2022-11-01 06:19:45,2.871s,PASSED
+"callTestCase(findTestCase(""Pages/UserEditItem/Input Nama Produk""), [""nama_produk"":""Paracetamol""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:19:45,2022-11-01 06:19:46,1.599s,PASSED
+"callTestCase(findTestCase(""Pages/UserEditItem/Input Harga Produk""), [""harga_produk"":""10000""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:19:46,2022-11-01 06:19:47,0.991s,PASSED
+"callTestCase(findTestCase(""Pages/UserEditItem/Select Kategori""), [""select_kategori"":""1""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:19:47,2022-11-01 06:19:49,1.388s,PASSED
+"callTestCase(findTestCase(""Pages/UserEditItem/Input Deskripsi""), [""deskripsi"":""ini deskripsi paracetamol""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:19:49,2022-11-01 06:19:50,0.873s,PASSED
+"callTestCase(findTestCase(""Pages/UserEditItem/Add Photo""), [""add_photo"":""C:\Users\ASUS\Downloads\desain1.png""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:19:50,2022-11-01 06:19:50,0.761s,FAILED
+Start listener action : afterTestCase,Chrome 107.0.0.0,,,2022-11-01 06:19:50,2022-11-01 06:19:51,0.672s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Edit Item/EDITITEM004 - Edit Item With Preview in Diminati page,Chrome 107.0.0.0,,,2022-11-01 06:19:51,2022-11-01 06:20:16,24.596s,FAILED
+Start listener action : beforeTestCase,Chrome 107.0.0.0,,,2022-11-01 06:19:51,2022-11-01 06:19:54,2.670s,PASSED
+"callTestCase(findTestCase(""StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password""), [:], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:19:54,2022-11-01 06:20:03,8.682s,PASSED
+"click(findTestObject(""Page_Home/svg_Profile_svg-inline--fa fa-list fa-lg""))",Chrome 107.0.0.0,,,2022-11-01 06:20:03,2022-11-01 06:20:03,0.525s,PASSED
+"click(findTestObject(""Page_Daftar_Jual/button_Diminati""))",Chrome 107.0.0.0,,,2022-11-01 06:20:03,2022-11-01 06:20:06,2.898s,PASSED
+"click(findTestObject(""Page_Diminati/div_opticalHobyRp250.000,00""))",Chrome 107.0.0.0,,,2022-11-01 06:20:06,2022-11-01 06:20:07,0.476s,PASSED
+"click(findTestObject(""Page_Daftar_Jual/button_Edit""))",Chrome 107.0.0.0,,,2022-11-01 06:20:07,2022-11-01 06:20:10,2.782s,PASSED
+"callTestCase(findTestCase(""Pages/UserEditItem/Input Nama Produk""), [""nama_produk"":""Paracetamol""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:20:10,2022-11-01 06:20:11,1.609s,PASSED
+"callTestCase(findTestCase(""Pages/UserEditItem/Input Harga Produk""), [""harga_produk"":""10000""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:20:11,2022-11-01 06:20:12,0.959s,PASSED
+"callTestCase(findTestCase(""Pages/UserEditItem/Select Kategori""), [""select_kategori"":""1""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:20:12,2022-11-01 06:20:13,1.323s,PASSED
+"callTestCase(findTestCase(""Pages/UserEditItem/Input Deskripsi""), [""deskripsi"":""ini deskripsi paracetamol""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:20:13,2022-11-01 06:20:14,0.966s,PASSED
+"callTestCase(findTestCase(""Pages/UserEditItem/Add Photo""), [""add_photo"":""C:\Users\ASUS\Downloads\desain1.png""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-01 06:20:14,2022-11-01 06:20:15,0.735s,FAILED
+Start listener action : afterTestCase,Chrome 107.0.0.0,,,2022-11-01 06:20:15,2022-11-01 06:20:16,0.650s,PASSED

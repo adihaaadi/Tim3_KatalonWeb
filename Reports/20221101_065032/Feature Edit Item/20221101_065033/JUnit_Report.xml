@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Edit Item" time="106.637" tests="4" failures="0" errors="0">
+   <testsuite name="Feature Edit Item" tests="4" failures="0" errors="0" time="106.637" skipped="0" timestamp="2022-11-01 06:50:36" hostname="ASUS - VivoBookX421EAYB" id="Test Suites/Feature Edit Item">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\Tim3_KatalonWeb\\Reports\\20221101_065032\\Feature Edit Item\\20221101_065033"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\Tim3_KatalonWeb\\Reports\\20221101_065032\\Feature Edit Item\\20221101_065033\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - VivoBookX421EAYB"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="browser" value="Chrome 107.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.106"/>
+         <property name="sessionId" value="06ddc23cac93e8ecdca35d51329ba7ad"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/StepDefinition/Feature Edit Item/EDITITEM001 - Edit Item With Preview in Semua Product page" time="26.584" classname="Test Cases/StepDefinition/Feature Edit Item/EDITITEM001 - Edit Item With Preview in Semua Product page" status="PASSED">
+         <system-out><![CDATA[2022-11-01 06:50:40 - [TEST_CASE][PASSED] - Test Cases/StepDefinition/Feature Edit Item/EDITITEM001 - Edit Item With Preview in Semua Product page: Test Cases/StepDefinition/Feature Edit Item/EDITITEM001 - Edit Item With Preview in Semua Product page
+
+2022-11-01 06:50:40 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-11-01 06:50:40 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Edit Item/EDITITEM001 - Edit Item With Preview in Semua Product page
+
+2022-11-01 06:50:40 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Edit Item/EDITITEM001 - Edit Item With Preview in Semua Product page
+
+2022-11-01 06:50:40 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2022-11-01 06:50:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-01 06:50:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-01 06:50:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-01 06:50:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-01 06:50:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-01 06:50:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-01 06:50:42 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-01 06:50:42 - [TEST_STEP][PASSED] - navigateToUrl("https://deployed-five.vercel.app"): Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-11-01 06:50:43 - [MESSAGE][PASSED] - Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-11-01 06:50:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password' successfully
+
+2022-11-01 06:50:43 - [TEST_CASE][PASSED] - Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password: Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password
+
+2022-11-01 06:50:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Click Link Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Click Link Masuk' successfully
+
+2022-11-01 06:50:44 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Click Link Masuk: Test Cases/Pages/UserLogin/Click Link Masuk
+
+2022-11-01 06:50:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/link_Masuk")): Object: 'Object Repository/Page_Login/link_Masuk' is clicked on
+
+2022-11-01 06:50:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/link_Masuk' is clicked on
+
+2022-11-01 06:50:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Click Link Masuk' successfully
+
+2022-11-01 06:50:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Input Username"), ["email":"binarqae1@gmail.com"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Input Username' successfully
+
+2022-11-01 06:50:46 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Input Username: Test Cases/Pages/UserLogin/Input Username
+
+2022-11-01 06:50:46 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/input_Email")): Text of object 'Object Repository/Page_Login/input_Email' is cleared
+
+2022-11-01 06:50:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/input_Email' is cleared
+
+2022-11-01 06:50:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Email"), email): Keys 'binarqae1@gmail.com' sent to object: 'Object Repository/Page_Login/input_Email'
+
+2022-11-01 06:50:46 - [MESSAGE][PASSED] - Keys 'binarqae1@gmail.com' sent to object: 'Object Repository/Page_Login/input_Email'
+
+2022-11-01 06:50:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Input Username' successfully
+
+2022-11-01 06:50:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Input Password"), ["password":"students1234"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Input Password' successfully
+
+2022-11-01 06:50:47 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Input Password: Test Cases/Pages/UserLogin/Input Password
+
+2022-11-01 06:50:47 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/input_Password")): Text of object 'Object Repository/Page_Login/input_Password' is cleared
+
+2022-11-01 06:50:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/input_Password' is cleared
+
+2022-11-01 06:50:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Password"), password): Keys 'students1234' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-11-01 06:50:47 - [MESSAGE][PASSED] - Keys 'students1234' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-11-01 06:50:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Input Password' successfully
+
+2022-11-01 06:50:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Click login button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Click login button' successfully
+
+2022-11-01 06:50:48 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Click login button: Test Cases/Pages/UserLogin/Click login button
+
+2022-11-01 06:50:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/button_Masuk")): Object: 'Object Repository/Page_Login/button_Masuk' is clicked on
+
+2022-11-01 06:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Masuk' is clicked on
+
+2022-11-01 06:50:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Click login button' successfully
+
+2022-11-01 06:50:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Verify Content"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Verify Content' successfully
+
+2022-11-01 06:50:48 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Verify Content: Test Cases/Pages/UserLogin/Verify Content
+
+2022-11-01 06:50:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Logout/menu_Profile"), 0): Object 'Object Repository/Page_Logout/menu_Profile' is present
+
+2022-11-01 06:50:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 06:50:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Logout/menu_Profile' is present
+
+2022-11-01 06:50:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Homepage/image_banner"), 0): Object 'Object Repository/Homepage/image_banner' is present
+
+2022-11-01 06:50:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 06:50:51 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/image_banner' is present
+
+2022-11-01 06:50:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Homepage/image_blue logo"), 0): Object 'Object Repository/Homepage/image_blue logo' is present
+
+2022-11-01 06:50:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 06:50:52 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/image_blue logo' is present
+
+2022-11-01 06:50:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Add Item/button_Profile_notification"), 0): Object 'Object Repository/Page_Add Item/button_Profile_notification' is present
+
+2022-11-01 06:50:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 06:50:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Add Item/button_Profile_notification' is present
+
+2022-11-01 06:50:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Verify Content' successfully
+
+2022-11-01 06:50:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password' successfully
+
+2022-11-01 06:50:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home/svg_Profile_svg-inline--fa fa-list fa-lg")): Object: 'Object Repository/Page_Home/svg_Profile_svg-inline--fa fa-list fa-lg' is clicked on
+
+2022-11-01 06:50:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/svg_Profile_svg-inline--fa fa-list fa-lg' is clicked on
+
+2022-11-01 06:50:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_Daftar_Jual/button_Semua Product")): Object: 'Object Repository/Page_Daftar_Jual/button_Semua Product' is clicked on
+
+2022-11-01 06:50:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Daftar_Jual/button_Semua Product' is clicked on
+
+2022-11-01 06:50:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Daftar_Jual/btn_Paracetamol 500mgboxKesehatanRp1.000.000,00")): Object: 'Object Repository/Page_Daftar_Jual/btn_Paracetamol 500mgboxKesehatanRp1.000.000,00' is clicked on
+
+2022-11-01 06:50:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Daftar_Jual/btn_Paracetamol 500mgboxKesehatanRp1.000.000,00' is clicked on
+
+2022-11-01 06:50:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_Daftar_Jual/button_Edit")): Object: 'Object Repository/Page_Daftar_Jual/button_Edit' is clicked on
+
+2022-11-01 06:50:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Daftar_Jual/button_Edit' is clicked on
+
+2022-11-01 06:50:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Input Nama Produk"), ["nama_produk":"Paracetamol"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Input Nama Produk' successfully
+
+2022-11-01 06:50:57 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Input Nama Produk: Test Cases/Pages/UserEditItem/Input Nama Produk
+
+2022-11-01 06:50:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Edit_Item/input_Nama Produk"), nama_produk): Text 'Paracetamol' is set on object 'Object Repository/Page_Edit_Item/input_Nama Produk'
+
+2022-11-01 06:50:58 - [MESSAGE][PASSED] - Text 'Paracetamol' is set on object 'Object Repository/Page_Edit_Item/input_Nama Produk'
+
+2022-11-01 06:50:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Input Nama Produk' successfully
+
+2022-11-01 06:50:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Input Harga Produk"), ["harga_produk":"10000"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Input Harga Produk' successfully
+
+2022-11-01 06:50:59 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Input Harga Produk: Test Cases/Pages/UserEditItem/Input Harga Produk
+
+2022-11-01 06:50:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Edit_Item/input_Harga Produk_harga_produk"), harga_produk): Text '10000' is set on object 'Object Repository/Page_Edit_Item/input_Harga Produk_harga_produk'
+
+2022-11-01 06:50:59 - [MESSAGE][PASSED] - Text '10000' is set on object 'Object Repository/Page_Edit_Item/input_Harga Produk_harga_produk'
+
+2022-11-01 06:50:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Input Harga Produk' successfully
+
+2022-11-01 06:50:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Select Kategori"), ["select_kategori":"1"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Select Kategori' successfully
+
+2022-11-01 06:51:00 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Select Kategori: Test Cases/Pages/UserEditItem/Select Kategori
+
+2022-11-01 06:51:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Edit_Item/select_Pilih Kategori"), select_kategori, true): All options with value '1' are selected in object 'Object Repository/Page_Edit_Item/select_Pilih Kategori'  using regular expression
+
+2022-11-01 06:51:01 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Edit_Item/select_Pilih Kategori'  using regular expression
+
+2022-11-01 06:51:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Select Kategori' successfully
+
+2022-11-01 06:51:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Input Deskripsi"), ["deskripsi":"ini deskripsi paracetamol"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Input Deskripsi' successfully
+
+2022-11-01 06:51:01 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Input Deskripsi: Test Cases/Pages/UserEditItem/Input Deskripsi
+
+2022-11-01 06:51:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Edit_Item/textarea_deskripsi"), deskripsi): Text 'ini deskripsi paracetamol' is set on object 'Object Repository/Page_Edit_Item/textarea_deskripsi'
+
+2022-11-01 06:51:02 - [MESSAGE][PASSED] - Text 'ini deskripsi paracetamol' is set on object 'Object Repository/Page_Edit_Item/textarea_deskripsi'
+
+2022-11-01 06:51:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Input Deskripsi' successfully
+
+2022-11-01 06:51:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Add Photo"), ["add_photo":"C:\Users\ASUS\Downloads\desain1.png"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Add Photo' successfully
+
+2022-11-01 06:51:02 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Add Photo: Test Cases/Pages/UserEditItem/Add Photo
+
+2022-11-01 06:51:02 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Page_Edit_Item/svg_Foto Produk_bi bi-plus-square-dotted mt-2"), add_photo): File 'C:\Users\ASUS\Downloads\desain1.png' sent to object: 'Object Repository/Page_Edit_Item/svg_Foto Produk_bi bi-plus-square-dotted mt-2'
+
+2022-11-01 06:51:03 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\Downloads\desain1.png' sent to object: 'Object Repository/Page_Edit_Item/svg_Foto Produk_bi bi-plus-square-dotted mt-2'
+
+2022-11-01 06:51:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Add Photo' successfully
+
+2022-11-01 06:51:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Click Preview"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Click Preview' successfully
+
+2022-11-01 06:51:03 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Click Preview: Test Cases/Pages/UserEditItem/Click Preview
+
+2022-11-01 06:51:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_Edit_Item/button_Preview")): Object: 'Object Repository/Page_Edit_Item/button_Preview' is clicked on
+
+2022-11-01 06:51:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Edit_Item/button_Preview' is clicked on
+
+2022-11-01 06:51:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Click Preview' successfully
+
+2022-11-01 06:51:06 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-11-01 06:51:06 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Edit Item/EDITITEM001 - Edit Item With Preview in Semua Product page
+
+2022-11-01 06:51:06 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Edit Item/EDITITEM001 - Edit Item With Preview in Semua Product page
+
+2022-11-01 06:51:06 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2022-11-01 06:51:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-01 06:51:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StepDefinition/Feature Edit Item/EDITITEM002 - Edit Item Without Preview in Semua Product page" time="25.164" classname="Test Cases/StepDefinition/Feature Edit Item/EDITITEM002 - Edit Item Without Preview in Semua Product page" status="PASSED">
+         <system-out><![CDATA[2022-11-01 06:51:06 - [TEST_CASE][PASSED] - Test Cases/StepDefinition/Feature Edit Item/EDITITEM002 - Edit Item Without Preview in Semua Product page: Test Cases/StepDefinition/Feature Edit Item/EDITITEM002 - Edit Item Without Preview in Semua Product page
+
+2022-11-01 06:51:06 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-11-01 06:51:06 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Edit Item/EDITITEM002 - Edit Item Without Preview in Semua Product page
+
+2022-11-01 06:51:06 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Edit Item/EDITITEM002 - Edit Item Without Preview in Semua Product page
+
+2022-11-01 06:51:06 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2022-11-01 06:51:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-01 06:51:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-01 06:51:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-01 06:51:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-01 06:51:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-01 06:51:08 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-01 06:51:08 - [TEST_STEP][PASSED] - navigateToUrl("https://deployed-five.vercel.app"): Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-11-01 06:51:09 - [MESSAGE][PASSED] - Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-11-01 06:51:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password' successfully
+
+2022-11-01 06:51:09 - [TEST_CASE][PASSED] - Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password: Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password
+
+2022-11-01 06:51:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Click Link Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Click Link Masuk' successfully
+
+2022-11-01 06:51:09 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Click Link Masuk: Test Cases/Pages/UserLogin/Click Link Masuk
+
+2022-11-01 06:51:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/link_Masuk")): Object: 'Object Repository/Page_Login/link_Masuk' is clicked on
+
+2022-11-01 06:51:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/link_Masuk' is clicked on
+
+2022-11-01 06:51:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Click Link Masuk' successfully
+
+2022-11-01 06:51:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Input Username"), ["email":"binarqae1@gmail.com"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Input Username' successfully
+
+2022-11-01 06:51:11 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Input Username: Test Cases/Pages/UserLogin/Input Username
+
+2022-11-01 06:51:11 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/input_Email")): Text of object 'Object Repository/Page_Login/input_Email' is cleared
+
+2022-11-01 06:51:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/input_Email' is cleared
+
+2022-11-01 06:51:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Email"), email): Keys 'binarqae1@gmail.com' sent to object: 'Object Repository/Page_Login/input_Email'
+
+2022-11-01 06:51:12 - [MESSAGE][PASSED] - Keys 'binarqae1@gmail.com' sent to object: 'Object Repository/Page_Login/input_Email'
+
+2022-11-01 06:51:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Input Username' successfully
+
+2022-11-01 06:51:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Input Password"), ["password":"students1234"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Input Password' successfully
+
+2022-11-01 06:51:12 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Input Password: Test Cases/Pages/UserLogin/Input Password
+
+2022-11-01 06:51:12 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/input_Password")): Text of object 'Object Repository/Page_Login/input_Password' is cleared
+
+2022-11-01 06:51:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/input_Password' is cleared
+
+2022-11-01 06:51:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Password"), password): Keys 'students1234' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-11-01 06:51:13 - [MESSAGE][PASSED] - Keys 'students1234' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-11-01 06:51:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Input Password' successfully
+
+2022-11-01 06:51:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Click login button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Click login button' successfully
+
+2022-11-01 06:51:13 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Click login button: Test Cases/Pages/UserLogin/Click login button
+
+2022-11-01 06:51:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/button_Masuk")): Object: 'Object Repository/Page_Login/button_Masuk' is clicked on
+
+2022-11-01 06:51:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Masuk' is clicked on
+
+2022-11-01 06:51:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Click login button' successfully
+
+2022-11-01 06:51:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Verify Content"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Verify Content' successfully
+
+2022-11-01 06:51:14 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Verify Content: Test Cases/Pages/UserLogin/Verify Content
+
+2022-11-01 06:51:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Logout/menu_Profile"), 0): Object 'Object Repository/Page_Logout/menu_Profile' is present
+
+2022-11-01 06:51:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 06:51:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Logout/menu_Profile' is present
+
+2022-11-01 06:51:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Homepage/image_banner"), 0): Object 'Object Repository/Homepage/image_banner' is present
+
+2022-11-01 06:51:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 06:51:17 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/image_banner' is present
+
+2022-11-01 06:51:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Homepage/image_blue logo"), 0): Object 'Object Repository/Homepage/image_blue logo' is present
+
+2022-11-01 06:51:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 06:51:17 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/image_blue logo' is present
+
+2022-11-01 06:51:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Add Item/button_Profile_notification"), 0): Object 'Object Repository/Page_Add Item/button_Profile_notification' is present
+
+2022-11-01 06:51:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 06:51:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Add Item/button_Profile_notification' is present
+
+2022-11-01 06:51:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Verify Content' successfully
+
+2022-11-01 06:51:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password' successfully
+
+2022-11-01 06:51:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home/svg_Profile_svg-inline--fa fa-list fa-lg")): Object: 'Object Repository/Page_Home/svg_Profile_svg-inline--fa fa-list fa-lg' is clicked on
+
+2022-11-01 06:51:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/svg_Profile_svg-inline--fa fa-list fa-lg' is clicked on
+
+2022-11-01 06:51:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_Daftar_Jual/button_Semua Product")): Object: 'Object Repository/Page_Daftar_Jual/button_Semua Product' is clicked on
+
+2022-11-01 06:51:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Daftar_Jual/button_Semua Product' is clicked on
+
+2022-11-01 06:51:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_Daftar_Jual/btn_Paracetamol 500mgboxKesehatanRp1.000.000,00")): Object: 'Object Repository/Page_Daftar_Jual/btn_Paracetamol 500mgboxKesehatanRp1.000.000,00' is clicked on
+
+2022-11-01 06:51:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Daftar_Jual/btn_Paracetamol 500mgboxKesehatanRp1.000.000,00' is clicked on
+
+2022-11-01 06:51:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_Daftar_Jual/button_Edit")): Object: 'Object Repository/Page_Daftar_Jual/button_Edit' is clicked on
+
+2022-11-01 06:51:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Daftar_Jual/button_Edit' is clicked on
+
+2022-11-01 06:51:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Input Nama Produk"), ["nama_produk":"Paracetamol"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Input Nama Produk' successfully
+
+2022-11-01 06:51:23 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Input Nama Produk: Test Cases/Pages/UserEditItem/Input Nama Produk
+
+2022-11-01 06:51:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Edit_Item/input_Nama Produk"), nama_produk): Text 'Paracetamol' is set on object 'Object Repository/Page_Edit_Item/input_Nama Produk'
+
+2022-11-01 06:51:25 - [MESSAGE][PASSED] - Text 'Paracetamol' is set on object 'Object Repository/Page_Edit_Item/input_Nama Produk'
+
+2022-11-01 06:51:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Input Nama Produk' successfully
+
+2022-11-01 06:51:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Input Harga Produk"), ["harga_produk":"10000"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Input Harga Produk' successfully
+
+2022-11-01 06:51:25 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Input Harga Produk: Test Cases/Pages/UserEditItem/Input Harga Produk
+
+2022-11-01 06:51:25 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Edit_Item/input_Harga Produk_harga_produk"), harga_produk): Text '10000' is set on object 'Object Repository/Page_Edit_Item/input_Harga Produk_harga_produk'
+
+2022-11-01 06:51:26 - [MESSAGE][PASSED] - Text '10000' is set on object 'Object Repository/Page_Edit_Item/input_Harga Produk_harga_produk'
+
+2022-11-01 06:51:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Input Harga Produk' successfully
+
+2022-11-01 06:51:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Select Kategori"), ["select_kategori":"1"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Select Kategori' successfully
+
+2022-11-01 06:51:26 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Select Kategori: Test Cases/Pages/UserEditItem/Select Kategori
+
+2022-11-01 06:51:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Edit_Item/select_Pilih Kategori"), select_kategori, true): All options with value '1' are selected in object 'Object Repository/Page_Edit_Item/select_Pilih Kategori'  using regular expression
+
+2022-11-01 06:51:27 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Edit_Item/select_Pilih Kategori'  using regular expression
+
+2022-11-01 06:51:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Select Kategori' successfully
+
+2022-11-01 06:51:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Input Deskripsi"), ["deskripsi":"ini deskripsi paracetamol"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Input Deskripsi' successfully
+
+2022-11-01 06:51:27 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Input Deskripsi: Test Cases/Pages/UserEditItem/Input Deskripsi
+
+2022-11-01 06:51:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Edit_Item/textarea_deskripsi"), deskripsi): Text 'ini deskripsi paracetamol' is set on object 'Object Repository/Page_Edit_Item/textarea_deskripsi'
+
+2022-11-01 06:51:28 - [MESSAGE][PASSED] - Text 'ini deskripsi paracetamol' is set on object 'Object Repository/Page_Edit_Item/textarea_deskripsi'
+
+2022-11-01 06:51:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Input Deskripsi' successfully
+
+2022-11-01 06:51:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Add Photo"), ["add_photo":"C:\Users\ASUS\Downloads\desain1.png"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Add Photo' successfully
+
+2022-11-01 06:51:28 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Add Photo: Test Cases/Pages/UserEditItem/Add Photo
+
+2022-11-01 06:51:28 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Page_Edit_Item/svg_Foto Produk_bi bi-plus-square-dotted mt-2"), add_photo): File 'C:\Users\ASUS\Downloads\desain1.png' sent to object: 'Object Repository/Page_Edit_Item/svg_Foto Produk_bi bi-plus-square-dotted mt-2'
+
+2022-11-01 06:51:28 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\Downloads\desain1.png' sent to object: 'Object Repository/Page_Edit_Item/svg_Foto Produk_bi bi-plus-square-dotted mt-2'
+
+2022-11-01 06:51:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Add Photo' successfully
+
+2022-11-01 06:51:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Click Terbitkan"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Click Terbitkan' successfully
+
+2022-11-01 06:51:28 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Click Terbitkan: Test Cases/Pages/UserEditItem/Click Terbitkan
+
+2022-11-01 06:51:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_Edit_Item/button_Terbitkan")): Object: 'Object Repository/Page_Edit_Item/button_Terbitkan' is clicked on
+
+2022-11-01 06:51:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Edit_Item/button_Terbitkan' is clicked on
+
+2022-11-01 06:51:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Click Terbitkan' successfully
+
+2022-11-01 06:51:31 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-11-01 06:51:31 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Edit Item/EDITITEM002 - Edit Item Without Preview in Semua Product page
+
+2022-11-01 06:51:31 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Edit Item/EDITITEM002 - Edit Item Without Preview in Semua Product page
+
+2022-11-01 06:51:31 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2022-11-01 06:51:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-01 06:51:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StepDefinition/Feature Edit Item/EDITITEM003 - Edit Item Without Preview in Diminati page" time="25.324" classname="Test Cases/StepDefinition/Feature Edit Item/EDITITEM003 - Edit Item Without Preview in Diminati page" status="PASSED">
+         <system-out><![CDATA[2022-11-01 06:51:32 - [TEST_CASE][PASSED] - Test Cases/StepDefinition/Feature Edit Item/EDITITEM003 - Edit Item Without Preview in Diminati page: Test Cases/StepDefinition/Feature Edit Item/EDITITEM003 - Edit Item Without Preview in Diminati page
+
+2022-11-01 06:51:32 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-11-01 06:51:32 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Edit Item/EDITITEM003 - Edit Item Without Preview in Diminati page
+
+2022-11-01 06:51:32 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Edit Item/EDITITEM003 - Edit Item Without Preview in Diminati page
+
+2022-11-01 06:51:32 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2022-11-01 06:51:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-01 06:51:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-01 06:51:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-01 06:51:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-01 06:51:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-01 06:51:33 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-01 06:51:33 - [TEST_STEP][PASSED] - navigateToUrl("https://deployed-five.vercel.app"): Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-11-01 06:51:34 - [MESSAGE][PASSED] - Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-11-01 06:51:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password' successfully
+
+2022-11-01 06:51:35 - [TEST_CASE][PASSED] - Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password: Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password
+
+2022-11-01 06:51:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Click Link Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Click Link Masuk' successfully
+
+2022-11-01 06:51:35 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Click Link Masuk: Test Cases/Pages/UserLogin/Click Link Masuk
+
+2022-11-01 06:51:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/link_Masuk")): Object: 'Object Repository/Page_Login/link_Masuk' is clicked on
+
+2022-11-01 06:51:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/link_Masuk' is clicked on
+
+2022-11-01 06:51:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Click Link Masuk' successfully
+
+2022-11-01 06:51:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Input Username"), ["email":"binarqae1@gmail.com"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Input Username' successfully
+
+2022-11-01 06:51:37 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Input Username: Test Cases/Pages/UserLogin/Input Username
+
+2022-11-01 06:51:37 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/input_Email")): Text of object 'Object Repository/Page_Login/input_Email' is cleared
+
+2022-11-01 06:51:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/input_Email' is cleared
+
+2022-11-01 06:51:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Email"), email): Keys 'binarqae1@gmail.com' sent to object: 'Object Repository/Page_Login/input_Email'
+
+2022-11-01 06:51:37 - [MESSAGE][PASSED] - Keys 'binarqae1@gmail.com' sent to object: 'Object Repository/Page_Login/input_Email'
+
+2022-11-01 06:51:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Input Username' successfully
+
+2022-11-01 06:51:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Input Password"), ["password":"students1234"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Input Password' successfully
+
+2022-11-01 06:51:38 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Input Password: Test Cases/Pages/UserLogin/Input Password
+
+2022-11-01 06:51:38 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/input_Password")): Text of object 'Object Repository/Page_Login/input_Password' is cleared
+
+2022-11-01 06:51:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/input_Password' is cleared
+
+2022-11-01 06:51:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Password"), password): Keys 'students1234' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-11-01 06:51:38 - [MESSAGE][PASSED] - Keys 'students1234' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-11-01 06:51:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Input Password' successfully
+
+2022-11-01 06:51:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Click login button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Click login button' successfully
+
+2022-11-01 06:51:38 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Click login button: Test Cases/Pages/UserLogin/Click login button
+
+2022-11-01 06:51:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/button_Masuk")): Object: 'Object Repository/Page_Login/button_Masuk' is clicked on
+
+2022-11-01 06:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Masuk' is clicked on
+
+2022-11-01 06:51:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Click login button' successfully
+
+2022-11-01 06:51:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Verify Content"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Verify Content' successfully
+
+2022-11-01 06:51:39 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Verify Content: Test Cases/Pages/UserLogin/Verify Content
+
+2022-11-01 06:51:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Logout/menu_Profile"), 0): Object 'Object Repository/Page_Logout/menu_Profile' is present
+
+2022-11-01 06:51:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 06:51:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Logout/menu_Profile' is present
+
+2022-11-01 06:51:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Homepage/image_banner"), 0): Object 'Object Repository/Homepage/image_banner' is present
+
+2022-11-01 06:51:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 06:51:42 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/image_banner' is present
+
+2022-11-01 06:51:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Homepage/image_blue logo"), 0): Object 'Object Repository/Homepage/image_blue logo' is present
+
+2022-11-01 06:51:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 06:51:42 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/image_blue logo' is present
+
+2022-11-01 06:51:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Add Item/button_Profile_notification"), 0): Object 'Object Repository/Page_Add Item/button_Profile_notification' is present
+
+2022-11-01 06:51:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 06:51:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Add Item/button_Profile_notification' is present
+
+2022-11-01 06:51:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Verify Content' successfully
+
+2022-11-01 06:51:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password' successfully
+
+2022-11-01 06:51:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home/svg_Profile_svg-inline--fa fa-list fa-lg")): Object: 'Object Repository/Page_Home/svg_Profile_svg-inline--fa fa-list fa-lg' is clicked on
+
+2022-11-01 06:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/svg_Profile_svg-inline--fa fa-list fa-lg' is clicked on
+
+2022-11-01 06:51:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Daftar_Jual/button_Diminati")): Object: 'Object Repository/Page_Daftar_Jual/button_Diminati' is clicked on
+
+2022-11-01 06:51:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Daftar_Jual/button_Diminati' is clicked on
+
+2022-11-01 06:51:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_Diminati/div_opticalHobyRp250.000,00")): Object: 'Object Repository/Page_Diminati/div_opticalHobyRp250.000,00' is clicked on
+
+2022-11-01 06:51:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Diminati/div_opticalHobyRp250.000,00' is clicked on
+
+2022-11-01 06:51:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_Daftar_Jual/button_Edit")): Object: 'Object Repository/Page_Daftar_Jual/button_Edit' is clicked on
+
+2022-11-01 06:51:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Daftar_Jual/button_Edit' is clicked on
+
+2022-11-01 06:51:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Input Nama Produk"), ["nama_produk":"Paracetamol"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Input Nama Produk' successfully
+
+2022-11-01 06:51:49 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Input Nama Produk: Test Cases/Pages/UserEditItem/Input Nama Produk
+
+2022-11-01 06:51:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Edit_Item/input_Nama Produk"), nama_produk): Text 'Paracetamol' is set on object 'Object Repository/Page_Edit_Item/input_Nama Produk'
+
+2022-11-01 06:51:50 - [MESSAGE][PASSED] - Text 'Paracetamol' is set on object 'Object Repository/Page_Edit_Item/input_Nama Produk'
+
+2022-11-01 06:51:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Input Nama Produk' successfully
+
+2022-11-01 06:51:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Input Harga Produk"), ["harga_produk":"10000"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Input Harga Produk' successfully
+
+2022-11-01 06:51:50 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Input Harga Produk: Test Cases/Pages/UserEditItem/Input Harga Produk
+
+2022-11-01 06:51:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Edit_Item/input_Harga Produk_harga_produk"), harga_produk): Text '10000' is set on object 'Object Repository/Page_Edit_Item/input_Harga Produk_harga_produk'
+
+2022-11-01 06:51:51 - [MESSAGE][PASSED] - Text '10000' is set on object 'Object Repository/Page_Edit_Item/input_Harga Produk_harga_produk'
+
+2022-11-01 06:51:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Input Harga Produk' successfully
+
+2022-11-01 06:51:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Select Kategori"), ["select_kategori":"1"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Select Kategori' successfully
+
+2022-11-01 06:51:51 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Select Kategori: Test Cases/Pages/UserEditItem/Select Kategori
+
+2022-11-01 06:51:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Edit_Item/select_Pilih Kategori"), select_kategori, true): All options with value '1' are selected in object 'Object Repository/Page_Edit_Item/select_Pilih Kategori'  using regular expression
+
+2022-11-01 06:51:52 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Edit_Item/select_Pilih Kategori'  using regular expression
+
+2022-11-01 06:51:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Select Kategori' successfully
+
+2022-11-01 06:51:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Input Deskripsi"), ["deskripsi":"ini deskripsi paracetamol"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Input Deskripsi' successfully
+
+2022-11-01 06:51:52 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Input Deskripsi: Test Cases/Pages/UserEditItem/Input Deskripsi
+
+2022-11-01 06:51:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Edit_Item/textarea_deskripsi"), deskripsi): Text 'ini deskripsi paracetamol' is set on object 'Object Repository/Page_Edit_Item/textarea_deskripsi'
+
+2022-11-01 06:51:53 - [MESSAGE][PASSED] - Text 'ini deskripsi paracetamol' is set on object 'Object Repository/Page_Edit_Item/textarea_deskripsi'
+
+2022-11-01 06:51:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Input Deskripsi' successfully
+
+2022-11-01 06:51:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Add Photo"), ["add_photo":"C:\Users\ASUS\Downloads\desain1.png"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Add Photo' successfully
+
+2022-11-01 06:51:53 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Add Photo: Test Cases/Pages/UserEditItem/Add Photo
+
+2022-11-01 06:51:53 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Page_Edit_Item/svg_Foto Produk_bi bi-plus-square-dotted mt-2"), add_photo): File 'C:\Users\ASUS\Downloads\desain1.png' sent to object: 'Object Repository/Page_Edit_Item/svg_Foto Produk_bi bi-plus-square-dotted mt-2'
+
+2022-11-01 06:51:54 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\Downloads\desain1.png' sent to object: 'Object Repository/Page_Edit_Item/svg_Foto Produk_bi bi-plus-square-dotted mt-2'
+
+2022-11-01 06:51:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Add Photo' successfully
+
+2022-11-01 06:51:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Click Terbitkan"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Click Terbitkan' successfully
+
+2022-11-01 06:51:54 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Click Terbitkan: Test Cases/Pages/UserEditItem/Click Terbitkan
+
+2022-11-01 06:51:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_Edit_Item/button_Terbitkan")): Object: 'Object Repository/Page_Edit_Item/button_Terbitkan' is clicked on
+
+2022-11-01 06:51:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Edit_Item/button_Terbitkan' is clicked on
+
+2022-11-01 06:51:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Click Terbitkan' successfully
+
+2022-11-01 06:51:56 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-11-01 06:51:56 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Edit Item/EDITITEM003 - Edit Item Without Preview in Diminati page
+
+2022-11-01 06:51:56 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Edit Item/EDITITEM003 - Edit Item Without Preview in Diminati page
+
+2022-11-01 06:51:56 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2022-11-01 06:51:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-01 06:51:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StepDefinition/Feature Edit Item/EDITITEM004 - Edit Item With Preview in Diminati page" time="25.603" classname="Test Cases/StepDefinition/Feature Edit Item/EDITITEM004 - Edit Item With Preview in Diminati page" status="PASSED">
+         <system-out><![CDATA[2022-11-01 06:51:57 - [TEST_CASE][PASSED] - Test Cases/StepDefinition/Feature Edit Item/EDITITEM004 - Edit Item With Preview in Diminati page: Test Cases/StepDefinition/Feature Edit Item/EDITITEM004 - Edit Item With Preview in Diminati page
+
+2022-11-01 06:51:57 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-11-01 06:51:57 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Edit Item/EDITITEM004 - Edit Item With Preview in Diminati page
+
+2022-11-01 06:51:57 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Edit Item/EDITITEM004 - Edit Item With Preview in Diminati page
+
+2022-11-01 06:51:57 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2022-11-01 06:51:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-01 06:51:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-01 06:51:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-01 06:51:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-01 06:51:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-01 06:51:58 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-01 06:51:58 - [TEST_STEP][PASSED] - navigateToUrl("https://deployed-five.vercel.app"): Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-11-01 06:52:00 - [MESSAGE][PASSED] - Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-11-01 06:52:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password' successfully
+
+2022-11-01 06:52:00 - [TEST_CASE][PASSED] - Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password: Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password
+
+2022-11-01 06:52:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Click Link Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Click Link Masuk' successfully
+
+2022-11-01 06:52:00 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Click Link Masuk: Test Cases/Pages/UserLogin/Click Link Masuk
+
+2022-11-01 06:52:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/link_Masuk")): Object: 'Object Repository/Page_Login/link_Masuk' is clicked on
+
+2022-11-01 06:52:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/link_Masuk' is clicked on
+
+2022-11-01 06:52:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Click Link Masuk' successfully
+
+2022-11-01 06:52:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Input Username"), ["email":"binarqae1@gmail.com"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Input Username' successfully
+
+2022-11-01 06:52:02 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Input Username: Test Cases/Pages/UserLogin/Input Username
+
+2022-11-01 06:52:02 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/input_Email")): Text of object 'Object Repository/Page_Login/input_Email' is cleared
+
+2022-11-01 06:52:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/input_Email' is cleared
+
+2022-11-01 06:52:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Email"), email): Keys 'binarqae1@gmail.com' sent to object: 'Object Repository/Page_Login/input_Email'
+
+2022-11-01 06:52:03 - [MESSAGE][PASSED] - Keys 'binarqae1@gmail.com' sent to object: 'Object Repository/Page_Login/input_Email'
+
+2022-11-01 06:52:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Input Username' successfully
+
+2022-11-01 06:52:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Input Password"), ["password":"students1234"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Input Password' successfully
+
+2022-11-01 06:52:03 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Input Password: Test Cases/Pages/UserLogin/Input Password
+
+2022-11-01 06:52:03 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/input_Password")): Text of object 'Object Repository/Page_Login/input_Password' is cleared
+
+2022-11-01 06:52:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/input_Password' is cleared
+
+2022-11-01 06:52:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Password"), password): Keys 'students1234' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-11-01 06:52:04 - [MESSAGE][PASSED] - Keys 'students1234' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-11-01 06:52:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Input Password' successfully
+
+2022-11-01 06:52:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Click login button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Click login button' successfully
+
+2022-11-01 06:52:04 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Click login button: Test Cases/Pages/UserLogin/Click login button
+
+2022-11-01 06:52:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/button_Masuk")): Object: 'Object Repository/Page_Login/button_Masuk' is clicked on
+
+2022-11-01 06:52:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Masuk' is clicked on
+
+2022-11-01 06:52:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Click login button' successfully
+
+2022-11-01 06:52:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Verify Content"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Verify Content' successfully
+
+2022-11-01 06:52:04 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Verify Content: Test Cases/Pages/UserLogin/Verify Content
+
+2022-11-01 06:52:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Logout/menu_Profile"), 0): Object 'Object Repository/Page_Logout/menu_Profile' is present
+
+2022-11-01 06:52:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 06:52:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Logout/menu_Profile' is present
+
+2022-11-01 06:52:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Homepage/image_banner"), 0): Object 'Object Repository/Homepage/image_banner' is present
+
+2022-11-01 06:52:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 06:52:07 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/image_banner' is present
+
+2022-11-01 06:52:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Homepage/image_blue logo"), 0): Object 'Object Repository/Homepage/image_blue logo' is present
+
+2022-11-01 06:52:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 06:52:07 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/image_blue logo' is present
+
+2022-11-01 06:52:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Add Item/button_Profile_notification"), 0): Object 'Object Repository/Page_Add Item/button_Profile_notification' is present
+
+2022-11-01 06:52:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 06:52:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Add Item/button_Profile_notification' is present
+
+2022-11-01 06:52:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Verify Content' successfully
+
+2022-11-01 06:52:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password' successfully
+
+2022-11-01 06:52:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home/svg_Profile_svg-inline--fa fa-list fa-lg")): Object: 'Object Repository/Page_Home/svg_Profile_svg-inline--fa fa-list fa-lg' is clicked on
+
+2022-11-01 06:52:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/svg_Profile_svg-inline--fa fa-list fa-lg' is clicked on
+
+2022-11-01 06:52:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Daftar_Jual/button_Diminati")): Object: 'Object Repository/Page_Daftar_Jual/button_Diminati' is clicked on
+
+2022-11-01 06:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Daftar_Jual/button_Diminati' is clicked on
+
+2022-11-01 06:52:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_Diminati/div_opticalHobyRp250.000,00")): Object: 'Object Repository/Page_Diminati/div_opticalHobyRp250.000,00' is clicked on
+
+2022-11-01 06:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Diminati/div_opticalHobyRp250.000,00' is clicked on
+
+2022-11-01 06:52:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_Daftar_Jual/button_Edit")): Object: 'Object Repository/Page_Daftar_Jual/button_Edit' is clicked on
+
+2022-11-01 06:52:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Daftar_Jual/button_Edit' is clicked on
+
+2022-11-01 06:52:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Input Nama Produk"), ["nama_produk":"Paracetamol"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Input Nama Produk' successfully
+
+2022-11-01 06:52:13 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Input Nama Produk: Test Cases/Pages/UserEditItem/Input Nama Produk
+
+2022-11-01 06:52:13 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Edit_Item/input_Nama Produk"), nama_produk): Text 'Paracetamol' is set on object 'Object Repository/Page_Edit_Item/input_Nama Produk'
+
+2022-11-01 06:52:16 - [MESSAGE][PASSED] - Text 'Paracetamol' is set on object 'Object Repository/Page_Edit_Item/input_Nama Produk'
+
+2022-11-01 06:52:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Input Nama Produk' successfully
+
+2022-11-01 06:52:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Input Harga Produk"), ["harga_produk":"10000"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Input Harga Produk' successfully
+
+2022-11-01 06:52:16 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Input Harga Produk: Test Cases/Pages/UserEditItem/Input Harga Produk
+
+2022-11-01 06:52:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Edit_Item/input_Harga Produk_harga_produk"), harga_produk): Text '10000' is set on object 'Object Repository/Page_Edit_Item/input_Harga Produk_harga_produk'
+
+2022-11-01 06:52:17 - [MESSAGE][PASSED] - Text '10000' is set on object 'Object Repository/Page_Edit_Item/input_Harga Produk_harga_produk'
+
+2022-11-01 06:52:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Input Harga Produk' successfully
+
+2022-11-01 06:52:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Select Kategori"), ["select_kategori":"1"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Select Kategori' successfully
+
+2022-11-01 06:52:17 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Select Kategori: Test Cases/Pages/UserEditItem/Select Kategori
+
+2022-11-01 06:52:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Edit_Item/select_Pilih Kategori"), select_kategori, true): All options with value '1' are selected in object 'Object Repository/Page_Edit_Item/select_Pilih Kategori'  using regular expression
+
+2022-11-01 06:52:18 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Edit_Item/select_Pilih Kategori'  using regular expression
+
+2022-11-01 06:52:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Select Kategori' successfully
+
+2022-11-01 06:52:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Input Deskripsi"), ["deskripsi":"ini deskripsi paracetamol"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Input Deskripsi' successfully
+
+2022-11-01 06:52:18 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Input Deskripsi: Test Cases/Pages/UserEditItem/Input Deskripsi
+
+2022-11-01 06:52:18 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Edit_Item/textarea_deskripsi"), deskripsi): Text 'ini deskripsi paracetamol' is set on object 'Object Repository/Page_Edit_Item/textarea_deskripsi'
+
+2022-11-01 06:52:19 - [MESSAGE][PASSED] - Text 'ini deskripsi paracetamol' is set on object 'Object Repository/Page_Edit_Item/textarea_deskripsi'
+
+2022-11-01 06:52:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Input Deskripsi' successfully
+
+2022-11-01 06:52:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Add Photo"), ["add_photo":"C:\Users\ASUS\Downloads\desain1.png"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Add Photo' successfully
+
+2022-11-01 06:52:19 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Add Photo: Test Cases/Pages/UserEditItem/Add Photo
+
+2022-11-01 06:52:19 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Page_Edit_Item/svg_Foto Produk_bi bi-plus-square-dotted mt-2"), add_photo): File 'C:\Users\ASUS\Downloads\desain1.png' sent to object: 'Object Repository/Page_Edit_Item/svg_Foto Produk_bi bi-plus-square-dotted mt-2'
+
+2022-11-01 06:52:19 - [MESSAGE][PASSED] - File 'C:\Users\ASUS\Downloads\desain1.png' sent to object: 'Object Repository/Page_Edit_Item/svg_Foto Produk_bi bi-plus-square-dotted mt-2'
+
+2022-11-01 06:52:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Add Photo' successfully
+
+2022-11-01 06:52:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserEditItem/Click Preview"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserEditItem/Click Preview' successfully
+
+2022-11-01 06:52:19 - [TEST_CASE][PASSED] - Test Cases/Pages/UserEditItem/Click Preview: Test Cases/Pages/UserEditItem/Click Preview
+
+2022-11-01 06:52:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_Edit_Item/button_Preview")): Object: 'Object Repository/Page_Edit_Item/button_Preview' is clicked on
+
+2022-11-01 06:52:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Edit_Item/button_Preview' is clicked on
+
+2022-11-01 06:52:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserEditItem/Click Preview' successfully
+
+2022-11-01 06:52:22 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-11-01 06:52:22 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Edit Item/EDITITEM004 - Edit Item With Preview in Diminati page
+
+2022-11-01 06:52:22 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Edit Item/EDITITEM004 - Edit Item With Preview in Diminati page
+
+2022-11-01 06:52:22 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2022-11-01 06:52:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-01 06:52:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-01 06:50:36 - [TEST_SUITE][PASSED] - Feature Edit Item: Test Cases/StepDefinition/Feature Edit Item/EDITITEM004 - Edit Item With Preview in Diminati page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
