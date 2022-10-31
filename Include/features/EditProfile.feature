@@ -4,7 +4,7 @@
 Feature: EditProfile
 	User want to edit profile
 	
-	@SUBOF001
+	@EditProf001
 	Scenario: EditProf001 - User want to edit profile without add photo
 		Then User login at SecondHand Store website
 		Then User click profile button

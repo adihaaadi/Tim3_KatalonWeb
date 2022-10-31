@@ -1,4 +1,5 @@
-// Tri
+// TRI
+
 package stepDefinition
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -45,33 +46,23 @@ import cucumber.api.java.en.When
 
 
 
-class EditProfile {@Then("User click profile button")
-	public void user_click_profile_button() {
-		WebUI.click(findTestObject('Page_Home/button_profile'))
-	}
+class SubmitOffering {@Then("User click teslakendaraan")
+public void user_click_teslakendaraan() {
+	WebUI.click(findTestObject('Page_Submit_Offering/div_TeslaKendaraanRp1.500.000,00'))
+}
 
-	@Then("User input nama akun {string}")
-	public void user_input_nama_akun(String nama_akun) {
-		WebUI.callTestCase(findTestCase('Pages/ProfilePage/Input Nama Akun'), [('nama_akun') : nama_akun], FailureHandling.STOP_ON_FAILURE)
-	}
+@Then("User click saya tertarik dan ingin nego button")
+public void user_click_saya_tertarik_dan_ingin_nego_button() {
+	WebUI.click(findTestObject('Page_Submit_Offering/button_Saya tertarik dan ingin nego'))
+}
 
-	@Then("User select kota {string}")
-	public void user_select_kota(String select_kota) {
-		WebUI.callTestCase(findTestCase('Pages/ProfilePage/Select Kota'), [('select_kota') : select_kota], FailureHandling.STOP_ON_FAILURE)
-	}
+@Then("User input harga tawar {string}")
+public void user_input_harga_tawar(String harga_tawar) {
+	WebUI.setText(findTestObject('Page_Submit_Offering/input_Harga Tawar_form-control'), [('harga_tawar') : harga_tawar], FailureHandling.STOP_ON_FAILURE)
+}
 
-	@Then("User input alamat {string}")
-	public void user_input_alamat(String alamat) {
-		WebUI.callTestCase(findTestCase('Pages/ProfilePage/Input Alamat'), [('alamat') : alamat], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@Then("User input no handphone {string}")
-	public void user_input_no_handphone(String no_handphone) {
-		WebUI.callTestCase(findTestCase('Pages/ProfilePage/Input No Handphone'), [('no_handphone') : no_handphone], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@Then("User click submit")
-	public void user_click_submit() {
-		WebUI.callTestCase(findTestCase('Pages/ProfilePage/Click Submit'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
+@Then("User click kirim")
+public void user_click_kirim() {
+	WebUI.callTestCase(findTestCase('Pages/SubmitOffering/Click Kirim'), [:], FailureHandling.STOP_ON_FAILURE)
+}
 }
