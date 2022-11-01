@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature View Product Details Daftar Jual Page,Chrome 106.0.0.0,,,2022-11-01 16:08:16,2022-11-01 16:08:45,29.152s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature View Product Detail/PRODUCTDAFTARJUAL001 - View Product Details in Daftar Jual Page,Chrome 106.0.0.0,,,2022-11-01 16:08:21,2022-11-01 16:08:45,24.604s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-11-01 16:08:21,2022-11-01 16:08:25,3.847s,PASSED
+"callTestCase(findTestCase(""StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-11-01 16:08:25,2022-11-01 16:08:35,9.233s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Click Menu Button""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-11-01 16:08:35,2022-11-01 16:08:35,0.761s,PASSED
+"callTestCase(findTestCase(""Pages/Product Detail (Daftar Jual)/Click Product Detail""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-11-01 16:08:35,2022-11-01 16:08:39,4.057s,PASSED
+"callTestCase(findTestCase(""Pages/Product Detail (Daftar Jual)/Verify Content Product from User Alerady Uploaded""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-11-01 16:08:39,2022-11-01 16:08:45,5.136s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-11-01 16:08:45,2022-11-01 16:08:45,0.817s,PASSED

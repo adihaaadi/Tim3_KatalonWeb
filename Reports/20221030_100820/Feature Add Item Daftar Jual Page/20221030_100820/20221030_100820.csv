@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Add Item Daftar Jual Page,Chrome 106.0.0.0,,,2022-10-30 10:08:26,2022-10-30 10:10:51,2m - 25.231s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Add Item/ADDITEMDAFTARJUAL001 - User Want To Add Item,Chrome 106.0.0.0,,,2022-10-30 10:08:33,2022-10-30 10:09:38,1m - 5.691s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-30 10:08:33,2022-10-30 10:08:38,4.731s,PASSED
+"callTestCase(findTestCase(""StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:08:38,2022-10-30 10:08:49,10.582s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Click Menu Button""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:08:49,2022-10-30 10:08:50,1.623s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Click Tambah Produk Button""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:08:50,2022-10-30 10:08:54,4.063s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Input Nama Produk""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:08:54,2022-10-30 10:08:56,1.506s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Input Harga Produk""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:08:56,2022-10-30 10:08:57,1.520s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Choose Kategori""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:08:57,2022-10-30 10:09:00,2.250s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Input Deskripsi""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:09:00,2022-10-30 10:09:01,1.464s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Add Image""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:09:01,2022-10-30 10:09:02,1.418s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Click Preview Button""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:09:02,2022-10-30 10:09:06,3.748s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Click Terbitkan Button""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:09:06,2022-10-30 10:09:38,31.306s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-30 10:09:38,2022-10-30 10:09:38,0.941s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Add Item/ADDITEMDAFTARJUAL002 - User Click Back in Tambah Produk Page,Chrome 106.0.0.0,,,2022-10-30 10:09:38,2022-10-30 10:10:03,24.428s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-30 10:09:38,2022-10-30 10:09:43,4.866s,PASSED
+"callTestCase(findTestCase(""StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:09:44,2022-10-30 10:09:57,12.967s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Click Menu Button""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:09:57,2022-10-30 10:09:58,0.558s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Click Tambah Produk Button""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:09:58,2022-10-30 10:10:01,3.177s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Click Back Button""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:10:01,2022-10-30 10:10:02,1.269s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-30 10:10:02,2022-10-30 10:10:03,0.777s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Add Item/ADDITEMDAFTARJUAL003 - User Click Back After Filling All Field,Chrome 106.0.0.0,,,2022-10-30 10:10:03,2022-10-30 10:10:29,26.239s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-30 10:10:03,2022-10-30 10:10:07,3.950s,PASSED
+"callTestCase(findTestCase(""StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:10:07,2022-10-30 10:10:17,9.516s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Click Menu Button""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:10:17,2022-10-30 10:10:17,0.568s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Click Tambah Produk Button""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:10:17,2022-10-30 10:10:20,2.881s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Input Nama Produk""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:10:20,2022-10-30 10:10:21,1.101s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Input Harga Produk""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:10:21,2022-10-30 10:10:22,0.544s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Choose Kategori""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:10:22,2022-10-30 10:10:23,1.116s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Input Deskripsi""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:10:23,2022-10-30 10:10:24,0.600s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Add Image""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:10:24,2022-10-30 10:10:24,0.771s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Click Back Button""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:10:24,2022-10-30 10:10:25,0.630s,PASSED
+delay(3),Chrome 106.0.0.0,,,2022-10-30 10:10:25,2022-10-30 10:10:28,3.043s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-30 10:10:28,2022-10-30 10:10:29,1.016s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Add Item/ADDITEMDAFTARJUAL004 - Search Produk in Tambah Produk Page,Chrome 106.0.0.0,,,2022-10-30 10:10:29,2022-10-30 10:10:51,22.010s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-30 10:10:29,2022-10-30 10:10:34,4.645s,PASSED
+"callTestCase(findTestCase(""StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:10:34,2022-10-30 10:10:43,9.160s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Click Menu Button""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:10:43,2022-10-30 10:10:44,0.587s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Click Tambah Produk Button""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:10:44,2022-10-30 10:10:47,3.149s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Input Search Produk""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:10:47,2022-10-30 10:10:48,1.191s,PASSED
+"callTestCase(findTestCase(""Pages/UserAddItem(Daftar Jual)/Enter Search Produk""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 10:10:48,2022-10-30 10:10:50,1.706s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-30 10:10:50,2022-10-30 10:10:51,1.044s,PASSED
