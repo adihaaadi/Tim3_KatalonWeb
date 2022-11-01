@@ -79,13 +79,13 @@ public class Register {
 		WebUI.maximizeWindow();
 		WebUI.navigateToUrl('https://deployed-five.vercel.app/')
 	}
-	
+
 	//Sign up using registered email
 	@Then("User input registered email address field")
 	public void user_input_registered_email_address_field() {
 		WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Email Address'), [('email') : 'pltnmchllgn04@yopmail.com'], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	//Sign up with less than 8 characters of password
 	@Then("User input less than {int} characters at password field")
 	public void user_input_less_than_characters_at_password_field(Integer int1) {
