@@ -25,6 +25,8 @@ WebUI.click(findTestObject('Page_Submit_Offering/button_Saya tertarik dan ingin 
 
 WebUI.setText(findTestObject('Page_Submit_Offering/input_Harga Tawar_form-control'), '100000')
 
+WebUI.callTestCase(findTestCase('Pages/SubmitOffering/Message Success'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Pages/SubmitOffering/Click Kirim'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)

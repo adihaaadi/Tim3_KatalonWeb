@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Profile,Chrome 107.0.0.0,,,2022-11-02 07:20:16,2022-11-02 07:21:09,52.585s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Edit Profile/EditProf001 - Edit Profile without adding photo,Chrome 107.0.0.0,,,2022-11-02 07:20:28,2022-11-02 07:21:09,40.523s,PASSED
+Start listener action : beforeTestCase,Chrome 107.0.0.0,,,2022-11-02 07:20:28,2022-11-02 07:20:34,5.379s,PASSED
+"callTestCase(findTestCase(""StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password""), [:], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-02 07:20:34,2022-11-02 07:20:52,17.888s,PASSED
+"click(findTestObject(""Page_Home/button_profile""))",Chrome 107.0.0.0,,,2022-11-02 07:20:52,2022-11-02 07:20:53,0.465s,PASSED
+"click(findTestObject(""Page_Profile/a_Profile""))",Chrome 107.0.0.0,,,2022-11-02 07:20:53,2022-11-02 07:20:53,0.632s,PASSED
+"callTestCase(findTestCase(""Pages/ProfilePage/Input Nama Akun""), [""nama_akun"":""binar qae1""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-02 07:20:53,2022-11-02 07:20:55,2.084s,PASSED
+"callTestCase(findTestCase(""Pages/ProfilePage/Select Kota""), [""select_kota"":""Bandung""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-02 07:20:55,2022-11-02 07:20:57,1.649s,PASSED
+"callTestCase(findTestCase(""Pages/ProfilePage/Input Alamat""), [""alamat"":""Bandung timur""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-02 07:20:57,2022-11-02 07:20:59,2.163s,PASSED
+"callTestCase(findTestCase(""Pages/ProfilePage/Input No Handphone""), [""no_handphone"":""098886829""], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-02 07:20:59,2022-11-02 07:21:01,2.184s,PASSED
+"callTestCase(findTestCase(""Pages/ProfilePage/Click Submit""), [:], STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-11-02 07:21:01,2022-11-02 07:21:05,3.651s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-02 07:21:05,2022-11-02 07:21:08,3.022s,PASSED
+Start listener action : afterTestCase,Chrome 107.0.0.0,,,2022-11-02 07:21:08,2022-11-02 07:21:09,0.781s,PASSED

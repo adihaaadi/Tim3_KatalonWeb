@@ -27,6 +27,8 @@ WebUI.callTestCase(findTestCase('Pages/SubmitOffering/Verify Content Pop Up'), [
 
 WebUI.setText(findTestObject('Page_Submit_Offering/input_Harga Tawar_form-control'), 'lima ribu')
 
+WebUI.callTestCase(findTestCase('Pages/SubmitOffering/Message Success'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Pages/SubmitOffering/Click Kirim'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Profile" time="52.585" tests="1" failures="0" errors="0">
+   <testsuite name="Feature Profile" tests="1" failures="0" errors="0" time="52.585" skipped="0" timestamp="2022-11-02 07:20:16" hostname="User - DESKTOP-857NR77" id="Test Suites/Feature Profile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\Katalon Studio\\Tim3_KatalonWeb\\Reports\\20221102_071957\\Feature Profile\\20221102_071957"/>
+         <property name="logFiles" value="C:\\Users\\User\\Katalon Studio\\Tim3_KatalonWeb\\Reports\\20221102_071957\\Feature Profile\\20221102_071957\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - DESKTOP-857NR77"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="browser" value="Chrome 107.0.0.0"/>
+         <property name="hostAddress" value="10.11.10.54"/>
+         <property name="sessionId" value="5dd4e61c0c6882bd17cf7bd0d8da39f0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/StepDefinition/Feature Edit Profile/EditProf001 - Edit Profile without adding photo" time="40.523" classname="Test Cases/StepDefinition/Feature Edit Profile/EditProf001 - Edit Profile without adding photo" status="PASSED">
+         <system-out><![CDATA[2022-11-02 07:20:28 - [TEST_CASE][PASSED] - Test Cases/StepDefinition/Feature Edit Profile/EditProf001 - Edit Profile without adding photo: Test Cases/StepDefinition/Feature Edit Profile/EditProf001 - Edit Profile without adding photo
+
+2022-11-02 07:20:28 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-11-02 07:20:28 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Edit Profile/EditProf001 - Edit Profile without adding photo
+
+2022-11-02 07:20:28 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Edit Profile/EditProf001 - Edit Profile without adding photo
+
+2022-11-02 07:20:28 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2022-11-02 07:20:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-02 07:20:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-02 07:20:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-02 07:20:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-02 07:20:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-02 07:20:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-02 07:20:31 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-02 07:20:31 - [TEST_STEP][PASSED] - navigateToUrl("https://deployed-five.vercel.app"): Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-11-02 07:20:34 - [MESSAGE][PASSED] - Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-11-02 07:20:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password' successfully
+
+2022-11-02 07:20:34 - [TEST_CASE][PASSED] - Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password: Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password
+
+2022-11-02 07:20:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Click Link Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Click Link Masuk' successfully
+
+2022-11-02 07:20:35 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Click Link Masuk: Test Cases/Pages/UserLogin/Click Link Masuk
+
+2022-11-02 07:20:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/link_Masuk")): Object: 'Object Repository/Page_Login/link_Masuk' is clicked on
+
+2022-11-02 07:20:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/link_Masuk' is clicked on
+
+2022-11-02 07:20:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Click Link Masuk' successfully
+
+2022-11-02 07:20:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Input Username"), ["email":"binarqae1@gmail.com"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Input Username' successfully
+
+2022-11-02 07:20:43 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Input Username: Test Cases/Pages/UserLogin/Input Username
+
+2022-11-02 07:20:44 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/input_Email")): Text of object 'Object Repository/Page_Login/input_Email' is cleared
+
+2022-11-02 07:20:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/input_Email' is cleared
+
+2022-11-02 07:20:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Email"), email): Keys 'binarqae1@gmail.com' sent to object: 'Object Repository/Page_Login/input_Email'
+
+2022-11-02 07:20:45 - [MESSAGE][PASSED] - Keys 'binarqae1@gmail.com' sent to object: 'Object Repository/Page_Login/input_Email'
+
+2022-11-02 07:20:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Input Username' successfully
+
+2022-11-02 07:20:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Input Password"), ["password":"students1234"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Input Password' successfully
+
+2022-11-02 07:20:45 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Input Password: Test Cases/Pages/UserLogin/Input Password
+
+2022-11-02 07:20:46 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/input_Password")): Text of object 'Object Repository/Page_Login/input_Password' is cleared
+
+2022-11-02 07:20:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/input_Password' is cleared
+
+2022-11-02 07:20:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Password"), password): Keys 'students1234' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-11-02 07:20:47 - [MESSAGE][PASSED] - Keys 'students1234' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-11-02 07:20:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Input Password' successfully
+
+2022-11-02 07:20:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Click login button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Click login button' successfully
+
+2022-11-02 07:20:47 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Click login button: Test Cases/Pages/UserLogin/Click login button
+
+2022-11-02 07:20:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/button_Masuk")): Object: 'Object Repository/Page_Login/button_Masuk' is clicked on
+
+2022-11-02 07:20:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Masuk' is clicked on
+
+2022-11-02 07:20:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Click login button' successfully
+
+2022-11-02 07:20:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Verify Content"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Verify Content' successfully
+
+2022-11-02 07:20:48 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Verify Content: Test Cases/Pages/UserLogin/Verify Content
+
+2022-11-02 07:20:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Logout/menu_Profile"), 0): Object 'Object Repository/Page_Logout/menu_Profile' is present
+
+2022-11-02 07:20:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-02 07:20:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Logout/menu_Profile' is present
+
+2022-11-02 07:20:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Homepage/image_banner"), 0): Object 'Object Repository/Homepage/image_banner' is present
+
+2022-11-02 07:20:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-02 07:20:51 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/image_banner' is present
+
+2022-11-02 07:20:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Homepage/image_blue logo"), 0): Object 'Object Repository/Homepage/image_blue logo' is present
+
+2022-11-02 07:20:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-02 07:20:51 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/image_blue logo' is present
+
+2022-11-02 07:20:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Add Item/button_Profile_notification"), 0): Object 'Object Repository/Page_Add Item/button_Profile_notification' is present
+
+2022-11-02 07:20:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-02 07:20:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Add Item/button_Profile_notification' is present
+
+2022-11-02 07:20:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Verify Content' successfully
+
+2022-11-02 07:20:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password' successfully
+
+2022-11-02 07:20:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home/button_profile")): Object: 'Object Repository/Page_Home/button_profile' is clicked on
+
+2022-11-02 07:20:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/button_profile' is clicked on
+
+2022-11-02 07:20:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_Profile/a_Profile")): Object: 'Object Repository/Page_Profile/a_Profile' is clicked on
+
+2022-11-02 07:20:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Profile/a_Profile' is clicked on
+
+2022-11-02 07:20:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/ProfilePage/Input Nama Akun"), ["nama_akun":"binar qae1"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/ProfilePage/Input Nama Akun' successfully
+
+2022-11-02 07:20:53 - [TEST_CASE][PASSED] - Test Cases/Pages/ProfilePage/Input Nama Akun: Test Cases/Pages/ProfilePage/Input Nama Akun
+
+2022-11-02 07:20:54 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Profile/input_Nama_akun")): Text of object 'Object Repository/Page_Profile/input_Nama_akun' is cleared
+
+2022-11-02 07:20:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Profile/input_Nama_akun' is cleared
+
+2022-11-02 07:20:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Profile/input_Nama_akun"), nama_akun): Text 'binar qae1' is set on object 'Object Repository/Page_Profile/input_Nama_akun'
+
+2022-11-02 07:20:55 - [MESSAGE][PASSED] - Text 'binar qae1' is set on object 'Object Repository/Page_Profile/input_Nama_akun'
+
+2022-11-02 07:20:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/ProfilePage/Input Nama Akun' successfully
+
+2022-11-02 07:20:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/ProfilePage/Select Kota"), ["select_kota":"Bandung"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/ProfilePage/Select Kota' successfully
+
+2022-11-02 07:20:55 - [TEST_CASE][PASSED] - Test Cases/Pages/ProfilePage/Select Kota: Test Cases/Pages/ProfilePage/Select Kota
+
+2022-11-02 07:20:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Profile/select_kota"), select_kota, false): All options with value 'Bandung' are selected in object 'Object Repository/Page_Profile/select_kota' 
+
+2022-11-02 07:20:57 - [MESSAGE][PASSED] - All options with value 'Bandung' are selected in object 'Object Repository/Page_Profile/select_kota' 
+
+2022-11-02 07:20:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/ProfilePage/Select Kota' successfully
+
+2022-11-02 07:20:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/ProfilePage/Input Alamat"), ["alamat":"Bandung timur"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/ProfilePage/Input Alamat' successfully
+
+2022-11-02 07:20:57 - [TEST_CASE][PASSED] - Test Cases/Pages/ProfilePage/Input Alamat: Test Cases/Pages/ProfilePage/Input Alamat
+
+2022-11-02 07:20:58 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Profile/textarea_Alamat_deskripsi")): Text of object 'Object Repository/Page_Profile/textarea_Alamat_deskripsi' is cleared
+
+2022-11-02 07:20:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Profile/textarea_Alamat_deskripsi' is cleared
+
+2022-11-02 07:20:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Profile/textarea_Alamat_deskripsi"), alamat): Text 'Bandung timur' is set on object 'Object Repository/Page_Profile/textarea_Alamat_deskripsi'
+
+2022-11-02 07:20:59 - [MESSAGE][PASSED] - Text 'Bandung timur' is set on object 'Object Repository/Page_Profile/textarea_Alamat_deskripsi'
+
+2022-11-02 07:20:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/ProfilePage/Input Alamat' successfully
+
+2022-11-02 07:20:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/ProfilePage/Input No Handphone"), ["no_handphone":"098886829"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/ProfilePage/Input No Handphone' successfully
+
+2022-11-02 07:20:59 - [TEST_CASE][PASSED] - Test Cases/Pages/ProfilePage/Input No Handphone: Test Cases/Pages/ProfilePage/Input No Handphone
+
+2022-11-02 07:21:00 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Profile/input_No.Handphone_")): Text of object 'Object Repository/Page_Profile/input_No.Handphone_' is cleared
+
+2022-11-02 07:21:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Profile/input_No.Handphone_' is cleared
+
+2022-11-02 07:21:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Profile/input_No.Handphone_"), no_handphone): Text '098886829' is set on object 'Object Repository/Page_Profile/input_No.Handphone_'
+
+2022-11-02 07:21:01 - [MESSAGE][PASSED] - Text '098886829' is set on object 'Object Repository/Page_Profile/input_No.Handphone_'
+
+2022-11-02 07:21:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/ProfilePage/Input No Handphone' successfully
+
+2022-11-02 07:21:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/ProfilePage/Click Submit"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/ProfilePage/Click Submit' successfully
+
+2022-11-02 07:21:01 - [TEST_CASE][PASSED] - Test Cases/Pages/ProfilePage/Click Submit: Test Cases/Pages/ProfilePage/Click Submit
+
+2022-11-02 07:21:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_Profile/button_submit")): Object: 'Object Repository/Page_Profile/button_submit' is clicked on
+
+2022-11-02 07:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Profile/button_submit' is clicked on
+
+2022-11-02 07:21:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/ProfilePage/Click Submit' successfully
+
+2022-11-02 07:21:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-11-02 07:21:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-11-02 07:21:08 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-11-02 07:21:08 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Edit Profile/EditProf001 - Edit Profile without adding photo
+
+2022-11-02 07:21:08 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Edit Profile/EditProf001 - Edit Profile without adding photo
+
+2022-11-02 07:21:08 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2022-11-02 07:21:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-02 07:21:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-02 07:20:16 - [TEST_SUITE][PASSED] - Feature Profile: Test Cases/StepDefinition/Feature Edit Profile/EditProf001 - Edit Profile without adding photo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
