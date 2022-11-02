@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Submit Offering" time="354.168" tests="2" failures="0" errors="0">
+   <testsuite name="Feature Submit Offering" tests="2" failures="0" errors="0" time="354.168" skipped="0" timestamp="2022-11-02 17:38:56" hostname="User - DESKTOP-857NR77" id="Test Suites/Feature Submit Offering">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\Tim3_KatalonWeb\\Reports\\20221102_173852\\Feature Submit Offering\\20221102_173852"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\Tim3_KatalonWeb\\Reports\\20221102_173852\\Feature Submit Offering\\20221102_173852\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - DESKTOP-857NR77"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Chrome 107.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.11"/>
+         <property name="sessionId" value="6c7436aedd2a8c984db3cf36553c1c03"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/StepDefinition/Feature Submit Offering/SUBOF001 - Offering with input invalid Harga Tawar" time="259.035" classname="Test Cases/StepDefinition/Feature Submit Offering/SUBOF001 - Offering with input invalid Harga Tawar" status="PASSED">
+         <system-out><![CDATA[2022-11-02 17:39:02 - [TEST_CASE][PASSED] - Test Cases/StepDefinition/Feature Submit Offering/SUBOF001 - Offering with input invalid Harga Tawar: Test Cases/StepDefinition/Feature Submit Offering/SUBOF001 - Offering with input invalid Harga Tawar
+
+2022-11-02 17:39:02 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-11-02 17:39:02 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Submit Offering/SUBOF001 - Offering with input invalid Harga Tawar
+
+2022-11-02 17:39:02 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Submit Offering/SUBOF001 - Offering with input invalid Harga Tawar
+
+2022-11-02 17:39:02 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2022-11-02 17:39:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-02 17:39:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-02 17:39:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-02 17:39:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-02 17:39:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-02 17:39:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-02 17:39:04 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-02 17:39:04 - [TEST_STEP][PASSED] - navigateToUrl("https://deployed-five.vercel.app"): Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-11-02 17:39:06 - [MESSAGE][PASSED] - Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-11-02 17:39:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password' successfully
+
+2022-11-02 17:39:07 - [TEST_CASE][PASSED] - Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password: Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password
+
+2022-11-02 17:39:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Click Link Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Click Link Masuk' successfully
+
+2022-11-02 17:39:07 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Click Link Masuk: Test Cases/Pages/UserLogin/Click Link Masuk
+
+2022-11-02 17:39:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/link_Masuk")): Object: 'Object Repository/Page_Login/link_Masuk' is clicked on
+
+2022-11-02 17:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/link_Masuk' is clicked on
+
+2022-11-02 17:39:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Click Link Masuk' successfully
+
+2022-11-02 17:39:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Input Username"), ["email":"binarqae1@gmail.com"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Input Username' successfully
+
+2022-11-02 17:39:09 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Input Username: Test Cases/Pages/UserLogin/Input Username
+
+2022-11-02 17:39:09 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/input_Email")): Text of object 'Object Repository/Page_Login/input_Email' is cleared
+
+2022-11-02 17:39:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/input_Email' is cleared
+
+2022-11-02 17:39:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Email"), email): Keys 'binarqae1@gmail.com' sent to object: 'Object Repository/Page_Login/input_Email'
+
+2022-11-02 17:39:10 - [MESSAGE][PASSED] - Keys 'binarqae1@gmail.com' sent to object: 'Object Repository/Page_Login/input_Email'
+
+2022-11-02 17:39:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Input Username' successfully
+
+2022-11-02 17:39:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Input Password"), ["password":"students1234"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Input Password' successfully
+
+2022-11-02 17:39:10 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Input Password: Test Cases/Pages/UserLogin/Input Password
+
+2022-11-02 17:39:11 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/input_Password")): Text of object 'Object Repository/Page_Login/input_Password' is cleared
+
+2022-11-02 17:39:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/input_Password' is cleared
+
+2022-11-02 17:39:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Password"), password): Keys 'students1234' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-11-02 17:39:12 - [MESSAGE][PASSED] - Keys 'students1234' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-11-02 17:39:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Input Password' successfully
+
+2022-11-02 17:39:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Click login button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Click login button' successfully
+
+2022-11-02 17:39:12 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Click login button: Test Cases/Pages/UserLogin/Click login button
+
+2022-11-02 17:39:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/button_Masuk")): Object: 'Object Repository/Page_Login/button_Masuk' is clicked on
+
+2022-11-02 17:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Masuk' is clicked on
+
+2022-11-02 17:39:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Click login button' successfully
+
+2022-11-02 17:39:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Verify Content"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Verify Content' successfully
+
+2022-11-02 17:39:12 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Verify Content: Test Cases/Pages/UserLogin/Verify Content
+
+2022-11-02 17:39:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Logout/menu_Profile"), 0): Object 'Object Repository/Page_Logout/menu_Profile' is present
+
+2022-11-02 17:39:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-02 17:39:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Logout/menu_Profile' is present
+
+2022-11-02 17:39:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Homepage/image_banner"), 0): Object 'Object Repository/Homepage/image_banner' is present
+
+2022-11-02 17:39:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-02 17:39:15 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/image_banner' is present
+
+2022-11-02 17:39:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Homepage/image_blue logo"), 0): Object 'Object Repository/Homepage/image_blue logo' is present
+
+2022-11-02 17:39:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-02 17:39:16 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/image_blue logo' is present
+
+2022-11-02 17:39:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Add Item/button_Profile_notification"), 0): Object 'Object Repository/Page_Add Item/button_Profile_notification' is present
+
+2022-11-02 17:39:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-02 17:39:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Add Item/button_Profile_notification' is present
+
+2022-11-02 17:39:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Verify Content' successfully
+
+2022-11-02 17:39:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password' successfully
+
+2022-11-02 17:39:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_Submit_Offering/div_TeslaKendaraanRp1.500.000,00")): Object: 'Object Repository/Page_Submit_Offering/div_TeslaKendaraanRp1.500.000,00' is clicked on
+
+2022-11-02 17:39:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-02 17:39:47 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Submit_Offering/div_TeslaKendaraanRp1.500.000,00'. Try using Self-healing.
+
+2022-11-02 17:39:47 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Submit_Offering/div_TeslaKendaraanRp1.500.000,00' was broken. Propose an alternative one: '//div[@id='root']/div/div/div[2]/div[2]/div[3]'.
+
+2022-11-02 17:39:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit_Offering/div_TeslaKendaraanRp1.500.000,00' is clicked on
+
+2022-11-02 17:39:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_Submit_Offering/button_Saya tertarik dan ingin nego")): Object: 'Object Repository/Page_Submit_Offering/button_Saya tertarik dan ingin nego' is clicked on
+
+2022-11-02 17:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit_Offering/button_Saya tertarik dan ingin nego' is clicked on
+
+2022-11-02 17:40:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/SubmitOffering/Verify Content Pop Up"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/SubmitOffering/Verify Content Pop Up' successfully
+
+2022-11-02 17:40:01 - [TEST_CASE][PASSED] - Test Cases/Pages/SubmitOffering/Verify Content Pop Up: Test Cases/Pages/SubmitOffering/Verify Content Pop Up
+
+2022-11-02 17:40:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Submit_Offering/text_header_masukkan_haga_tawarmu")): Object 'Object Repository/Page_Submit_Offering/text_header_masukkan_haga_tawarmu' is visible
+
+2022-11-02 17:40:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-02 17:40:33 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Submit_Offering/text_header_masukkan_haga_tawarmu'. Try using Self-healing.
+
+2022-11-02 17:40:34 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Submit_Offering/text_header_masukkan_haga_tawarmu' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Tesla'])[2]/preceding::div[1]'.
+
+2022-11-02 17:40:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Submit_Offering/text_header_masukkan_haga_tawarmu' is visible
+
+2022-11-02 17:40:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Submit_Offering/image_product_tesla")): Object 'Object Repository/Page_Submit_Offering/image_product_tesla' is visible
+
+2022-11-02 17:41:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-02 17:41:07 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Submit_Offering/image_product_tesla'. Try using Self-healing.
+
+2022-11-02 17:41:07 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Submit_Offering/image_product_tesla' was broken. Propose an alternative one: '//img[@alt='Product']'.
+
+2022-11-02 17:41:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Submit_Offering/image_product_tesla' is visible
+
+2022-11-02 17:41:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Submit_Offering/text_productname_tesla")): Object 'Object Repository/Page_Submit_Offering/text_productname_tesla' is visible
+
+2022-11-02 17:41:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-02 17:41:38 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Submit_Offering/text_productname_tesla'. Try using Self-healing.
+
+2022-11-02 17:41:39 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Submit_Offering/text_productname_tesla' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Masukkan Harga Tawarmu'])[1]/following::h5[1]'.
+
+2022-11-02 17:41:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Submit_Offering/text_productname_tesla' is visible
+
+2022-11-02 17:41:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Submit_Offering/text_productprice_tesla")): Object 'Object Repository/Page_Submit_Offering/text_productprice_tesla' is visible
+
+2022-11-02 17:42:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-02 17:42:10 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Submit_Offering/text_productprice_tesla'. Try using Self-healing.
+
+2022-11-02 17:42:10 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Submit_Offering/text_productprice_tesla' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Tesla'])[2]/following::p[1]'.
+
+2022-11-02 17:42:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Submit_Offering/text_productprice_tesla' is visible
+
+2022-11-02 17:42:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Submit_Offering/text_label_Harga Tawar")): Object 'Object Repository/Page_Submit_Offering/text_label_Harga Tawar' is visible
+
+2022-11-02 17:42:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-02 17:42:42 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Submit_Offering/text_label_Harga Tawar'. Try using Self-healing.
+
+2022-11-02 17:42:42 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Submit_Offering/text_label_Harga Tawar' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Tesla'])[2]/following::label[1]'.
+
+2022-11-02 17:42:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Submit_Offering/text_label_Harga Tawar' is visible
+
+2022-11-02 17:42:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Submit_Offering/button_Kirim")): Object 'Object Repository/Page_Submit_Offering/button_Kirim' is visible
+
+2022-11-02 17:42:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Submit_Offering/button_Kirim' is visible
+
+2022-11-02 17:42:42 - [MESSAGE][INFO] - 
+
+2022-11-02 17:42:42 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+2022-11-02 17:42:42 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+2022-11-02 17:42:42 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+2022-11-02 17:42:42 - [MESSAGE][INFO] - ==============================================================
+
+2022-11-02 17:42:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/SubmitOffering/Verify Content Pop Up' successfully
+
+2022-11-02 17:42:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Submit_Offering/input_Harga Tawar_form-control"), "lima ribu"): Text 'lima ribu' is set on object 'Object Repository/Page_Submit_Offering/input_Harga Tawar_form-control'
+
+2022-11-02 17:42:43 - [MESSAGE][PASSED] - Text 'lima ribu' is set on object 'Object Repository/Page_Submit_Offering/input_Harga Tawar_form-control'
+
+2022-11-02 17:42:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/SubmitOffering/Message Success"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/SubmitOffering/Message Success' successfully
+
+2022-11-02 17:42:44 - [TEST_CASE][PASSED] - Test Cases/Pages/SubmitOffering/Message Success: Test Cases/Pages/SubmitOffering/Message Success
+
+2022-11-02 17:42:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Offering/text_Harga tawarmu berhasil dikirim ke penjual"), STOP_ON_FAILURE): Object 'Object Repository/Page_Offering/text_Harga tawarmu berhasil dikirim ke penjual' is visible
+
+2022-11-02 17:43:15 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div/div/div[2]/p'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-02 17:43:15 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Offering/text_Harga tawarmu berhasil dikirim ke penjual'. Try using Self-healing.
+
+2022-11-02 17:43:16 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Offering/text_Harga tawarmu berhasil dikirim ke penjual' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Milda Aditia Putra'])[1]/following::p[2]'.
+
+2022-11-02 17:43:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Offering/text_Harga tawarmu berhasil dikirim ke penjual' is visible
+
+2022-11-02 17:43:16 - [MESSAGE][INFO] - 
+
+2022-11-02 17:43:16 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+2022-11-02 17:43:16 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+2022-11-02 17:43:16 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+2022-11-02 17:43:16 - [MESSAGE][INFO] - ==============================================================
+
+2022-11-02 17:43:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/SubmitOffering/Message Success' successfully
+
+2022-11-02 17:43:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/SubmitOffering/Click Kirim"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/SubmitOffering/Click Kirim' successfully
+
+2022-11-02 17:43:16 - [TEST_CASE][PASSED] - Test Cases/Pages/SubmitOffering/Click Kirim: Test Cases/Pages/SubmitOffering/Click Kirim
+
+2022-11-02 17:43:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Submit_Offering/button_Kirim")): Object: 'Object Repository/Page_Submit_Offering/button_Kirim' is clicked on
+
+2022-11-02 17:43:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit_Offering/button_Kirim' is clicked on
+
+2022-11-02 17:43:17 - [MESSAGE][INFO] - 
+
+2022-11-02 17:43:17 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+2022-11-02 17:43:17 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+2022-11-02 17:43:17 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+2022-11-02 17:43:17 - [MESSAGE][INFO] - ==============================================================
+
+2022-11-02 17:43:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/SubmitOffering/Click Kirim' successfully
+
+2022-11-02 17:43:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-11-02 17:43:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-11-02 17:43:20 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-11-02 17:43:20 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Submit Offering/SUBOF001 - Offering with input invalid Harga Tawar
+
+2022-11-02 17:43:20 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Submit Offering/SUBOF001 - Offering with input invalid Harga Tawar
+
+2022-11-02 17:43:20 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2022-11-02 17:43:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-02 17:43:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StepDefinition/Feature Submit Offering/SUBOF002 - Offering with input valid harga tawar" time="89.609" classname="Test Cases/StepDefinition/Feature Submit Offering/SUBOF002 - Offering with input valid harga tawar" status="PASSED">
+         <system-out><![CDATA[2022-11-02 17:43:21 - [TEST_CASE][PASSED] - Test Cases/StepDefinition/Feature Submit Offering/SUBOF002 - Offering with input valid harga tawar: Test Cases/StepDefinition/Feature Submit Offering/SUBOF002 - Offering with input valid harga tawar
+
+2022-11-02 17:43:21 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-11-02 17:43:21 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Submit Offering/SUBOF002 - Offering with input valid harga tawar
+
+2022-11-02 17:43:21 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Submit Offering/SUBOF002 - Offering with input valid harga tawar
+
+2022-11-02 17:43:21 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2022-11-02 17:43:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-02 17:43:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-02 17:43:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-02 17:43:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-02 17:43:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-11-02 17:43:24 - [MESSAGE][PASSED] - Current window maximized
+
+2022-11-02 17:43:24 - [TEST_STEP][PASSED] - navigateToUrl("https://deployed-five.vercel.app"): Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-11-02 17:43:26 - [MESSAGE][PASSED] - Navigate to 'https://deployed-five.vercel.app' successfully
+
+2022-11-02 17:43:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password' successfully
+
+2022-11-02 17:43:27 - [TEST_CASE][PASSED] - Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password: Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password
+
+2022-11-02 17:43:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Click Link Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Click Link Masuk' successfully
+
+2022-11-02 17:43:27 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Click Link Masuk: Test Cases/Pages/UserLogin/Click Link Masuk
+
+2022-11-02 17:43:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/link_Masuk")): Object: 'Object Repository/Page_Login/link_Masuk' is clicked on
+
+2022-11-02 17:43:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/link_Masuk' is clicked on
+
+2022-11-02 17:43:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Click Link Masuk' successfully
+
+2022-11-02 17:43:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Input Username"), ["email":"binarqae1@gmail.com"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Input Username' successfully
+
+2022-11-02 17:43:29 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Input Username: Test Cases/Pages/UserLogin/Input Username
+
+2022-11-02 17:43:29 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/input_Email")): Text of object 'Object Repository/Page_Login/input_Email' is cleared
+
+2022-11-02 17:43:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/input_Email' is cleared
+
+2022-11-02 17:43:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Email"), email): Keys 'binarqae1@gmail.com' sent to object: 'Object Repository/Page_Login/input_Email'
+
+2022-11-02 17:43:30 - [MESSAGE][PASSED] - Keys 'binarqae1@gmail.com' sent to object: 'Object Repository/Page_Login/input_Email'
+
+2022-11-02 17:43:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Input Username' successfully
+
+2022-11-02 17:43:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Input Password"), ["password":"students1234"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Input Password' successfully
+
+2022-11-02 17:43:30 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Input Password: Test Cases/Pages/UserLogin/Input Password
+
+2022-11-02 17:43:30 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/input_Password")): Text of object 'Object Repository/Page_Login/input_Password' is cleared
+
+2022-11-02 17:43:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/input_Password' is cleared
+
+2022-11-02 17:43:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/input_Password"), password): Keys 'students1234' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-11-02 17:43:31 - [MESSAGE][PASSED] - Keys 'students1234' sent to object: 'Object Repository/Page_Login/input_Password'
+
+2022-11-02 17:43:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Input Password' successfully
+
+2022-11-02 17:43:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Click login button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Click login button' successfully
+
+2022-11-02 17:43:31 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Click login button: Test Cases/Pages/UserLogin/Click login button
+
+2022-11-02 17:43:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/button_Masuk")): Object: 'Object Repository/Page_Login/button_Masuk' is clicked on
+
+2022-11-02 17:43:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Masuk' is clicked on
+
+2022-11-02 17:43:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Click login button' successfully
+
+2022-11-02 17:43:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/UserLogin/Verify Content"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/UserLogin/Verify Content' successfully
+
+2022-11-02 17:43:31 - [TEST_CASE][PASSED] - Test Cases/Pages/UserLogin/Verify Content: Test Cases/Pages/UserLogin/Verify Content
+
+2022-11-02 17:43:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Logout/menu_Profile"), 0): Object 'Object Repository/Page_Logout/menu_Profile' is present
+
+2022-11-02 17:43:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-02 17:43:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Logout/menu_Profile' is present
+
+2022-11-02 17:43:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Homepage/image_banner"), 0): Object 'Object Repository/Homepage/image_banner' is present
+
+2022-11-02 17:43:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-02 17:43:33 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/image_banner' is present
+
+2022-11-02 17:43:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Homepage/image_blue logo"), 0): Object 'Object Repository/Homepage/image_blue logo' is present
+
+2022-11-02 17:43:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-02 17:43:34 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/image_blue logo' is present
+
+2022-11-02 17:43:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Add Item/button_Profile_notification"), 0): Object 'Object Repository/Page_Add Item/button_Profile_notification' is present
+
+2022-11-02 17:43:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-02 17:43:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Add Item/button_Profile_notification' is present
+
+2022-11-02 17:43:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/UserLogin/Verify Content' successfully
+
+2022-11-02 17:43:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/StepDefinition/Feature Login/LOGIN001 - Login with Valid Email and Password' successfully
+
+2022-11-02 17:43:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Submit_Offering/div_TeslaKendaraanRp1.500.000,00")): Object: 'Object Repository/Page_Submit_Offering/div_TeslaKendaraanRp1.500.000,00' is clicked on
+
+2022-11-02 17:44:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-02 17:44:05 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Submit_Offering/div_TeslaKendaraanRp1.500.000,00'. Try using Self-healing.
+
+2022-11-02 17:44:06 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Submit_Offering/div_TeslaKendaraanRp1.500.000,00' was broken. Propose an alternative one: '//div[@id='root']/div/div/div[2]/div[2]/div[3]'.
+
+2022-11-02 17:44:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit_Offering/div_TeslaKendaraanRp1.500.000,00' is clicked on
+
+2022-11-02 17:44:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Submit_Offering/button_Saya tertarik dan ingin nego")): Object: 'Object Repository/Page_Submit_Offering/button_Saya tertarik dan ingin nego' is clicked on
+
+2022-11-02 17:44:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit_Offering/button_Saya tertarik dan ingin nego' is clicked on
+
+2022-11-02 17:44:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Submit_Offering/input_Harga Tawar_form-control"), "100000"): Text '100000' is set on object 'Object Repository/Page_Submit_Offering/input_Harga Tawar_form-control'
+
+2022-11-02 17:44:12 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/Page_Submit_Offering/input_Harga Tawar_form-control'
+
+2022-11-02 17:44:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/SubmitOffering/Message Success"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/SubmitOffering/Message Success' successfully
+
+2022-11-02 17:44:12 - [TEST_CASE][PASSED] - Test Cases/Pages/SubmitOffering/Message Success: Test Cases/Pages/SubmitOffering/Message Success
+
+2022-11-02 17:44:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Offering/text_Harga tawarmu berhasil dikirim ke penjual"), STOP_ON_FAILURE): Object 'Object Repository/Page_Offering/text_Harga tawarmu berhasil dikirim ke penjual' is visible
+
+2022-11-02 17:44:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div/div/div[2]/p'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-02 17:44:44 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Offering/text_Harga tawarmu berhasil dikirim ke penjual'. Try using Self-healing.
+
+2022-11-02 17:44:44 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Offering/text_Harga tawarmu berhasil dikirim ke penjual' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Milda Aditia Putra'])[1]/following::p[2]'.
+
+2022-11-02 17:44:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Offering/text_Harga tawarmu berhasil dikirim ke penjual' is visible
+
+2022-11-02 17:44:44 - [MESSAGE][INFO] - 
+
+2022-11-02 17:44:44 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+2022-11-02 17:44:44 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+2022-11-02 17:44:44 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+2022-11-02 17:44:44 - [MESSAGE][INFO] - ==============================================================
+
+2022-11-02 17:44:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/SubmitOffering/Message Success' successfully
+
+2022-11-02 17:44:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/SubmitOffering/Click Kirim"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/SubmitOffering/Click Kirim' successfully
+
+2022-11-02 17:44:44 - [TEST_CASE][PASSED] - Test Cases/Pages/SubmitOffering/Click Kirim: Test Cases/Pages/SubmitOffering/Click Kirim
+
+2022-11-02 17:44:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_Submit_Offering/button_Kirim")): Object: 'Object Repository/Page_Submit_Offering/button_Kirim' is clicked on
+
+2022-11-02 17:44:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit_Offering/button_Kirim' is clicked on
+
+2022-11-02 17:44:45 - [MESSAGE][INFO] - 
+
+2022-11-02 17:44:45 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+2022-11-02 17:44:45 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+2022-11-02 17:44:45 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+2022-11-02 17:44:45 - [MESSAGE][INFO] - ==============================================================
+
+2022-11-02 17:44:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/SubmitOffering/Click Kirim' successfully
+
+2022-11-02 17:44:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-11-02 17:44:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-11-02 17:44:50 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-11-02 17:44:50 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/StepDefinition/Feature Submit Offering/SUBOF002 - Offering with input valid harga tawar
+
+2022-11-02 17:44:50 - [MESSAGE][INFO] - Test Case: Test Cases/StepDefinition/Feature Submit Offering/SUBOF002 - Offering with input valid harga tawar
+
+2022-11-02 17:44:50 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2022-11-02 17:44:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-02 17:44:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-02 17:38:56 - [TEST_SUITE][PASSED] - Feature Submit Offering: Test Cases/StepDefinition/Feature Submit Offering/SUBOF002 - Offering with input valid harga tawar]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

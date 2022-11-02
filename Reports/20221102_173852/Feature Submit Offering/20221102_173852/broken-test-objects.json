@@ -1,0 +1,68 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Submit_Offering/div_TeslaKendaraanRp1.500.000,00",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div[2]/div[2]/div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20221102_173852/Feature Submit Offering/20221102_173852/Object Repository/Page_Submit_Offering/div_TeslaKendaraanRp1.500.000,00_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Submit_Offering/text_header_masukkan_haga_tawarmu",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Tesla\u0027])[2]/preceding::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20221102_173852/Feature Submit Offering/20221102_173852/Object Repository/Page_Submit_Offering/text_header_masukkan_haga_tawarmu_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Submit_Offering/image_product_tesla",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//img[@alt\u003d\u0027Product\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20221102_173852/Feature Submit Offering/20221102_173852/Object Repository/Page_Submit_Offering/image_product_tesla_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Submit_Offering/text_productname_tesla",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Masukkan Harga Tawarmu\u0027])[1]/following::h5[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20221102_173852/Feature Submit Offering/20221102_173852/Object Repository/Page_Submit_Offering/text_productname_tesla_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Submit_Offering/text_productprice_tesla",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Tesla\u0027])[2]/following::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20221102_173852/Feature Submit Offering/20221102_173852/Object Repository/Page_Submit_Offering/text_productprice_tesla_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Submit_Offering/text_label_Harga Tawar",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Tesla\u0027])[2]/following::label[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20221102_173852/Feature Submit Offering/20221102_173852/Object Repository/Page_Submit_Offering/text_label_Harga Tawar_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Offering/text_Harga tawarmu berhasil dikirim ke penjual",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div[2]/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Milda Aditia Putra\u0027])[1]/following::p[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20221102_173852/Feature Submit Offering/20221102_173852/Object Repository/Page_Offering/text_Harga tawarmu berhasil dikirim ke penjual_neighbor.png"
+    }
+  ]
+}
